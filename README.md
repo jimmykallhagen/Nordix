@@ -78,7 +78,9 @@ Everything takes so much time, once you start documenting everything,
 This list is not complete, as I will have to spend as much time writing the list as fixing it
 - [ ] So much
 - [ ] VM setup, need to be fully written
-- [ ] ISO finns men behöver en helt ombyggnad.
+- [ ] ISO exists but needs a complete overhaul.
+- [X] Productions ready alpha version of Yggdrasil is available (Nordix Desktop Envirorment)
+
 
 --- 
 
