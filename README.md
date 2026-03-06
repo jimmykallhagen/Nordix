@@ -24,7 +24,7 @@
 ---
 
 ## "Enterprise" for regular PC 
-It's like endless super features and systems exist in Linux
+It's like endless super features and systems exist in Linux.<br>
 Free for everyone to use, but still hidden behind the big enterprise companies.
 
  **Nordix will change this**
