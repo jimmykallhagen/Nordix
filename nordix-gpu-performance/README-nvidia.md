@@ -172,7 +172,7 @@ The config file includes commented-out options for advanced tuning:
 
 * SPDX-License-Identifier: GPL-3.0-or-later                         
 * Copyright (c) 2025 Jimmy Källhagen                                
-* Part of [**Nordix**](https://github.com/jimmykallhagen/Nordix)                 
+* Part of Nordix - https://github.com/jimmykallhagen/Nordix             
 * Nordix and Yggdrasil are trademarks of Jimmy Källhagen
 
 ---
