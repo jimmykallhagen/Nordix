@@ -2,23 +2,36 @@
 
 Performance-focused Arch Linux with tools to empower new users and showcase Linux's true potential. To share the so-called
 **"Linux Power User"** experience to everyone and the goal to build a community for us who have systems as a hobby.
-- The world's first "Non Purpose Operating System"
+- The first "Non Purpose Operating System"
 - [**Info** - What is a "Non Purpose OS"](Nordix/Non-Purpose-Operating-System.md)
-
 
 ---
 
 ## **I strongly reject competing with existing distros**
-Thats why I have chosen to build my own desktop environment "Yggdrasil"
+That's why I have chosen to build my own desktop environment "Yggdrasil"
 
-### If you want a regular desktop envirorment
-I recommend that you then choose one of the already established Arch based distros<br>
+### If you want a regular desktop environment
+I recommend that you then choose one of the already established Arch-based distros<br>
 - They are all very good!
-- [**List of Good arch distros**](https://wiki.archlinux.org/title/Arch-based_distributions
-)
+- [**List of good Arch distros**](https://wiki.archlinux.org/title/Arch-based_distributions)
 
-## You find Nordix Desktop Envirorment here:
+## You find Nordix Desktop Environment here:
 - [**Yggdrasil**](https://github.com/jimmykallhagen/Nordix-Yggdrasil)
+
+---
+
+## **Nordix principles - Honor the developers**
+
+Nordix ZFS implementation is built upon:
+- [**OpenZFS**](https://github.com/openzfs/zfs) — The open-source ZFS project for Linux and FreeBSD
+- [**ZFSBootMenu**](https://github.com/zbm-dev/zfsbootmenu) — Bootloader for ZFS-native systems
+
+### The legacy
+- ZFS was originally developed by **Sun Microsystems** for Solaris
+- After Oracle's acquisition, the open-source community forked it as **OpenZFS**
+- Today it is maintained by a dedicated community of developers
+
+> *The 10 million dollar masterpiece: ZettaByte File System*
 
 ---
 
@@ -91,6 +104,7 @@ I haven't noticed any problems myself, but I consider it responsible to handle t
 Everything takes so much time, once you start documenting everything.
 This list is not complete, as I will have to spend as much time writing the list as fixing it.
 - [ ] So much
+- [ ] So many developers need to be included
 - [ ] VM setup, needs to be fully written
 - [ ] ISO exists but needs a complete overhaul
 
