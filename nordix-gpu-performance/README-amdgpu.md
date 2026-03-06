@@ -48,6 +48,8 @@ sudo reboot
 | `audio` | 1 | HDMI/DP audio enabled |
 | `debug` | 0 | Debug logging disabled |
 
+---
+
 ## Key Features
 
 ### Virtual Memory Optimization
@@ -99,6 +101,8 @@ for c in /sys/class/drm/card0-*/vrr_capable; do
 done
 ```
 
+---
+
 ## Troubleshooting
 
 **Display corruption or GPU hangs:**  
@@ -109,6 +113,8 @@ Lower `vm_block_size` or reduce `gttsize`.
 
 **FreeSync not working:**  
 Verify `dcfeaturemask=0xffffffff` is active and check `vrr_capable` status.
+
+---
 
 ## License
 
