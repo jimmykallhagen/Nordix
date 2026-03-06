@@ -25,7 +25,7 @@ This shutdown manager solves these problems by performing a careful, ordered tea
 └──────────────────────┘                              └──────────┬───────────────┘
                                                                  │
                                                    ┌─────────────┼─────────────┐
-                                                   │             │             │
+                        ❄️                         │             │             │
                                                    ▼             ▼             ▼
                                                 scrub.py       vm.py      download.py
                                                (GTK3 popup)  (GTK3 popup) (GTK3 popup)
