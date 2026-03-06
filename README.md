@@ -4,17 +4,19 @@
  **"Linux Power User"** experience to everyone and the goal to build a community for us who have systems as a hobby.
 - The world's first "Non Purpose Operating System"
 
+### **Nordix follows the law of performance** *-->*
+> _**"Don't put trash in the CPU's memory pipeline."**_
+> _Jimmy Källhagen_
+> 
+- This is the philosophy I had when I built Nordix.
+
 
 ## **Nordix Performance**
 - Aims to provide the most optimized system attainable 
-- Everything in the system is carefully weighed between performance and function
+- Performance first, no compromise - But
 - Performance should not negatively affect function or appearance
-- Performance first, no compromise
-- Perfoer
+- Everything in the system is carefully weighed between performance and function
 
-### **Nordix follows the law of performance** *-->*
-> _dont put **trash** in the processor's memory pipeline **!!**_
-- This is the philosophy I had when I built Nordix.
 
 ## "Enterprise" for regular PC 
 It's like endless super features and systems in Linux.c
@@ -27,7 +29,6 @@ Free for everyone to use, but still hidden behind the big enterprise companies.
 - Zfsbootmenu as standard
 - optimized every directory, for recordsize and compression
 - developed our own tools to measure files, this has been done on three different arch systems to get a fair picture of optimization
-- 
 
 #### **Virtual Machine**
 Nordix will offer VM solutions like no one has ever seen before.
@@ -37,7 +38,14 @@ With the help of ZFS and a little new thinking, I can guarantee that VM has neve
 - use zvol to build a simple but effective system to perform file sharing between host and VM, without samba or similar approaches
 - VM should be so good, and easily accessible that you never ever need anything other than Nordix
   
-## **My Vison and Goal**
+## To do
+Everything takes so much time, once you start documenting everything,
+This list is not complete, as I will have to spend as much time writing the list as fixing it
+- [ ] So much
+- [ ] VM setup, need to be fully written
+- [ ] ISO finns men behöver en helt ombyggnad.
+
+
 
 ### **My Entusiast View on Nordix Yggdrasil**
 
