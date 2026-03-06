@@ -5,7 +5,7 @@
 - The world's first "Non Purpose Operating System"
 
 ### **Nordix follows the law of performance** *-->*
-> _**"Don't put trash in the CPU's memory pipeline."**_
+> **"Don't put trash in the CPU's memory pipeline."**<br>
 > _Jimmy Källhagen_
 > 
 - This is the philosophy I had when I built Nordix.
