@@ -49,7 +49,8 @@ With the help of ZFS and a little new thinking, I can guarantee that VM has neve
 - GUI for a guided setup with z-vol, ready-made templates for the common operating systems
 - Run Windows on ZFS without needing a Virtio drive, ZVOL offers the solution to give Windows a "real" nvme to install ntfs on.<br>
 The only difference is that it is a zfs block, so you get ARC caching, checksums, snapshots. faster than native!!
-- use zvol to build a simple but effective system to perform file sharing between host and VM, without samba or similar approaches
+- I have developed a system where I use a zvol to share files between host and VM. without having to mess with<br>
+samba, ssh, virtio file system, iso or similar. just put your files in a folder, run the process, then done
 - VM should be so good, and easily accessible that you never ever need anything other than Nordix
   
 ## To do
