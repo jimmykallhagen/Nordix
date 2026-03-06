@@ -57,24 +57,38 @@ This list is not complete, as I will have to spend as much time writing the list
 - [ ] VM setup, need to be fully written
 - [ ] ISO finns men behöver en helt ombyggnad.
 
+--- 
 
-
-### **My Entusiast View on Nordix Yggdrasil**
+## **My Entusiast View on Nordix and Yggdrasil**
 
 **Nordix is ​​many things**
 - It is rebellious, it is the battleship from the north.
-- Show the world what linux can actually do, a warrior to spread justice and freedom
+- T show the world what linux can actually do, a warrior to spread justice and freedom
 - It is a steatmenet 
 
 - _But...._
 
-### **The purpose of truth - a desire to find friends**
+## **The purpose of truth - a desire to find friends**
 
- **I have a vision of a platform to unite all enthusiasts**
+###  **I have a vision of a platform to unite enthusiasts**
 
-There are many enthusiasts who spend all their time on their projects, many spend thousands of hours, many have projects that are so good that you can't believe it's true, but many enthusiast projects don't fit into the mainline Linux distro. 
-Nordix is ​​what I'm building with the aim of changing this, instead of projects ending up in a corner on aur and never getting a fair chance. so my vision is that I should not be a project manager for the Nordix project, but a host. I think that everyone who wants to give their projects a "home" should be able to do this and participate with their projects in Nordix without having to give up their own repo. 
-developing is an art form and pride is something everyone should have the right to, that's why I don't want these projects to be entered as part of Nordix, I want everyone who wants to be able to keep their repos, those who participate can continue to be project leaders over their own projects, they can therefore continue exactly as usual if they want to, I would be happy if they at least added a small notice in their repos, like "Main kenel developer for Nortdix" or "Main termenal developer for nordix" just some examples. and if you are one of those who want to participate with your project in Noridx, I will list your repos at the top of my repo for nordix and thank you for sharing your well-done project with Nordix and thank you for your efforts to make the project Nordix better. 
+- There are many enthusiasts who spend all their time on their projects, thousands of hours.
+- Projects that are so good that you can't believe it's true!
+- Sadly, many of these projects will never find a place in a mainstream Linux distro.
 
-I can say, however, that I am deeply serious about nordix and then want one to be the one that participates, that is also it, I demand a certain standard. 
-Nordix is ​​a very serious "Non purpose OS"
+### **Nordix is ​​what I'm building with the vision to change this**
+
+Instead of projects ending up in a corner on aur and never getting a fair chance. 
+I would like to create a platform where we can all share our common interests.
+
+> **"I am not a project manager, I have built Nordix to be your host."**
+>  *Jimmy Källhagen - Nordix*
+
+I don't want other people's projects to be swallowed up by Nordix and the developers to be hidden and forgotten.
+
+- I therefore want everyone who wants to participate with their projects to keep their own repos.
+- I want everyone to continue to be project leaders for their own projects, the only difference is that they have been given a home "Nordix"
+- Instead, I plan to list each project participant's project first in the Nordix repo, with thanks for the instagtsen and link to the original repo
+- I have a vision of us creating our own platform where we can discuss our interests.
+
+### **However, I can say that I am deeply serious about Nordix and I also expect those who want to participate to be so too, I demand a certain standard. Nordix is ​​a very serious _"Non purpose OS"_**
