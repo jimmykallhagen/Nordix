@@ -1,10 +1,8 @@
 # Nordix NVIDIA GPU Configuration
 
 **File:** `/etc/modprobe.d/nvidia.conf`  
-* SPDX-License-Identifier: GPL-3.0-or-later                                                      
-* **Part of:** [Nordix](https://github.com/jimmykallhagen/Nordix)  
-* **Author:** Jimmy Källhagen
-* Nordix and Yggdrasil are trademarks of Jimmy Källhagen
+**Part of:** [Nordix](https://github.com/jimmykallhagen/Nordix)  
+**Author:** Jimmy Källhagen
 
 ## Overview
 
@@ -20,6 +18,8 @@ Optimized kernel module parameters for the proprietary NVIDIA driver, designed f
 - NVIDIA GeForce RTX 50 series (Blackwell)
 
 > **Best suited for Turing (RTX 20xx) and newer**
+
+---
 
 ## Installation
 
@@ -51,6 +51,8 @@ sudo systemctl enable nvidia-hibernate.service
 | `nvidia` | `NVreg_TemporaryFilePath` | /tmp | Fast tmpfs for VRAM backup |
 | `nvidia` | `NVreg_EnableGpuFirmware` | 0 | GSP firmware disabled |
 
+---
+
 ## Key Features
 
 ### Wayland Support
@@ -74,6 +76,8 @@ Fine-grained RTD3 (Runtime D3) power management for laptops:
 - Automatic wake on demand
 - Significant battery savings on hybrid graphics systems
 
+---
+
 ### GSP Firmware
 
 GSP (GPU System Processor) firmware is **disabled** by default for maximum stability. The GSP offloads some driver tasks to the GPU but can cause issues on certain hardware.
@@ -87,6 +91,8 @@ GSP (GPU System Processor) firmware is **disabled** by default for maximum stabi
 | `nvidia` | Core GPU driver (NVreg_ parameters) |
 | `nvidia_drm` | DRM/KMS interface for display |
 | `nvidia_uvm` | Unified Virtual Memory for CUDA |
+
+---
 
 ## Useful Commands
 
@@ -121,6 +127,8 @@ modinfo -p nvidia_drm
 modinfo -p nvidia_uvm
 ```
 
+---
+
 ## Troubleshooting
 
 **Black screen on Wayland:**  
@@ -137,6 +145,8 @@ Uncomment `NVreg_InitializeSystemMemoryAllocations=0`
 
 **CUDA not working:**  
 Ensure `nvidia_uvm` module is loaded: `lsmod | grep nvidia_uvm`
+
+---
 
 ## Optional Parameters
 
@@ -156,10 +166,11 @@ The config file includes commented-out options for advanced tuning:
 - Changes require initramfs rebuild and reboot
 - Always have `nomodeset` bootloader fallback ready
 
-## License
-
-This configuration is part of the Nordix desktop environment and is released under the GPL-3.0-or-later license.
-
 ---
 
-*Nordix and Yggdrasil are registered trademarks of Jimmy Källhagen*
+## License
+
+* SPDX-License-Identifier: GPL-3.0-or-later                         
+* Copyright (c) 2025 Jimmy Källhagen                                
+* Part of **Yggdrasil - Nordix Desktop Environment**                    
+* Nordix and Yggdrasil are trademarks of Jimmy Källhagen
