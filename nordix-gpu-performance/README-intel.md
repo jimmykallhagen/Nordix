@@ -1,8 +1,7 @@
 # Nordix Intel GPU Configuration
 
 **File:** `/etc/modprobe.d/intel.conf`  
-**Part of:** [Yggdrasil - Nordix Desktop Environment](https://github.com/yourusername/nordix)  
-**License:** GPL-3.0-or-later  
+**Part of:** [Nordix](https://github.com/jimmykallhagen/Nordix)  
 **Author:** Jimmy Källhagen
 
 ## Overview
@@ -28,6 +27,7 @@ sudo cp intel.conf /etc/modprobe.d/intel.conf
 sudo mkinitcpio -P
 sudo reboot
 ```
+---
 
 ## Configuration Summary
 
@@ -110,6 +110,8 @@ for c in /sys/class/drm/card0-*/vrr_capable; do
 done
 ```
 
+---
+
 ## Troubleshooting
 
 **Crashes on Skylake/Kaby Lake:**  
@@ -134,10 +136,11 @@ lspci -nn | grep -i vga
 # Look for [8086:XXXX] — use the XXXX part
 ```
 
-## License
-
-This configuration is part of the Nordix desktop environment and is released under the GPL-3.0-or-later license.
-
 ---
 
-*Nordix and Yggdrasil are registered trademarks of Jimmy Källhagen*
+## License
+
+* SPDX-License-Identifier: GPL-3.0-or-later                         
+* Copyright (c) 2025 Jimmy Källhagen                                
+* Part of **Yggdrasil - Nordix Desktop Environment**                    
+* Nordix and Yggdrasil are trademarks of Jimmy Källhagen
