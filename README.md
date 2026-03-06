@@ -14,12 +14,13 @@ Thats why I have chosen to build my own desktop environment "Yggdrasil"
 ### If you want a regular desktop envirorment
 I recommend that you then choose one of the already established Arch based distros<br>
 - They are all very good!
+- [**List of Good arch distros**](https://wiki.archlinux.org/title/Arch-based_distributions
+)
 
-You find Nordix Desktop Envirorment here:
+## You find Nordix Desktop Envirorment here:
 [**Yggdrasil**](https://github.com/jimmykallhagen/Nordix-Yggdrasil)
 
 
-https://wiki.archlinux.org/title/Arch-based_distributions
 ### **Nordix follows the law of performance** *-->*
 > **"Don't put trash in the CPU's memory pipeline."**<br>
 > _Jimmy Källhagen_
