@@ -19,10 +19,11 @@ I recommend that you then choose one of the already established Arch-based distr
 - [**Yggdrasil**](https://github.com/jimmykallhagen/Nordix-Yggdrasil)
 
 ---
-
 ## **Nordix principles - Honor the developers**
+- [**Arch Linux**](https://github.com/archlinux)
+- [**GNU Nano**](https://www.nano-editor.org/)
 
-Nordix ZFS implementation is built upon:
+### Nordix ZFS implementation is built upon:
 - [**OpenZFS**](https://github.com/openzfs/zfs) — The open-source ZFS project for Linux and FreeBSD
 - [**ZFSBootMenu**](https://github.com/zbm-dev/zfsbootmenu) — Bootloader for ZFS-native systems
 
