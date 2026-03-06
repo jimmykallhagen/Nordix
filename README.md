@@ -20,8 +20,8 @@ I recommend that you then choose one of the already established Arch-based distr
 
 ---
 ## **Nordix principles - Honor the developers**
-- [**Arch Linux**](https://github.com/archlinux)
-- [**GNU Nano**](https://www.nano-editor.org/)
+- [**Arch Linux**](https://github.com/archlinux) 
+- [**GNU Nano**](https://www.nano-editor.org/) - Comes with color default in Nordix!
 
 ### Nordix ZFS implementation is built upon:
 - [**OpenZFS**](https://github.com/openzfs/zfs) — The open-source ZFS project for Linux and FreeBSD
