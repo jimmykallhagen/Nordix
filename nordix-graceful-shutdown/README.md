@@ -1,6 +1,6 @@
 # Nordix Graceful Shutdown
 
-A shutdown manager for [Nordix](https://github.com/nordix) — an Arch Linux-based distro with ZFS on root and aggressive cache tuning.
+A shutdown manager for [Nordix](https://github.com/jimmykallhagen/Nordix) — an Arch Linux-based distro with ZFS on root and aggressive cache tuning.
 
 ## Why this exists
 
@@ -65,6 +65,8 @@ The client forwards `DISPLAY`, `WAYLAND_DISPLAY`, and `XAUTHORITY` to the daemon
 
 If any dataset fails to unmount, the sequence **continues regardless** — it is logged but never blocks shutdown.
 
+---
+
 ## Popup dialogs
 
 Three GTK3 popup scripts handle interactive decisions during shutdown. They inherit the system GTK3 theme, so they integrate with Nordix's pywal-based theming.
@@ -82,6 +84,8 @@ Three GTK3 popup scripts handle interactive decisions during shutdown. They inhe
 - *Wait* — polls download speed every 10 seconds, continues when it drops below threshold
 - *Continue anyway* — ignores the active download
 - *Cancel* — aborts shutdown
+
+---
 
 ## Building
 
@@ -112,6 +116,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable nordix-graceful-shutdown.socket
 sudo systemctl start  nordix-graceful-shutdown.socket
 ```
+---
 
 ## Usage
 
@@ -133,19 +138,20 @@ journalctl -u nordix-graceful-shutdown.service -f
 # Check socket status
 systemctl status nordix-graceful-shutdown.socket
 ```
+---
 
 ## Configuration
 
 The following values are defined at the top of `nordix-graceful-shutdown.c` and can be adjusted before building:
 
-| Define | Default | Description |
-|----------------------|------------------------------------------------------------------------------
-| `CONNECTION_MBIT`    | `100.0`                                       | Internet connection speed in Mbit/s 
-| `DOWNLOAD_THRESHOLD` | `0.40`                                        | Fraction of connection speed that triggers the download popup
-| `POPUP_SCRUB_TRIM`   | `/usr/lib/nordix/nordix-shutdown-scrub.py`    | Path to scrub/trim popup script
-| `POPUP_VM`           | `/usr/lib/nordix/nordix-shutdown-vm.py`       | Path to VM popup script
-| `POPUP_DOWNLOAD`     | `/usr/lib/nordix/nordix-shutdown-download.py` | Path to download popup script
-| `SOCKET_PATH`        | `/run/nordix-graceful-shutdown.sock`          | Unix socket path
+| Define               | Default                                       | Description                                                    | 
+|----------------------|----------------------------------------------------------------------------------------------------------------|
+| `CONNECTION_MBIT`    | `100.0`                                       | Internet connection speed in Mbit/s                            |
+| `DOWNLOAD_THRESHOLD` | `0.40`                                        | Fraction of connection speed that triggers the download popup  |
+| `POPUP_SCRUB_TRIM`   | `/usr/lib/nordix/nordix-shutdown-scrub.py`    | Path to scrub/trim popup script                                |
+| `POPUP_VM`           | `/usr/lib/nordix/nordix-shutdown-vm.py`       | Path to VM popup script                                        |
+| `POPUP_DOWNLOAD`     | `/usr/lib/nordix/nordix-shutdown-download.py` | Path to download popup script                                  |
+| `SOCKET_PATH`        | `/run/nordix-graceful-shutdown.sock`          | Unix socket path                                               |
 
 The ZFS dataset lists (steps 9–12) are defined as static arrays in the source and should be edited to match your pool layout.
 
@@ -157,8 +163,9 @@ The ZFS dataset lists (steps 9–12) are defined as static arrays in the source 
 - libvirt/virsh (optional — VM check is skipped if not installed)
 - Docker/Podman (optional — container stop is skipped if not installed)
 
-## License
 ---
+
+## License
 
 * SPDX-License-Identifier: GPL-3.0-or-later                         
 * Copyright (c) 2025 Jimmy Källhagen                                
