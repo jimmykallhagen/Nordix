@@ -64,7 +64,7 @@ Containers were actually invented by Sun Microcontroller and have good compatibi
 Nordix uses very aggressive memory and cache settings.<br>
 I haven't noticed any problems myself, but I consider it responsible to handle this correctly
 
-#### **Graceful Shutdown** 
+[**Info - Graceful Shutdown**](nordix-graceful-shutdown/README.md) 
 
 ---
   
