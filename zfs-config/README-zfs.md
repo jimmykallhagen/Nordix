@@ -1,5 +1,9 @@
 # Nordix ZFS Kernel Module Configuration
 
+**File:** `/etc/modprobe.d/zfs.conf`  
+**Part of:** [Nordix](https://github.com/jimmykallhagen/Nordix)  
+**Author:** Jimmy Källhagen
+
 ## Overview
 
 These are pre-tuned ZFS kernel module parameter files (`/etc/modprobe.d/zfs.conf`) for the Nordix Linux distribution, optimized for **desktop and gaming performance** on NVMe/SSD storage.
@@ -163,6 +167,7 @@ Every parameter in every file includes inline documentation with:
 The files are designed to be self-documenting — you should be able to understand and customize any parameter just by reading the comments.
 
 ## License
-SPDX-License-Identifier: GPL-3.0-or-later
-Copyright (c) 2025 Nordix
-This is a part of Yggdrasil - Nordix desktop envirorment
+* SPDX-License-Identifier: GPL-3.0-or-later                         
+* Copyright (c) 2025 Jimmy Källhagen                                
+* Part of Nordix - https://github.com/jimmykallhagen/Nordix             
+* Nordix and Yggdrasil are trademarks of Jimmy Källhagen
