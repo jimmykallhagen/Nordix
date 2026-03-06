@@ -99,12 +99,12 @@ I haven't noticed any problems myself, but I consider it responsible to handle t
 [**Info - Graceful Shutdown**](nordix-graceful-shutdown/README.md) 
 
 ---
-  
+
 ## To Do
 Everything takes so much time, once you start documenting everything.
 This list is not complete, as I will have to spend as much time writing the list as fixing it.
 - [ ] So much
-- [ ] So many developers need to be included
+- [ ] Continue expanding the lists of developers in "Nordix principles - Honor the developers"
 - [ ] VM setup, needs to be fully written
 - [ ] ISO exists but needs a complete overhaul
 
