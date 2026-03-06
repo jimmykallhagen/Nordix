@@ -24,18 +24,17 @@
 ---
 
 ## "Enterprise" for regular PC 
-It's like endless super features and systems in Linux.c
+It's like endless super features and systems in Linux
 Free for everyone to use, but still hidden behind the big enterprise companies.
 
  **Nordix will change this**
-- ZFS system that will make any Linux consultant raise their eyebrows
-- delivered in a way that everyone can enjoy this
-- auto snapshots
-- Zfsbootmenu as standard
-- optimized every directory, for recordsize and compression
-- developed our own tools to measure files, this has been done on three different arch systems to get a fair picture of optimization
 - ISO handle zfs raid stripe, mirror, slog, l2arc, special vdevs.
-- Fully optimazed zfs.conf
+- Fully optimazed zfs.conf - 27 tuned kernel parameters
+- per-directory recordsize and compression optimization
+- compressed ARC
+  automated snapshots
+- ZFSBootMenu — usually seen in enterprise deployments, delivered out of the box"
+- delivered in a way that everyone can enjoy this
 
 ### **ARC** _-_ Like you've never seen it before
 ZFS has a more server-like cache behavior by default, with prioritizing hot and cold data
