@@ -82,14 +82,7 @@ This list is not complete, as I will have to spend as much time writing the list
 
 ## **My Entusiast View on Nordix and Yggdrasil**
 
-**Nordix is ​​many things**
-- It is rebellious, it is the battleship from the north.
-- Show the world what linux can actually do, a warrior to spread justice and freedom
-- It is a steatmenet 
-
-- _But...._
-
-## **The purpose of truth - a desire to find friends**
+- **The purpose of truth - a desire to find friends**
 
 ###  **I have a vision of a platform to unite enthusiasts**
 
