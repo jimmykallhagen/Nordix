@@ -21,6 +21,8 @@
 - Everything in the system is carefully weighed between performance and function
 
 
+---
+
 ## "Enterprise" for regular PC 
 It's like endless super features and systems in Linux.c
 Free for everyone to use, but still hidden behind the big enterprise companies.
