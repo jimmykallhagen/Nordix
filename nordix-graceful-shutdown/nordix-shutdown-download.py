@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-##===================================================================##
- # SPDX-License-Identifier: GPL-3.0-or-later                         #
- # Copyright (c) 2025 Jimmy Källhagen                                #
- # Part of Yggdrasil - Nordix desktop environment                    #
- # Nordix and Yggdrasil are registered trademarks of Jimmy Källhagen # 
-##===================================================================##
+##===========================================================##
+ # SPDX-License-Identifier: GPL-3.0-or-later                 #
+ # Copyright (c) 2025 Jimmy Källhagen                        #
+ # Part of Nordix - https://github.com/jimmykallhagen/Nordix #
+ # Nordix and Yggdrasil are trademarks of Jimmy Källhagen    #
+##===========================================================##
 
 """
 nordix-shutdown-download.py
