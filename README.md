@@ -39,7 +39,7 @@ Free for everyone to use, but still hidden behind the big enterprise companies.
 
 ### **ARC** _-_ _The Seacret to Performance_
 ZFS has a more server-like cache behavior by default, with prioritizing hot and cold data
-I have instead adjusted zfs ARC to cache and release cache in instances, this provides a fairly powerful setup for desktops.
+I have instead adjusted zfs ARC to cache aggressively and release quickly, this provides a fairly powerful setup for desktops.
 Test on 64gb ram shows a hitrate of 97%
 
 [Info on Nordix zfs tuning](/zfs-config/README-zfs.md)
@@ -58,7 +58,7 @@ samba, ssh, virtio file system, iso or similar. just put your files in a folder,
 
 #### Docker
 - Nordix comes with zfs drivers and options that makes docker use zfs
-Containers were actually invented by Sun Microcontroller and have good compatibility with ZFS.
+Containers were actually invented by Sun Microsystems and have good compatibility with ZFS.
 
 ---
 
@@ -101,9 +101,12 @@ This list is not complete, as I will have to spend as much time writing the list
 
 Instead of projects ending up in a corner on aur and never getting a fair chance. 
 I would like to create a platform where we can all share our common interests.
+I am not a project manager, I have built Nordix to be your host.
 
-> **"I am not a project manager, I have built Nordix to be your host."**<br>
->  *Jimmy Källhagen - Nordix*
+> **"Even though the project is free of charge,<br>
+> we are all responsible for paying by showing respect."**
+> _Jimmy Källhagen – Nordix_
+
 
 I don't want other people's projects to be swallowed up by Nordix and the developers to be hidden and forgotten.
 
