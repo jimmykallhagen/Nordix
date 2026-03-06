@@ -1,8 +1,7 @@
 # Nordix AMD GPU Configuration
 
 **File:** `/etc/modprobe.d/amdgpu.conf`  
-**Part of:** [Yggdrasil - Nordix Desktop Environment](https://github.com/yourusername/nordix)  
-**License:** GPL-3.0-or-later  
+**Part of:** [Nordix](https://github.com/jimmykallhagen/Nordix)  
 **Author:** Jimmy Källhagen
 
 ## Overview
@@ -113,8 +112,7 @@ Verify `dcfeaturemask=0xffffffff` is active and check `vrr_capable` status.
 
 ## License
 
-This configuration is part of the Nordix desktop environment and is released under the GPL-3.0-or-later license.
-
----
-
-*Nordix and Yggdrasil are registered trademarks of Jimmy Källhagen*
+* SPDX-License-Identifier: GPL-3.0-or-later                         
+* Copyright (c) 2025 Jimmy Källhagen                                
+* Part of **Yggdrasil - Nordix Desktop Environment**                    
+* Nordix and Yggdrasil are trademarks of Jimmy Källhagen
