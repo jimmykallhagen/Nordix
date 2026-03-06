@@ -18,8 +18,9 @@ I recommend that you then choose one of the already established Arch based distr
 )
 
 ## You find Nordix Desktop Envirorment here:
-[**Yggdrasil**](https://github.com/jimmykallhagen/Nordix-Yggdrasil)
+- [**Yggdrasil**](https://github.com/jimmykallhagen/Nordix-Yggdrasil)
 
+---
 
 ### **Nordix follows the law of performance** *-->*
 > **"Don't put trash in the CPU's memory pipeline."**<br>
