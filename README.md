@@ -5,6 +5,38 @@
 - The world's first "Non Purpose Operating System"
 
 
+## **Nordix Performance**
+- Aims to provide the most optimized system attainable 
+- Everything in the system is carefully weighed between performance and function
+- Performance should not negatively affect function or appearance
+- Performance first, no compromise
+- Perfoer
+
+### **Nordix follows the law of performance** *-->*
+> _dont put **trash** in the processor's memory pipeline **!!**_
+- This is the philosophy I had when I built Nordix.
+
+## "Enterprise" for regular PC 
+It's like endless super features and systems in Linux.c
+Free for everyone to use, but still hidden behind the big enterprise companies.
+
+ **Nordix will change this**
+- ZFS system that will make any Linux consultant raise their eyebrows
+- delivered in a way that everyone can enjoy this
+- auto snapshots
+- Zfsbootmenu as standard
+- optimized every directory, for recordsize and compression
+- developed our own tools to measure files, this has been done on three different arch systems to get a fair picture of optimization
+- 
+
+#### **Virtual Machine**
+Nordix will offer VM solutions like no one has ever seen before.
+With the help of ZFS and a little new thinking, I can guarantee that VM has never been so good before
+
+- GUI for a guided setup with z-vol, ready-made templates for the common operating systems
+- use zvol to build a simple but effective system to perform file sharing between host and VM, without samba or similar approaches
+- VM should be so good, and easily accessible that you never ever need anything other than Nordix
+  
 ## **My Vison and Goal**
 
 ### **My Entusiast View on Nordix Yggdrasil**
@@ -26,12 +58,3 @@ developing is an art form and pride is something everyone should have the right 
 
 I can say, however, that I am deeply serious about nordix and then want one to be the one that participates, that is also it, I demand a certain standard. 
 Nordix is ​​a very serious "Non purpose OS"
-
-## **Nordix Performance**
-- Aims to provide the most optimized system attainable 
-- Everything in the system is carefully weighed between performance and function
-- Performance should not negatively affect function or appearance
-
-### **Nordix follows the law of performance** *-->*
-> _dont put **trash** in the processor's memory pipeline **!!**_
-- This is the philosophy I had when I built Nordix.
