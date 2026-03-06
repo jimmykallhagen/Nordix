@@ -7,7 +7,7 @@
 
 ## **My Vison and Goal**
 
-### **My Entusiast View on NordixYggdrasil**
+### **My Entusiast View on Nordix Yggdrasil**
 
 **Nordix is ​​many things**
 - It is rebellious, it is the battleship from the north.
