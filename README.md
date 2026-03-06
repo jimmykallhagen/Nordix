@@ -15,9 +15,10 @@
 ---
 
 ## **Nordix Performance**
-- Aims to provide the most optimized system attainable 
-- Performance first, no compromise - But, Performance should not negatively affect function or appearance
-- Everything in the system is carefully weighed between performance and function
+- Aims to provide the most optimized system attainable
+- Heavily optimized
+- Everything in the system is carefully weighed between performance and function<br>
+but With the ideology that performance should not negatively affect function or appearance
 
 
 ---
