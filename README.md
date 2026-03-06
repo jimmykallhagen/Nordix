@@ -33,5 +33,5 @@ Nordix is ​​a very serious "Non purpose OS"
 - Performance should not negatively affect function or appearance
 
 ### **Nordix follows the law of performance** *-->*
-> _dont put **trash** in the processor's memory pipeline**!!**_
+> _dont put **trash** in the processor's memory pipeline **!!**_
 - This is the philosophy I had when I built Nordix.
