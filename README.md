@@ -102,18 +102,17 @@ This list is not complete, as I will have to spend as much time writing the list
 Instead of projects ending up in a corner on aur and never getting a fair chance. 
 I would like to create a platform where we can all share our common interests.
 I am not a project manager, I have built Nordix to be your host.
-
-> **"Even though the project is free of charge,<br>
-> we are all responsible for paying by showing respect."**
-> _Jimmy Källhagen – Nordix_
-
-
 I don't want other people's projects to be swallowed up by Nordix and the developers to be hidden and forgotten.
 
 - I therefore want everyone who wants to participate with their projects to keep their own repos.
 - I want everyone to continue to be project leaders for their own projects, the only difference is that they have been given a home "Nordix"
 - Instead, I plan to list each project participant's project first in the Nordix repo, with thanks for the instagtsen and link to the original repo
 - I have a vision of us creating our own platform where we can discuss our interests.
+
+> **"Even though the project is free of charge,<br>
+> we are all responsible for paying by showing respect."**<br>
+> _Jimmy Källhagen – Nordix_
+
 ---
 
 > ### **However, I can say that I am deeply serious about Nordix and I also expect those who want to participate to be so too, I demand a certain standard. Nordix is ​​a very serious _"Non purpose OS"_**
