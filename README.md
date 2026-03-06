@@ -42,6 +42,8 @@ I can say that I myself have a hit rate of 97%!!! the system goes between 50-69G
 
 - I have set the options to have zfs cache compressed data, this gives you superpowers!
 
+[Info on Nordix zfs tuning](/zfs-config/README-zfs.md)
+
 #### **Virtual Machine**
 Nordix will offer VM solutions like no one has ever seen before.
 With the help of ZFS and a little new thinking, I can guarantee that VM has never been so good before
