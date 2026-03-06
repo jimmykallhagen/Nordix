@@ -24,24 +24,22 @@
 ---
 
 ## "Enterprise" for regular PC 
-It's like endless super features and systems in Linux
+It's like endless super features and systems exist in Linux
 Free for everyone to use, but still hidden behind the big enterprise companies.
 
  **Nordix will change this**
 - ISO handle zfs raid stripe, mirror, slog, l2arc, special vdevs.
 - Fully optimazed zfs.conf - 27 tuned kernel parameters
-- per-directory recordsize and compression optimization
-- compressed ARC
-  automated snapshots
+- 21 dataset - Per-directory recordsize and compression optimization 
+- Compressed ARC - effectively multiplies cache capacity by compression ratio
+- Automated snapshots
 - ZFSBootMenu — usually seen in enterprise deployments, delivered out of the box"
-- delivered in a way that everyone can enjoy this
+- Delivered in a way that everyone can enjoy this
 
 ### **ARC** _-_ _The Seacret to Performance_
 ZFS has a more server-like cache behavior by default, with prioritizing hot and cold data
-I have instead tuned zfs ARC to instead cache NOW! and drop cache, this gives a pretty powerful setup for desktops.
-I can say that I myself have a hit rate of 97%!!! the system goes between 50-69GB/
-
-- I have set the options to have zfs cache compressed data, this gives you superpowers!
+I have instead adjusted zfs ARC to cache and release cache in instances, this provides a fairly powerful setup for desktops.
+Test on 64gb ram shows a hitrate of 97%
 
 [Info on Nordix zfs tuning](/zfs-config/README-zfs.md)
 
@@ -51,7 +49,7 @@ With the help of ZFS and a little new thinking, I can guarantee that VM has neve
 
 - GUI for a guided setup with z-vol, ready-made templates for the common operating systems
 - Run Windows on ZFS without needing a Virtio drive, ZVOL offers the solution to give Windows a "real" nvme to install ntfs on.<br>
-The only difference is that it is a zfs block, so you get ARC caching, checksums, snapshots. faster than native!!
+The only difference is that it is a zfs block, so you get ARC caching, checksums, snapshots on Windows.
 - I have developed a system where I use a zvol to share files between host and VM. without having to mess with<br>
 samba, ssh, virtio file system, iso or similar. just put your files in a folder, run the process, then done
 - VM should be so good, and easily accessible that you never ever need anything other than Nordix
