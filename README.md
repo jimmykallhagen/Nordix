@@ -112,5 +112,7 @@ I don't want other people's projects to be swallowed up by Nordix and the develo
 - I want everyone to continue to be project leaders for their own projects, the only difference is that they have been given a home "Nordix"
 - Instead, I plan to list each project participant's project first in the Nordix repo, with thanks for the instagtsen and link to the original repo
 - I have a vision of us creating our own platform where we can discuss our interests.
-
+---
+```
 ### **However, I can say that I am deeply serious about Nordix and I also expect those who want to participate to be so too, I demand a certain standard. Nordix is ​​a very serious _"Non purpose OS"_**
+```
