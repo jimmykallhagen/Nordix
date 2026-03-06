@@ -44,15 +44,14 @@ Test on 64gb ram shows a hitrate of 97%
 [Info on Nordix zfs tuning](/zfs-config/README-zfs.md)
 
 #### **Virtual Machine**
-Nordix will offer VM solutions like no one has ever seen before.
-With the help of ZFS and a little new thinking, I can guarantee that VM has never been so good before
+Nordix will offer VM solutions for every one
 
-- GUI for a guided setup with z-vol, ready-made templates for the common operating systems
 - Run Windows on ZFS without needing a Virtio drive, ZVOL offers the solution to give Windows a "real" nvme to install ntfs on.<br>
 The only difference is that it is a zfs block, so you get ARC caching, checksums, snapshots on Windows.
-
 - VM should be so good, and easily accessible that you never ever need anything other than Nordix
 
+###  will be finalized later after iso is released and nordix is ​​fully functional and tested
+- [ ] GUI for a guided setup with z-vol, ready-made templates for the common operating systems
 - [ ] I have developed a system where I use a zvol to share files between host and VM. without having to mess with<br>
 samba, ssh, virtio file system, iso or similar. just put your files in a folder, run the process, then done
 
