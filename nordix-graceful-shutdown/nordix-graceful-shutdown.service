@@ -1,0 +1,29 @@
+##===================================================================##
+ # SPDX-License-Identifier: GPL-3.0-or-later                         #
+ # Copyright (c) 2025 Jimmy Källhagen                                #
+ # Part of Yggdrasil - Nordix desktop environment                    #
+ # Nordix and Yggdrasil are registered trademarks of Jimmy Källhagen # 
+##===================================================================##
+
+[Unit]
+Description=Nordix Graceful Shutdown Daemon
+Requires=nordix-graceful-shutdown.socket
+After=zfs.target
+
+[Service]
+Type=simple
+ExecStart=/usr/lib/nordix/nordix-graceful-shutdown
+Restart=on-failure
+RestartSec=2
+
+# Run as root to perform unmounts and poweroff
+User=root
+
+# Keep running after user logout
+KillMode=process
+
+# Give enough time for the full shutdown sequence
+TimeoutStopSec=300
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,16 @@
+##===================================================================##
+ # SPDX-License-Identifier: GPL-3.0-or-later                         #
+ # Copyright (c) 2025 Jimmy Källhagen                                #
+ # Part of Yggdrasil - Nordix desktop environment                    #
+ # Nordix and Yggdrasil are registered trademarks of Jimmy Källhagen # 
+##===================================================================##
+
+[Unit]
+Description=Nordix Graceful Shutdown Socket
+
+[Socket]
+ListenStream=/run/nordix-graceful-shutdown.sock
+SocketMode=0666
+
+[Install]
+WantedBy=sockets.target
