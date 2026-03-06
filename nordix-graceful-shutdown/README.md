@@ -46,22 +46,22 @@ The client forwards `DISPLAY`, `WAYLAND_DISPLAY`, and `XAUTHORITY` to the daemon
 
 ## Shutdown sequence
 
-|Step|  Action                       | Details 
-|----|-------------------------------|--------------------------------------------------------------------------
-| 1  | **Sync**                      | Flush Linux page cache (`sync`) and ZFS ARC (`zpool sync`) for all pools
-| 2  | **Check scrub/resilver/trim** | If active, show popup: wait for completion, pause, or cancel shutdown 
-| 3  | **Check running VMs**         | If libvirt VMs are running, show popup: continue or cancel
-| 4  | **Check active downloads**    | If download speed > 40% of connection speed, show popup: wait, ignore, or cancel
-| 5  | **Stop services**             | Gracefully stop Docker containers, Podman, Flatpak, Waydroid, NFS, databases, Samba, etc.
-| 6  | **Stop AppImages + FUSE**     | SIGTERM → SIGKILL AppImage processes, unmount all FUSE mounts
-| 7  | **Sync again**                | Second flush to catch any data written during steps 2–6
-| 8  | **Logout user**               | Terminate user session via `loginctl` 
-| 9  | **Unmount Steam children**    | `nordix/home/local/steam/{shadercache,proton,game}`
-| 10 | **Unmount .local children**   | `nordix/home/local/{lutris,steam}`
-| 11 | **Unmount home children**     | `nordix/home/{pictures,videos,music,downloads,documents,games,wine-prefix,local,cache}`
-| 12 | **Unmount root children**     | `nordix/{tmp,opt,home,varlib,vartmp,varlog,varcache,vm}`
-| 13 | **Force unmount**             | `zfs umount -af` to catch any stragglers
-| 14 | **Power off / reboot**        | `systemctl poweroff` or `systemctl reboot`
+|Step|  Action                       | Details                                                                                    |
+|----|-------------------------------|--------------------------------------------------------------------------------------------|          
+| 1  | **Sync**                      | Flush Linux page cache (`sync`) and ZFS ARC (`zpool sync`) for all pools                   |
+| 2  | **Check scrub/resilver/trim** | If active, show popup: wait for completion, pause, or cancel shutdown                      |
+| 3  | **Check running VMs**         | If libvirt VMs are running, show popup: continue or cancel                                 |
+| 4  | **Check active downloads**    | If download speed > 40% of connection speed, show popup: wait, ignore, or cancel           |
+| 5  | **Stop services**             | Gracefully stop Docker containers, Podman, Flatpak, Waydroid, NFS, databases, Samba, etc.  |
+| 6  | **Stop AppImages + FUSE**     | SIGTERM → SIGKILL AppImage processes, unmount all FUSE mounts                              |
+| 7  | **Sync again**                | Second flush to catch any data written during steps 2–6                                    |
+| 8  | **Logout user**               | Terminate user session via `loginctl`                                                      |
+| 9  | **Unmount Steam children**    | `nordix/home/local/steam/{shadercache,proton,game}`                                        |
+| 10 | **Unmount .local children**   | `nordix/home/local/{lutris,steam}`                                                         |
+| 11 | **Unmount home children**     | `nordix/home/{pictures,videos,music,downloads,documents,games,wine-prefix,local,cache}`    |
+| 12 | **Unmount root children**     | `nordix/{tmp,opt,home,varlib,vartmp,varlog,varcache,vm}`                                   |
+| 13 | **Force unmount**             | `zfs umount -af` to catch any stragglers                                                   |
+| 14 | **Power off / reboot**        | `systemctl poweroff` or `systemctl reboot`                                                 |
 
 If any dataset fails to unmount, the sequence **continues regardless** — it is logged but never blocks shutdown.
 
