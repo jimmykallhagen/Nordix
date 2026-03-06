@@ -4,12 +4,15 @@
  **"Linux Power User"** experience to everyone and the goal to build a community for us who have systems as a hobby.
 - The world's first "Non Purpose Operating System"
 
+---
+
 ### **Nordix follows the law of performance** *-->*
 > **"Don't put trash in the CPU's memory pipeline."**<br>
 > _Jimmy Källhagen_
 > 
 - This is the philosophy I had when I built Nordix.
 
+---
 
 ## **Nordix Performance**
 - Aims to provide the most optimized system attainable 
@@ -33,14 +36,11 @@ Free for everyone to use, but still hidden behind the big enterprise companies.
 - Fully optimazed zfs.conf
 
 ### **ARC** _-_ Like you've never seen it before
-
-
 ZFS has a more server-like cache behavior by default, with prioritizing hot and cold data
 I have instead tuned zfs ARC to instead cache NOW! and drop cache, this gives a pretty powerful setup for desktops.
 I can say that I myself have a hit rate of 97%!!! the system goes between 50-69GB/
 
 - I have set the options to have zfs cache compressed data, this gives you superpowers!
-
 
 #### **Virtual Machine**
 Nordix will offer VM solutions like no one has ever seen before.
@@ -52,6 +52,15 @@ The only difference is that it is a zfs block, so you get ARC caching, checksums
 - I have developed a system where I use a zvol to share files between host and VM. without having to mess with<br>
 samba, ssh, virtio file system, iso or similar. just put your files in a folder, run the process, then done
 - VM should be so good, and easily accessible that you never ever need anything other than Nordix
+
+#### Docker
+- Nordix comes with zfs drivers and options that makes docker use zfs
+Containers were actually invented by Sun Microcontroller and have good compatibility with ZFS.
+
+---
+
+
+---
   
 ## To do
 Everything takes so much time, once you start documenting everything,
