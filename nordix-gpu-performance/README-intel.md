@@ -142,5 +142,7 @@ lspci -nn | grep -i vga
 
 * SPDX-License-Identifier: GPL-3.0-or-later                         
 * Copyright (c) 2025 Jimmy Källhagen                                
-* Part of **Yggdrasil - Nordix Desktop Environment**                    
+* Part of Nordi - https://github.com/jimmykallhagen/Nordix             
 * Nordix and Yggdrasil are trademarks of Jimmy Källhagen
+
+---
