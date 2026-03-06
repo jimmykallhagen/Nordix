@@ -101,7 +101,7 @@ This list is not complete, as I will have to spend as much time writing the list
 Instead of projects ending up in a corner on aur and never getting a fair chance. 
 I would like to create a platform where we can all share our common interests.
 
-> **"I am not a project manager, I have built Nordix to be your host."**
+> **"I am not a project manager, I have built Nordix to be your host."**<br>
 >  *Jimmy Källhagen - Nordix*
 
 I don't want other people's projects to be swallowed up by Nordix and the developers to be hidden and forgotten.
