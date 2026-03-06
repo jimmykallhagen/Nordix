@@ -36,7 +36,7 @@ Free for everyone to use, but still hidden behind the big enterprise companies.
 - ZFSBootMenu — usually seen in enterprise deployments, delivered out of the box"
 - delivered in a way that everyone can enjoy this
 
-### **ARC** _-_ Like you've never seen it before
+### **ARC** _-_ _The Seacret to Performance_
 ZFS has a more server-like cache behavior by default, with prioritizing hot and cold data
 I have instead tuned zfs ARC to instead cache NOW! and drop cache, this gives a pretty powerful setup for desktops.
 I can say that I myself have a hit rate of 97%!!! the system goes between 50-69GB/
