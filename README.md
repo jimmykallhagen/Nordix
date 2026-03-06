@@ -34,7 +34,7 @@ Free for everyone to use, but still hidden behind the big enterprise companies.
 - Compressed ARC - effectively multiplies cache capacity by compression ratio
 - Automated snapshots
 - ZFSBootMenu — usually seen in enterprise deployments, delivered out of the box"
-- 
+ 
 #### Delivered in a way that everyone can enjoy this
 
 ### **ARC** _-_ _The Seacret to Performance_
