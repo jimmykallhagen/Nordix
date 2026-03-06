@@ -172,7 +172,7 @@ The ZFS dataset lists (steps 9–12) are defined as static arrays in the source 
 
 * SPDX-License-Identifier: GPL-3.0-or-later                         
 * Copyright (c) 2025 Jimmy Källhagen                                
-* Part of **Yggdrasil - Nordix Desktop Environment**                    
-* Nordix and Yggdrasil are registered trademarks of Jimmy Källhagen
+* Part of Nordix - https://github.com/jimmykallhagen/Nordix             
+* Nordix and Yggdrasil are trademarks of Jimmy Källhagen
 
 ---
