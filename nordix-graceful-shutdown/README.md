@@ -2,6 +2,9 @@
 
 A shutdown manager for [Nordix](https://github.com/jimmykallhagen/Nordix) — an Arch Linux-based distro with ZFS on root and aggressive cache tuning.
 
+🖥️ 🔫
+
+
 ## Why this exists
 
 Nordix ships with aggressive cache settings for both the Linux page cache and the ZFS ARC to maximize desktop performance. The trade-off is that at any given moment there is significantly more uncommitted data in RAM than on a typical system.
