@@ -145,7 +145,7 @@ systemctl status nordix-graceful-shutdown.socket
 The following values are defined at the top of `nordix-graceful-shutdown.c` and can be adjusted before building:
 
 | Define               | Default                                       | Description                                                    | 
-|----------------------|----------------------------------------------------------------------------------------------------------------|
+|----------------------|-----------------------------------------------|----------------------------------------------------------------|
 | `CONNECTION_MBIT`    | `100.0`                                       | Internet connection speed in Mbit/s                            |
 | `DOWNLOAD_THRESHOLD` | `0.40`                                        | Fraction of connection speed that triggers the download popup  |
 | `POPUP_SCRUB_TRIM`   | `/usr/lib/nordix/nordix-shutdown-scrub.py`    | Path to scrub/trim popup script                                |
