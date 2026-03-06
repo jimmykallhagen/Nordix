@@ -29,6 +29,18 @@ Free for everyone to use, but still hidden behind the big enterprise companies.
 - Zfsbootmenu as standard
 - optimized every directory, for recordsize and compression
 - developed our own tools to measure files, this has been done on three different arch systems to get a fair picture of optimization
+- ISO handle zfs raid stripe, mirror, slog, l2arc, special vdevs.
+- Fully optimazed zfs.conf
+
+### **ARC** _-_ Like you've never seen it before
+
+
+ZFS has a more server-like cache behavior by default, with prioritizing hot and cold data
+I have instead tuned zfs ARC to instead cache NOW! and drop cache, this gives a pretty powerful setup for desktops.
+I can say that I myself have a hit rate of 97%!!! the system goes between 50-69GB/
+
+- I have set the options to have zfs cache compressed data, this gives you superpowers!
+
 
 #### **Virtual Machine**
 Nordix will offer VM solutions like no one has ever seen before.
