@@ -21,7 +21,7 @@ Nordix Tachyon is a performance-optimized Linux kernel built upon:
 
 ---
 
-## Build Configuration
+## Nordix Build Configuration
 
 ### Compiler Toolchain
 
