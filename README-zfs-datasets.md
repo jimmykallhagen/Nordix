@@ -1,6 +1,6 @@
 # Nordix ZFS Dataset Configuration
 
-**Part of:** [Yggdrasil - Nordix Desktop Environment](https://github.com/yourusername/nordix)  
+**Part of:** [Nordix](https://github.com/jimmykallhagen/Nordix)  
 **License:** GPL-3.0-or-later  
 **Author:** Jimmy Källhagen
 
@@ -147,7 +147,7 @@ The `copies=2` property on the root dataset is a key hardening measure that prov
 
 **Space Trade-off:**
 - System root is typically 15-30 GB
-- With `copies=2`, this becomes 30-60 GB on disk
+- With `copies=2`, this becomes 20-50 GB on disk
 - On modern 500 GB+ SSDs, this is an acceptable trade-off for critical system data
 - User data datasets use `copies=1` to avoid doubling storage for large files
 
@@ -155,9 +155,9 @@ The `copies=2` property on the root dataset is a key hardening measure that prov
 - Root contains irreplaceable system files (binaries, libraries, kernel)
 - User data (documents, media) can often be recovered from backups
 - Game files can be re-downloaded
-- Applying `copies=2` everywhere would double total storage usage
+- Applying `copies=2` everywhere would almost double total storage usage
 
-**Snapshot behavior:** ✅ Included in auto-snapshots. Rollback restores entire system state.
+**Snapshot behavior:** Included in auto-snapshots. Rollback restores entire system state.
 
 ---
 
@@ -210,7 +210,7 @@ Persistent application state that survives system rollbacks.
 -o logbias=latency       # Responsive database operations
 ```
 
-**Snapshot behavior:** ✅ Separate snapshots. Database state preserved independently of system.
+**Snapshot behavior:** Separate snapshots. Database state preserved independently of system.
 
 **Use case:** Rollback `/` to yesterday, but keep today's PostgreSQL data.
 
@@ -238,7 +238,7 @@ Desktop environment and application settings.
 -o exec=off              # Configs should not be executable
 ```
 
-**Snapshot behavior:** ✅ Rollback broken configs without losing documents.
+**Snapshot behavior:** Rollback broken configs without losing documents.
 
 #### User Cache (`~/.cache`)
 Regeneratable cache data (thumbnails, browser cache, build artifacts).
@@ -249,7 +249,7 @@ Regeneratable cache data (thumbnails, browser cache, build artifacts).
 -o exec=off
 ```
 
-**Snapshot behavior:** ❌ Excluded. Cache rebuilds automatically.
+**Snapshot behavior:** Excluded. Cache rebuilds automatically.
 
 ---
 
@@ -293,7 +293,7 @@ Purpose-built for Steam, Lutris, and Wine gaming.
 -o primarycache=all      # Cache frequently-loaded textures
 ```
 
-**Snapshot behavior:** ❌ Excluded. Games are 50-150 GB each — snapshots would explode storage. Re-download if needed.
+**Snapshot behavior:** Excluded. Games are 50-150 GB each — snapshots would explode storage. Re-download if needed.
 
 #### Proton/Wine Compatibility Tools
 ```bash
@@ -301,7 +301,7 @@ Purpose-built for Steam, Lutris, and Wine gaming.
 -o recordsize=32K
 ```
 
-**Snapshot behavior:** ✅ Rollback broken Proton versions.
+**Snapshot behavior:** Rollback broken Proton versions.
 
 #### Shader Cache
 ```bash
@@ -310,7 +310,7 @@ Purpose-built for Steam, Lutris, and Wine gaming.
 -o checksum=fletcher2    # Fast integrity check
 ```
 
-**Snapshot behavior:** ❌ Excluded. Shader caches rebuild automatically.
+**Snapshot behavior:**  Excluded. Shader caches rebuild automatically.
 
 #### Save Games (`~/Games`, `~/Wine-prefix`)
 ```bash
@@ -319,7 +319,7 @@ Purpose-built for Steam, Lutris, and Wine gaming.
 -o copies=1
 ```
 
-**Snapshot behavior:** ✅ Protect your 200-hour save files!
+**Snapshot behavior:** Protect your 200-hour save files!
 
 ---
 
@@ -329,28 +329,28 @@ Purpose-built for Steam, Lutris, and Wine gaming.
 
 | Dataset | Snapshots | Reason |
 |---------|-----------|--------|
-| `ROOT/default` | ✅ Yes | System rollback |
-| `varlib` | ✅ Yes | Application state |
-| `opt` | ✅ Yes | Third-party software |
-| `home` | ✅ Yes | User data |
-| `home/config` | ✅ Yes | Settings recovery |
-| `home/documents` | ✅ Yes | Important files |
-| `home/games` | ✅ Yes | Save files |
-| `home/wine-prefix` | ✅ Yes | Wine configurations |
-| `home/local/steam/proton` | ✅ Yes | Compatibility tools |
+| `ROOT/default` | Yes | System rollback |
+| `varlib` | Yes | Application state |
+| `opt` | Yes | Third-party software |
+| `home` | Yes | User data |
+| `home/config` | Yes | Settings recovery |
+| `home/documents` | Yes | Important files |
+| `home/games` | Yes | Save files |
+| `home/wine-prefix` | Yes | Wine configurations |
+| `home/local/steam/proton` | Yes | Compatibility tools |
 
 ### What's Excluded
 
 | Dataset | Snapshots | Reason |
 |---------|-----------|--------|
-| `varcache` | ❌ No | Regeneratable |
-| `varlog` | ❌ No | Historical only |
-| `tmp` | ❌ No | Ephemeral |
-| `vartmp` | ❌ No | Ephemeral |
-| `home/cache` | ❌ No | Regeneratable |
-| `home/downloads` | ❌ No | Transient files |
-| `home/local/steam/game` | ❌ No | Re-downloadable, huge |
-| `home/local/steam/shadercache` | ❌ No | Regeneratable |
+| `varcache` | No | Regeneratable |
+| `varlog` | No | Historical only |
+| `tmp` | No | Ephemeral |
+| `vartmp` | No | Ephemeral |
+| `home/cache` | No | Regeneratable |
+| `home/downloads` | No | Transient files |
+| `home/local/steam/game` | No | Re-downloadable, huge |
+| `home/local/steam/shadercache` | No | Regeneratable |
 
 ---
 
@@ -421,13 +421,13 @@ Applied to user data datasets (Pictures, Videos, Music, Downloads, cache directo
 
 | Dataset | Metadata Redundancy | Data Copies | Checksum | Security Flags |
 |---------|---------------------|-------------|----------|----------------|
-| ROOT/default | ✅ | 2 | fletcher4 | — |
-| opt | ✅ | 2 | fletcher4 | — |
-| varlib | ✅ | 1 | fletcher4 | setuid=off |
-| home | ✅ | 1 | fletcher4 | setuid=off, devices=off |
-| home/config | ✅ | 1 | fletcher4 | exec=off, setuid=off, devices=off |
-| home/pictures | ✅ | 1 | fletcher4 | exec=off, setuid=off, devices=off |
-| tmp | ✅ | 1 | off | exec=off, setuid=off, devices=off |
+| ROOT/default | yes | 2 | fletcher4 | — |
+| opt | yes | 2 | fletcher4 | — |
+| varlib | yes | 1 | fletcher4 | setuid=off |
+| home | yes | 1 | fletcher4 | setuid=off, devices=off |
+| home/config | yes | 1 | fletcher4 | exec=off, setuid=off, devices=off |
+| home/pictures | yes | 1 | fletcher4 | exec=off, setuid=off, devices=off |
+| tmp | yes | 1 | off | exec=off, setuid=off, devices=off |
 
 ---
 
@@ -489,8 +489,9 @@ zfs destroy nordix/ROOT/default@old-snapshot
 
 ## License
 
-This configuration is part of the Nordix desktop environment and is released under the GPL-3.0-or-later license.
+ * SPDX-License-Identifier: GPL-3.0-or-later                 
+ * Copyright (c) 2025 Jimmy Källhagen                        
+ * Part of Nordix - https://github.com/jimmykallhagen/Nordix 
+ * Nordix and Yggdrasil are trademarks of Jimmy Källhagen    
 
 ---
-
-*Nordix and Yggdrasil are registered trademarks of Jimmy Källhagen*
