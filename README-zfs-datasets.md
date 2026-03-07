@@ -44,6 +44,7 @@ Each dataset can have its own security properties:
 
 ## Pool Configuration
 
+Depending on what you chose during installation ashift=12 or ashift=13
 ```bash
 zpool create -f \
   -o ashift=13 \
