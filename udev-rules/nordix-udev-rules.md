@@ -1,6 +1,7 @@
-# 60-ioschedulers.rules - ZFS the smart file system
+# Nordix udev rules
 
-## The original repo [**Here**](https://github.com/jimmykallhagen/nordix-zfs/tree/main/zfs-specific-udev-rules)
+## ZFS I/O Scheduler (60-ioschedulers.rules)
+**Source:** [nordix-zfs repo](https://github.com/jimmykallhagen/nordix-zfs/tree/main/zfs-specific-udev-rules)
 
 Normally, it is the kernel that is responsible for ensuring that file systems and storage are handled correctly in a system. This is different when it comes to ZFS. You can think of it as having two systems in your system — ZFS takes over control of file system and storage, while the kernel steps aside.
 
