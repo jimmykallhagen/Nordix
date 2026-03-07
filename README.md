@@ -111,6 +111,11 @@ ZFS has a more server-like cache behavior by default, with prioritizing hot and 
 I have instead adjusted ZFS ARC to cache aggressively and release quickly, this provides a fairly powerful setup for desktops.
 Test on 64GB RAM shows a hit rate of 97%.
 
+> _Nordix is ​​designed with inspiration from the powerful servers._
+> _nvme, ssd, hhd, are storage surface. Ram is workspace._
+> _that is the secret to speed. ARC makes this possible_
+
+
 **Nordix ZFS Setup
 - [**Info on Nordix ZFS Dataset**](/README-zfs-datasets.md)
 - [**Info on Nordix ZFS tuning**](/zfs-config/README-zfs.md)
