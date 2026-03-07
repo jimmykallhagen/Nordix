@@ -69,7 +69,7 @@ I recommend that you then choose one of the already established Arch-based distr
 
 ### **Nordix follows the law of performance** *-->*
 > **"Don't put trash in the CPU's memory pipeline."**<br>
-> _Jimmy Källhagen_
+>                                 _Jimmy Källhagen_
 > 
 - This is the philosophy I had when I built Nordix.
 
@@ -152,15 +152,10 @@ This list is not complete, as I will have to spend as much time writing the list
 - [ ] ISO exists but needs a complete overhaul
 - [ ] Nordix repo for custom built packages: nordix-systemx
 
-#### Nordix SystemX 
-System an extreme base that should be highly optimized.
-- clang
-- -O3
-- lto
-- znver4
-- [FULL LIST](CFLAG.md)
-Tests have been performed with lto full but adjustments or switching to lto thin may be needed.<br>
-The idea is to also create PGO profiles in the future for kernel, zfs, compositor, and graphics drivers.
+### Nordix SystemX 
+**This is not fully developed but just a sharing of my own tests and ideas.**
+- [Nordix-SystemX](README-systemx.md) - _An idea for a repo_
+
 
 ### Nordix Custombuilds - Desktop
 - "hyprland-protocols-nordix"
