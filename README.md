@@ -20,15 +20,15 @@ I recommend that you then choose one of the already established Arch-based distr
 
 ---
 
-## **Nordix principles - Honor the developers**
-- [**Arch Linux**](https://github.com/archlinux) - One of the world's largest communities
-- [**GNU Nano**](https://www.nano-editor.org/) - Default in Nordix, with colors!
+## **Nordix principles - Honor the developers** 
+  - [**Arch Linux**](https://github.com/archlinux) - One of the world's largest communities
+  - [**GNU Nano**](https://www.nano-editor.org/) - Default in Nordix, with colors!
 
-### **Yggdrasil** - _Nordix desktop envirorment_
-Built on Hyprland
-- [All credit should go to the Hyprland development team.](https://github.com/hyprwm/Hyprland=
+**Yggdrasil** - _Nordix desktop envirorment_
+  - Built on Hyprland
+  - [All credit should go to the Hyprland development team.](https://github.com/hyprwm)
 
-### Nordix Kernel - Nordix uses Linux Tachyon as default kernel
+**Nordix Kernel** - Nordix uses Linux Tachyon as default kernel
 
   - [**Linux Tachyon**](https://git.staropensource.de/StarOpenSource/Linux-Tachyon) — Fork of Intel Clear Linux kernel patchset
   - Maintained by **JeremyStarTM** and **yarost12**
