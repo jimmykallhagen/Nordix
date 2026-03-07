@@ -30,17 +30,31 @@
 - -fno-math-errno
 - -fno-trapping-math
 - -fmerge-all-constants
-- -fno-stack-protector
-- -D_FORTIFY_SOURCE=0
+
+### Performance flags with security impact
+- -fstack-protector
+- -D_FORTIFY_SOURCE=1
+
+**Read the guide below, so you can decide for yourself what you think is right for you.**
+**Personally, I go all in.**
 
 ## LD-Flags
 - -flto=full
 - -fuse-ld=lld
 - -Wl,-O3,--relax
 - -Wl,--lto-O3
-- -Wl,--lto-whole-program-visibility"
-  
-**I will probably replace lto full with lto thin, as I suspect lto thin will be more robust**<br>
+- -Wl,--lto-whole-program-visibility
+
+**I will probably replace lto full with lto thin, as I suspect lto thin will be more robust.**<br>
 **The idea is to create PGO profiles in the future.**
 
- 
+### Security vs Performance trade-off
+
+| Level | Flags | Pipeline cost |
+|-------|-------|---------------|
+| Maximum performance | `-fno-stack-protector -D_FORTIFY_SOURCE=0` | 0 extra instructions |
+| Minimal security | `-fstack-protector -D_FORTIFY_SOURCE=1` | ~1 check per risky function |
+| Balanced | `-fstack-protector-strong -D_FORTIFY_SOURCE=2` | ~1 check per function with arrays |
+| Maximum security | `-fstack-protector-all -D_FORTIFY_SOURCE=3` | Check on every function call |
+
+Choose based on your threat model and performance requirements.
