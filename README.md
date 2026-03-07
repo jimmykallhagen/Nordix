@@ -62,6 +62,7 @@ I recommend that you then choose one of the already established Arch-based distr
 
 ## **Nordix ZFS Setup
 - [**Nordix-ZFS-Dataset**](/README-zfs-datasets.md)
+- [**Info on Nordix ZFS tuning**](/zfs-config/README-zfs.md)
 
 ## **Nordix Performance**
 - Aims to provide the most optimized system attainable
@@ -98,8 +99,6 @@ ZFS has a more server-like cache behavior by default, with prioritizing hot and 
 I have instead adjusted ZFS ARC to cache aggressively and release quickly, this provides a fairly powerful setup for desktops.
 Test on 64GB RAM shows a hit rate of 97%.
 
-- [Info on Nordix ZFS tuning](/zfs-config/README-zfs.md)
-- [Info on Nordix ZFS dataset](/README-zfs-datasets.md)
 
 #### **Virtual Machine**
 Nordix will offer VM solutions for everyone
