@@ -42,6 +42,16 @@ I recommend that you then choose one of the already established Arch-based distr
 >
 > *Nordix will carry on the Clear Linux legacy of performance, both in heart and soul.*
 
+**CachyOS has been a great inspiration**
+- [**CachyOS**](https://cachyos.org/) _One of the fastest distros in the world_
+
+**Nordix has borrowed this from CachyOS**
+- [**Udev-Rules**](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) Nordix list of borrowed rules from cachyos
+- [**See README-nordix-tachyon-kernel.md**](README-nordix-tachyon-kernel.md)
+
+**Nordix's own rules**
+- [**Udev-ZFS**](/udev-rules/zfs-specific-rules/README.md)
+
 ### Nordix ZFS implementation is built upon:
 - [**OpenZFS**](https://github.com/openzfs/zfs) — The open-source ZFS project for Linux and FreeBSD
 - [**ZFSBootMenu**](https://github.com/zbm-dev/zfsbootmenu) — Bootloader for ZFS-native systems
