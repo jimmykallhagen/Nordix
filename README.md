@@ -106,7 +106,7 @@ Free for everyone to use, but still hidden behind the big enterprise companies.
  
 #### Delivered in a way that everyone can enjoy this
 
-### **ARC** _-_ _The Secret to Performance_
+### **ARC** _-_ "The Secret to Performance"
 ZFS has a more server-like cache behavior by default, with prioritizing hot and cold data.
 I have instead adjusted ZFS ARC to cache aggressively and release quickly, this provides a fairly powerful setup for desktops.
 Test on 64GB RAM shows a hit rate of 97%.
