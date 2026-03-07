@@ -52,7 +52,9 @@ I recommend that you then choose one of the already established Arch-based distr
 - [Udev-Rules](/udev-rules/borrowed-from-cachyos/) - _Performance and hardware rules_
 - [**Kernel Config**](README-nordix-tachyon-kernel.md) - _Base kernel configuration (modified for Nordix)_
 
-### Nordix ZFS implementation is built upon:
+---
+
+## Nordix ZFS implementation is built upon:
 - [**OpenZFS**](https://github.com/openzfs/zfs) — The open-source ZFS project for Linux and FreeBSD
 - [**ZFSBootMenu**](https://github.com/zbm-dev/zfsbootmenu) — Bootloader for ZFS-native systems
 
