@@ -44,7 +44,7 @@ I recommend that you then choose one of the already established Arch-based distr
 
 - See: [**README-nordix-tachyon-kernel.md**](README-nordix-tachyon-kernel.md)
 
-- [ ] Note - not working yet
+  * [ ] Note - not working yet
 
 
 **CachyOS has been a great inspiration**
