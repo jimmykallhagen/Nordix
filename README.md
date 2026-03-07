@@ -19,9 +19,17 @@ I recommend that you then choose one of the already established Arch-based distr
 - [**Yggdrasil**](https://github.com/jimmykallhagen/Nordix-Yggdrasil)
 
 ---
+
 ## **Nordix principles - Honor the developers**
 - [**Arch Linux**](https://github.com/archlinux) - One of the world's largest communities
 - [**GNU Nano**](https://www.nano-editor.org/) - Default in Nordix, with colors!
+
+### Nordix Kernel
+  - [**Linux Tachyon**](https://git.staropensource.de/StarOpenSource/Linux-Tachyon) — Fork of Intel Clear Linux kernel patchset
+  - Maintained by **JeremyStarTM** and **yarost12**
+  - *When Intel abandoned Clear Linux, they kept the dream alive*
+
+> _After Intel announced the shutdown of Clear Linux on July 18th, these two developers refused to let the fastest kernel patchset die. Nordix is proud to build upon their work._
 
 ### Nordix ZFS implementation is built upon:
 - [**OpenZFS**](https://github.com/openzfs/zfs) — The open-source ZFS project for Linux and FreeBSD
@@ -108,7 +116,7 @@ This list is not complete, as I will have to spend as much time writing the list
 - [ ] Continue expanding the lists of developers in "Nordix principles - Honor the developers"
 - [ ] VM setup, needs to be fully written
 - [ ] ISO exists but needs a complete overhaul
-- [ ] Nordix repo: nordix systemx
+- [ ] Nordix repo for custom built packages: nordix-systemx
 
 #### Nordix SystemX 
 System an extreme base that should be highly optimized.
@@ -116,9 +124,9 @@ System an extreme base that should be highly optimized.
 - -O3
 - lto
 - znver4
--  [FULL LIST]
+- [FULL LIST](CFLAG.md)
 Tests have been performed with lto full but adjustments or switching to lto thin may be needed.<br>
-PGO profiles should be built for kernel, zfs, compositor, and graphics drivers.
+The idea is to also create PGO profiles in the future for kernel, zfs, compositor, and graphics drivers.
 
 ### Nordix Custombuilds - Desktop
 - "hyprland-protocols-nordix"
@@ -138,8 +146,6 @@ PGO profiles should be built for kernel, zfs, compositor, and graphics drivers.
 - "hyprpicker-nordix"
 - "hyprland-guiutils-nordix"
 
-### Nordix build flags for zver4
-CF
 
 ### What I haven't managed to build yet
 - [ ] wayland-noridix
@@ -148,9 +154,7 @@ CF
 hyprland-protocols-nordix
 hyprwayland-scanner-nordix
 
-aquamarine-nordix hyprland-nordix hyprpolkitagent-nordix hyprwire-nordix    
-hyprcursor-nordix hyprgraphics-nordix hyprlang-nordix 
-hyprland-guiutils-nordix hyprpicker-nordix  xdg-desktop-portal-hyprland-nordix
+
 
 --- 
 
