@@ -156,38 +156,7 @@ This list is not complete, as I will have to spend as much time writing the list
 **This is not fully developed but just a sharing of my own tests and ideas.**
 - [Nordix-SystemX](README-systemx.md) - _An idea for a repo_
 
-
-### Nordix Custombuilds - Desktop
-- "hyprland-protocols-nordix"
-- "hyprwayland-scanner-nordix"
-- "hyprutils-nordix"
-- "hyprgraphics-nordix"
-- "hyprlang-nordix"
-- "hyprcursor-nordix"
-- "aquamarine-nordix"
-- "xdg-desktop-portal-hyprland-nordix"
-- "hyprwire-nordix"
-- "hyprtoolkit-nordix"
-- "hyprland-nordix"
-- "hyprland-qt-support-nordix"
-- "hyprqt6engine-nordix"
-- "hyprpolkitagent-nordix"
-- "hyprpicker-nordix"
-- "hyprland-guiutils-nordix"
-
-
-### What I haven't managed to build yet
-- [ ] wayland-noridix
-- [ ] proton-ge-custom
-
-hyprland-protocols-nordix
-hyprwayland-scanner-nordix
-
-
-
 --- 
-
-
 
 
 ## **My Enthusiast View on Nordix and Yggdrasil**
