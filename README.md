@@ -47,7 +47,7 @@ I recommend that you then choose one of the already established Arch-based distr
 
 **Nordix has borrowed this from CachyOS**
 - [**Udev-Rules**](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) Nordix list of borrowed rules from cachyos
-- [**See README-nordix-tachyon-kernel.md**](README-nordix-tachyon-kernel.md)
+- [**Kernel Config**](README-nordix-tachyon-kernel.md)
 
 **Nordix's own rules**
 - [**Udev-ZFS**](/udev-rules/zfs-specific-rules/README.md)
