@@ -123,7 +123,7 @@ Nordix will offer VM solutions for everyone
 - Run Windows on ZFS without needing a Virtio drive, ZVOL offers the solution to give Windows a "real" NVMe to install NTFS on.<br>
 The only difference is that it is a ZFS block, so you get ARC caching, checksums, snapshots on Windows.
 - VM should be so good, and easily accessible that you never ever need anything other than Nordix
-
+  [/image/puppet-master-windows.png]
 ### Will be finalized later after ISO is released and Nordix is fully functional and tested
 - [ ] GUI for a guided setup with ZVOL, ready-made templates for the common operating systems
 - [ ] I have developed a system where I use a ZVOL to share files between host and VM, without having to mess with<br>
