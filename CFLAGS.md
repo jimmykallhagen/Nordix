@@ -40,7 +40,7 @@
 - -Wl,--lto-O3
 - -Wl,--lto-whole-program-visibility"
   
-**I will probably replace lto full with lto thin, as I suspect lto thin will be more robust**
-**The idea is to also create PGO profiles in the future.**
+**I will probably replace lto full with lto thin, as I suspect lto thin will be more robust**<br>
+**The idea is to create PGO profiles in the future.**
 
  
