@@ -95,7 +95,7 @@ I have instead adjusted ZFS ARC to cache aggressively and release quickly, this 
 Test on 64GB RAM shows a hit rate of 97%.
 
 - [Info on Nordix ZFS tuning](/zfs-config/README-zfs.md)
-- [Info on Nordix ZFS dataset](Nordix/README-zfs-datasets.md)
+- [Info on Nordix ZFS dataset](/README-zfs-datasets.md)
 
 #### **Virtual Machine**
 Nordix will offer VM solutions for everyone
