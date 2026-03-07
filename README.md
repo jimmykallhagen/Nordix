@@ -24,7 +24,8 @@ I recommend that you then choose one of the already established Arch-based distr
 - [**Arch Linux**](https://github.com/archlinux) - One of the world's largest communities
 - [**GNU Nano**](https://www.nano-editor.org/) - Default in Nordix, with colors!
 
-### Nordix Kernel
+### Nordix Kernel - Nordix uses Linux Tachyon as default kernel
+
   - [**Linux Tachyon**](https://git.staropensource.de/StarOpenSource/Linux-Tachyon) — Fork of Intel Clear Linux kernel patchset
   - Maintained by **JeremyStarTM** and **yarost12**
   - *When Intel abandoned Clear Linux, they kept the dream alive*
@@ -61,6 +62,13 @@ I recommend that you then choose one of the already established Arch-based distr
 - Everything in the system is carefully weighed between performance and function<br>
 but with the ideology that performance should not negatively affect function or appearance
 
+> _People never want to do their own testing, their own research into what is actually possible.
+> But at the same time, everyone knows what doesn't work?_
+
+> These settings are considered 'dangerous' by people who have never tried them.
+> 
+> I run this daily. It works.
+> Try it for yourself and decide."
 
 ---
 
