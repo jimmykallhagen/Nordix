@@ -46,6 +46,7 @@ I recommend that you then choose one of the already established Arch-based distr
 
 - [ ] Note - not working yet
 
+
 **CachyOS has been a great inspiration**
 - [**CachyOS**](https://cachyos.org/) _- One of the fastest distros in the world_
 
