@@ -29,7 +29,10 @@ I recommend that you then choose one of the already established Arch-based distr
   - Maintained by **JeremyStarTM** and **yarost12**
   - *When Intel abandoned Clear Linux, they kept the dream alive*
 
-> _After Intel announced the shutdown of Clear Linux on July 18th 2025, these two developers refused to let the fastest kernel patchset die. Nordix is proud to build upon their work._
+> _After Intel announced the shutdown of Clear Linux on July 18th 2025, these two developers refused to let the fastest kernel patchset die.<br>
+> Nordix is proud to build upon their work._
+>
+> *Nordix will carry on the Clear Linux legacy of performance, both in heart and soul.*
 
 ### Nordix ZFS implementation is built upon:
 - [**OpenZFS**](https://github.com/openzfs/zfs) — The open-source ZFS project for Linux and FreeBSD
