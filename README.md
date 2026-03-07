@@ -116,7 +116,7 @@ Test on 64GB RAM shows a hit rate of 97%.
 > _that is the secret to speed. ARC makes this possible_
 
 
-**Nordix ZFS Setup
+**Nordix ZFS Setup**
 - [**Info on Nordix ZFS Dataset**](/README-zfs-datasets.md)
 - [**Info on Nordix ZFS tuning**](/zfs-config/README-zfs.md)
 - [**Info on Nordix ZFS udev**](/udev-rules/zfs-specific-rules/README.md)
