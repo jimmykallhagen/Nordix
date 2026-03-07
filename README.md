@@ -41,7 +41,7 @@ I recommend that you then choose one of the already established Arch-based distr
 >
 > *Nordix will carry on the Clear Linux legacy of performance, both in heart and soul.*
 
-- See: [**README-nordix-tachyon-kernel.md**](README-nordix-tachyon-kernel.md)
+- See: [**linux-tachyon-nxbuild**](https://github.com/jimmykallhagen/nordix-custom-builds/blob/main/linux-tachyon-nxbuild.md))
 
   * [ ] Note - not working yet
 
@@ -50,7 +50,7 @@ I recommend that you then choose one of the already established Arch-based distr
 
 **Nordix has borrowed from CachyOS:**
 - [Udev-Rules](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) - _Performance and hardware rules_
-- [**Kernel Config**](README-nordix-tachyon-kernel.md) - _Base kernel configuration (modified for Nordix)_
+- [**Kernel Config**](https://github.com/jimmykallhagen/nordix-custom-builds/blob/main/linux-tachyon-nxbuild.md) - _Base kernel configuration (modified for Nordix)_
 
 ---
 
