@@ -135,11 +135,10 @@ Containers were actually invented by Sun Microsystems and have good compatibilit
 ---
 
 ### **Nordix Graceful Shutdown**
-
 Nordix uses very aggressive memory and cache settings.<br>
 I haven't noticed any problems myself, but I consider it responsible to handle this correctly.
 
-[**Info - Graceful Shutdown**](nordix-graceful-shutdown/README.md) 
+[**Info - Graceful Shutdown**]([nordix-graceful-shutdown/README.md](https://github.com/jimmykallhagen/nordix-graceful-shutdown)) 
 
 ---
 
