@@ -9,3 +9,5 @@ He encouraged me to contribute to other already existing "All Purpose Operating 
 
 > **"People said I should accept the world. Bullshit! I don't accept the world."**<br>
 > _Richard Stallman_
+
+![GNU-shares-its-power-4k](image/GNU-shares-its-power-4k.png)
