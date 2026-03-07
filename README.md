@@ -20,7 +20,7 @@ I recommend that you then choose one of the already established Arch-based distr
 
 ---
 ## **Nordix principles - Honor the developers**
-- [**Arch Linux**](https://github.com/archlinux) 
+- [**Arch Linux**](https://github.com/archlinux) - One of the world's largest communities
 - [**GNU Nano**](https://www.nano-editor.org/) - Default in Nordix, with colors!
 
 ### Nordix ZFS implementation is built upon:
@@ -108,8 +108,54 @@ This list is not complete, as I will have to spend as much time writing the list
 - [ ] Continue expanding the lists of developers in "Nordix principles - Honor the developers"
 - [ ] VM setup, needs to be fully written
 - [ ] ISO exists but needs a complete overhaul
+- [ ] Nordix repo: nordix systemx
+
+#### Nordix SystemX 
+System an extreme base that should be highly optimized.
+- clang
+- -O3
+- lto
+- znver4
+-  [FULL LIST]
+Tests have been performed with lto full but adjustments or switching to lto thin may be needed.<br>
+PGO profiles should be built for kernel, zfs, compositor, and graphics drivers.
+
+### Nordix Custombuilds - Desktop
+- "hyprland-protocols-nordix"
+- "hyprwayland-scanner-nordix"
+- "hyprutils-nordix"
+- "hyprgraphics-nordix"
+- "hyprlang-nordix"
+- "hyprcursor-nordix"
+- "aquamarine-nordix"
+- "xdg-desktop-portal-hyprland-nordix"
+- "hyprwire-nordix"
+- "hyprtoolkit-nordix"
+- "hyprland-nordix"
+- "hyprland-qt-support-nordix"
+- "hyprqt6engine-nordix"
+- "hyprpolkitagent-nordix"
+- "hyprpicker-nordix"
+- "hyprland-guiutils-nordix"
+
+### Nordix build flags for zver4
+CF
+
+### What I haven't managed to build yet
+- [ ] wayland-noridix
+- [ ] proton-ge-custom
+
+hyprland-protocols-nordix
+hyprwayland-scanner-nordix
+
+aquamarine-nordix hyprland-nordix hyprpolkitagent-nordix hyprwire-nordix    
+hyprcursor-nordix hyprgraphics-nordix hyprlang-nordix 
+hyprland-guiutils-nordix hyprpicker-nordix  xdg-desktop-portal-hyprland-nordix
 
 --- 
+
+
+
 
 ## **My Enthusiast View on Nordix and Yggdrasil**
 
