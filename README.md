@@ -43,7 +43,7 @@ I recommend that you then choose one of the already established Arch-based distr
 > *Nordix will carry on the Clear Linux legacy of performance, both in heart and soul.*
 
 **CachyOS has been a great inspiration**
-- [**CachyOS**](https://cachyos.org/) _One of the fastest distros in the world_
+- [**CachyOS**](https://cachyos.org/) _- One of the fastest distros in the world_
 
 **Nordix has borrowed this from CachyOS**
 - [**Udev-Rules**](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) Nordix list of borrowed rules from cachyos
