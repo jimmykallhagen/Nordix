@@ -67,27 +67,26 @@ I recommend that you then choose one of the already established Arch-based distr
 
 ---
 
-### **Nordix follows the law of performance** *-->*
+## **Nordix Performance**
+ **Nordix follows the law of performance**
 > **"Don't put trash in the CPU's memory pipeline."**<br>
 >                                 _Jimmy Källhagen_
 > 
 - This is the philosophy I had when I built Nordix.
-
----
-
-## **Nordix ZFS Setup
-- [**Nordix-ZFS-Dataset**](/README-zfs-datasets.md)
-- [**Info on Nordix ZFS tuning**](/zfs-config/README-zfs.md)
-- [**Info on Nordix ZFS udev rules**](/udev-rules/zfs-specific-rules/README.md)
-
-## **Nordix Performance**
 - Aims to provide the most optimized system attainable
 - Heavily optimized
 - Everything in the system is carefully weighed between performance and function<br>
+
 but with the ideology that performance should not negatively affect function or appearance
 
 **GPU**
  - [**Nordix-GPU**](https://github.com/jimmykallhagen/nordix-gpu)
+
+**Nordix ZFS Setup
+- [**Nordix-ZFS-Dataset**](/README-zfs-datasets.md)
+- [**Info on Nordix ZFS tuning**](/zfs-config/README-zfs.md)
+- [**Info on Nordix ZFS udev rules**](/udev-rules/zfs-specific-rules/README.md)
+
 
 > _People never want to do their own testing, their own research into what is actually possible.
 > But at the same time, everyone knows what doesn't work?_
