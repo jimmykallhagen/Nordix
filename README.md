@@ -50,8 +50,8 @@ I recommend that you then choose one of the already established Arch-based distr
 - [**CachyOS**](https://cachyos.org/) _- One of the fastest distros in the world_
 
 **Nordix has borrowed this from CachyOS**
-- [**Udev-Rules**](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) Nordix list of borrowed rules from cachyos
-- [**Kernel Config**](README-nordix-tachyon-kernel.md)
+- [**Udev-Rules**](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) -_list of borrowed rules from cachyos_
+- [**Kernel Config**](README-nordix-tachyon-kernel.md) -_Kernel config_
 
 
 ### Nordix ZFS implementation is built upon:
