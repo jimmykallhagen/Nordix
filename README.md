@@ -131,7 +131,7 @@ samba, ssh, virtio file system, iso or similar. Just put your files in a folder,
 - Nordix comes with ZFS drivers and options that make Docker use ZFS.
 Containers were actually invented by Sun Microsystems and have good compatibility with ZFS.
 
-- [**Docker on ZFS](https://github.com/jimmykallhagen/nordix-zfs/blob/main/docker/README.md)
+- [**Docker on ZFS**](https://github.com/jimmykallhagen/nordix-zfs/blob/main/docker/README.md)
 
 ---
 
