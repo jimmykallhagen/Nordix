@@ -56,6 +56,9 @@ I recommend that you then choose one of the already established Arch-based distr
 
 ---
 
+## **Nordix ZFS Setup
+- [ZFS-Dataset] 
+
 ## **Nordix Performance**
 - Aims to provide the most optimized system attainable
 - Heavily optimized
