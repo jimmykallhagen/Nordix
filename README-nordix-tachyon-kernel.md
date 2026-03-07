@@ -4,6 +4,8 @@
 **License:** GPL-2.0-only  
 **Author:** Jimmy Källhagen
 
+- [ ] Note - Not working yet
+
 ## Overview
 
 Nordix Tachyon is a performance-optimized Linux kernel built upon:
