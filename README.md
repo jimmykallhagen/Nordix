@@ -41,7 +41,7 @@ I recommend that you then choose one of the already established Arch-based distr
 >
 > *Nordix will carry on the Clear Linux legacy of performance, both in heart and soul.*
 
-- See: [**linux-tachyon-nxbuild**](https://github.com/jimmykallhagen/nordix-custom-builds/blob/main/linux-tachyon-nxbuild.md))
+- See: [**linux-tachyon-nxbuild**](https://github.com/jimmykallhagen/nordix-custom-builds/blob/main/linux-tachyon-nxbuild.md)
 
   * [ ] Note - not working yet
 
