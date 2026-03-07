@@ -42,6 +42,10 @@ I recommend that you then choose one of the already established Arch-based distr
 >
 > *Nordix will carry on the Clear Linux legacy of performance, both in heart and soul.*
 
+- See: [**README-nordix-tachyon-kernel.md**](README-nordix-tachyon-kernel.md)
+
+- [ ] Note - not working yet
+
 **CachyOS has been a great inspiration**
 - [**CachyOS**](https://cachyos.org/) _- One of the fastest distros in the world_
 
