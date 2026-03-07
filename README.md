@@ -86,6 +86,9 @@ I recommend that you then choose one of the already established Arch-based distr
 - Everything in the system is carefully weighed between performance and function<br>
 but with the ideology that performance should not negatively affect function or appearance
 
+**GPU**
+ - [**Nordix-GPU**](https://github.com/jimmykallhagen/nordix-gpu)
+
 > _People never want to do their own testing, their own research into what is actually possible.
 > But at the same time, everyone knows what doesn't work?_
 
