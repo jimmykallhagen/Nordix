@@ -20,7 +20,6 @@ I recommend that you then choose one of the already established Arch-based distr
 
 ---
 
-
 ## **Nordix principles - Honor the developers** 
 * **All credit should go to the developers**
 
@@ -54,8 +53,6 @@ I recommend that you then choose one of the already established Arch-based distr
 - [**Udev-Rules**](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) Nordix list of borrowed rules from cachyos
 - [**Kernel Config**](README-nordix-tachyon-kernel.md)
 
-**Nordix's own rules**
-- [**Udev-ZFS**](/udev-rules/zfs-specific-rules/README.md)
 
 ### Nordix ZFS implementation is built upon:
 - [**OpenZFS**](https://github.com/openzfs/zfs) — The open-source ZFS project for Linux and FreeBSD
@@ -81,6 +78,7 @@ I recommend that you then choose one of the already established Arch-based distr
 ## **Nordix ZFS Setup
 - [**Nordix-ZFS-Dataset**](/README-zfs-datasets.md)
 - [**Info on Nordix ZFS tuning**](/zfs-config/README-zfs.md)
+- [**Info on Nordix ZFS udev rules**](/udev-rules/zfs-specific-rules/README.md)
 
 ## **Nordix Performance**
 - Aims to provide the most optimized system attainable
