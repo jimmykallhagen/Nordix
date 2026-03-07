@@ -45,14 +45,12 @@ I recommend that you then choose one of the already established Arch-based distr
 
   * [ ] Note - not working yet
 
+### CachyOS has been a great inspiration
+- [CachyOS](https://github.com/CachyOS) - One of the fastest distros in the world
 
-**CachyOS has been a great inspiration**
-- [**CachyOS**](https://cachyos.org/) _- One of the fastest distros in the world_
-
-**Nordix has borrowed this from CachyOS**
-- [**Udev-Rules**](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) -_list of borrowed rules from cachyos_
-- [**Kernel Config**](README-nordix-tachyon-kernel.md) -_Kernel config_
-
+**Nordix has borrowed from CachyOS:**
+- [Udev-Rules](/udev-rules/borrowed-from-cachyos/) - _Performance and hardware rules_
+- [**Kernel Config**](README-nordix-tachyon-kernel.md) - _Base kernel configuration (modified for Nordix)_
 
 ### Nordix ZFS implementation is built upon:
 - [**OpenZFS**](https://github.com/openzfs/zfs) — The open-source ZFS project for Linux and FreeBSD
