@@ -82,12 +82,6 @@ but with the ideology that performance should not negatively affect function or 
 **GPU**
  - [**Nordix-GPU**](https://github.com/jimmykallhagen/nordix-gpu)
 
-**Nordix ZFS Setup
-- [**Nordix-ZFS-Dataset**](/README-zfs-datasets.md)
-- [**Info on Nordix ZFS tuning**](/zfs-config/README-zfs.md)
-- [**Info on Nordix ZFS udev rules**](/udev-rules/zfs-specific-rules/README.md)
-
-
 > _People never want to do their own testing, their own research into what is actually possible.
 > But at the same time, everyone knows what doesn't work?_
 
@@ -116,6 +110,11 @@ Free for everyone to use, but still hidden behind the big enterprise companies.
 ZFS has a more server-like cache behavior by default, with prioritizing hot and cold data.
 I have instead adjusted ZFS ARC to cache aggressively and release quickly, this provides a fairly powerful setup for desktops.
 Test on 64GB RAM shows a hit rate of 97%.
+
+**Nordix ZFS Setup
+- [**Nordix-ZFS-Dataset**](/README-zfs-datasets.md)
+- [**Info on Nordix ZFS tuning**](/zfs-config/README-zfs.md)
+- [**Info on Nordix ZFS udev rules**](/udev-rules/zfs-specific-rules/README.md)
 
 
 #### **Virtual Machine**
