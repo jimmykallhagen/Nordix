@@ -46,10 +46,10 @@ I recommend that you then choose one of the already established Arch-based distr
   * [ ] Note - not working yet
 
 ### CachyOS has been a great inspiration
-- [CachyOS](https://github.com/CachyOS) - One of the fastest distros in the world
+- [**CachyOS**](https://github.com/CachyOS) - One of the fastest distros in the world
 
 **Nordix has borrowed from CachyOS:**
-- [Udev-Rules](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) - _Performance and hardware rules_
+- [**Udev-Rules**](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) - _Performance and hardware rules_
 - [**Kernel Config**](https://github.com/jimmykallhagen/nordix-custom-builds/blob/main/linux-tachyon-nxbuild.md) - _Base kernel configuration (modified for Nordix)_
 
 ---
@@ -171,7 +171,7 @@ This list is not complete, as I will have to spend as much time writing the list
 
 ### Nordix SystemX 
 **This is not fully developed but just a sharing of my own tests and ideas.**
-- [Nordix-SystemX](README-systemx.md) - _An idea for a repo_
+- [**Nordix-SystemX**](README-systemx.md) - _An idea for a repo_
 
 --- 
 
