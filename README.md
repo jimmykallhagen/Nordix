@@ -156,7 +156,7 @@ I haven't noticed any problems myself, but I consider it responsible to handle t
 Enhanced package search utilities for Arch Linux that provide a cleaner, 
 more informative output than the default pacman -Ss and paru -Ss commands.
 
-* [nordix-pacman/nordix/paru](https://github.com/jimmykallhagen/nordix-package-search)
+* [**nordix-pacman/nordix/paru**](https://github.com/jimmykallhagen/nordix-package-search)
 
 ---
 
