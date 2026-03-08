@@ -152,6 +152,10 @@ I haven't noticed any problems myself, but I consider it responsible to handle t
 
 ---
 
+### Nordix Package Search Tools
+
+ - Enhanced package search utilities for Arch Linux that provide a cleaner, more informative output than the default pacman -Ss and paru -Ss commands.
+
 ## To Do
 Everything takes so much time, once you start documenting everything.
 This list is not complete, as I will have to spend as much time writing the list as fixing it.
