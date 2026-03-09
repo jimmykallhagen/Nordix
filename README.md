@@ -45,16 +45,45 @@ I recommend that you then choose one of the already established Arch-based distr
 
   * [ ] Note - not working yet
 
-### CachyOS has been a great inspiration
+ **CachyOS** - _Has been a great inspiration_
 - [**CachyOS**](https://github.com/CachyOS) - One of the fastest distros in the world
 
 **Nordix has borrowed from CachyOS:**
 - [**Udev-Rules**](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) - _Performance and hardware rules_
 - [**Kernel Config**](https://github.com/jimmykallhagen/nordix-custom-builds/blob/main/linux-tachyon-nxbuild.md) - _Base kernel configuration (modified for Nordix)_
+---
+
+- [kernel.org](https://www.kernel.org/) - **Linux Kernel Developers**
+
+## GNU Project - The Toolbox That Built Everything
+
+- [**GNU Project**](https://www.gnu.org/) — Richard Stallman's vision from 1983
+
+**Without GNU, there would be no Linux.**
+
+The Linux kernel is just that — a kernel. It's GNU's toolbox that makes it a complete operating system:
+
+| Tool | Purpose | Still standard? |
+|------|---------|-----------------|
+| `gcc` | C compiler | ✓ Builds the kernel |
+| `glibc` | C library | ✓ Every program uses it |
+| `coreutils` | ls, cp, mv, rm... | ✓ Basic commands |
+| `bash` | Shell | ✓ Default shell |
+| `make` | Build system | ✓ Builds everything |
+| `binutils` | Linker, assembler | ✓ Creates binaries |
+| `tar`, `gzip` | Archiving | ✓ Package distribution |
+
+**25+ years later, these tools are still the foundation.**
+
+Every time you compile a kernel, install a package, or run a command — you're using GNU.
+
+> *"Linux is the kernel. GNU is the operating system."*
+> 
+> *Nordix recognizes this — we stand on the shoulders of giants.*
 
 ---
 
-## Nordix ZFS implementation is built upon:
+**Nordix ZFS implementation is built upon:**
 - [**OpenZFS**](https://github.com/openzfs/zfs) — The open-source ZFS project for Linux and FreeBSD
 - [**ZFSBootMenu**](https://github.com/zbm-dev/zfsbootmenu) — Bootloader for ZFS-native systems
 
@@ -64,6 +93,10 @@ I recommend that you then choose one of the already established Arch-based distr
 - Today it is maintained by a dedicated community of developers
 
 > *The 10 million dollar masterpiece: ZettaByte File System*
+
+> **"Even though the project is free of charge,  
+> we are all responsible for paying by showing respect."**  
+> — *Jimmy Källhagen, Nordix*
 
 ---
 
