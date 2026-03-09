@@ -52,8 +52,10 @@ I recommend that you then choose one of the already established Arch-based distr
 - [**Udev-Rules**](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) - _Performance and hardware rules_
 - [**Kernel Config**](https://github.com/jimmykallhagen/nordix-custom-builds/blob/main/linux-tachyon-nxbuild.md) - _Base kernel configuration (modified for Nordix)_
 ---
+## **The foundation of everything**
 
 - [kernel.org](https://www.kernel.org/) - **Linux Kernel Developers**
+
 
 ## GNU Project - The Toolbox That Built Everything
 
