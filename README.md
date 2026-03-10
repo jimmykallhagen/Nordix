@@ -63,7 +63,7 @@ I recommend that you then choose one of the already established Arch-based distr
 
 **Without GNU, there would be no Linux.**
 
-The Linux kernel is just that — a kernel. It's GNU's toolbox that makes it a complete operating system:
+The Linux kernel is just that - a kernel. It's GNU's toolbox that makes it a complete operating system:
 
 | Tool | Purpose | Still standard? |
 |------|---------|-----------------|
