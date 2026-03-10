@@ -15,4 +15,4 @@ He encouraged me to contribute to other already existing "All Purpose Operating 
 
 ## Nordix - Illustration of when GNU shared its power and Linux was born (Enhancedby Nordix Shaders)
 
-![Nordix-GNU-shared-its-power-and-Linux-was-born](https://github.com/jimmykallhagen/nordix-fanart/blob/main/GNU-Linux/Nordi-shader-enhanced-GNU-shared-its-power-and-Linux-was-born-4k.png)
+- [**(Enhancedby Nordix Shaders)**](https://github.com/jimmykallhagen/nordix-fanart/blob/main/GNU-Linux/Nordi-shader-enhanced-GNU-shared-its-power-and-Linux-was-born-4k.png)
