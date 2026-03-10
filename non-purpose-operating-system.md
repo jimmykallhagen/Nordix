@@ -10,4 +10,4 @@ He encouraged me to contribute to other already existing "All Purpose Operating 
 > **"People said I should accept the world. Bullshit! I don't accept the world."**<br>
 > _Richard Stallman_
 
-![GNU-shares-its-power-4k](image/GNU-shares-its-power-4k.png)
+![Nordix-GNU-shared-its-power-and-Linux-was-born]([image/GNU-shares-its-power-4k.png](https://github.com/jimmykallhagen/nordix-fanart/blob/main/GNU-Linux/Nordix-GNU-shared-its-power-and-Linux-was-born-4k.png))
