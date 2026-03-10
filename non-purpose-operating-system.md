@@ -4,7 +4,7 @@
 He encouraged me to contribute to other already existing "All Purpose Operating Systems" instead of Nordix.**
 
 ### This created some doubts in my mind
-* I chose to follow my role model, the way I see him.
+* I chose to follow my role model, the way I see him. "_The man who saw the limitations of licenses and went his own way"_
 * That's why I chose to create the first "Non Purpose Operating System"
 
 > **"People said I should accept the world. Bullshit! I don't accept the world."**<br>
