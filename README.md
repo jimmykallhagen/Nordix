@@ -31,27 +31,6 @@ I recommend that you then choose one of the already established Arch-based distr
   - Built on Hyprland
   - [Hyprland's development team](https://github.com/hyprwm)
 
-**Nordix Kernel** - Nordix uses Linux Tachyon as default kernel
-  - [**Linux Tachyon**](https://git.staropensource.de/StarOpenSource/Linux-Tachyon) — Fork of Intel Clear Linux kernel patchset
-  - Maintained by **JeremyStarTM** and **yarost12**
-  - *When Intel abandoned Clear Linux, they kept the dream alive*
-
-> _After Intel announced the shutdown of Clear Linux on July 18th 2025, these two developers refused to let the fastest kernel patchset die.<br>
-> Nordix is proud to build upon their work._
->
-> *Nordix will carry on the Clear Linux legacy of performance, both in heart and soul.*
-
-- See: [**linux-tachyon-nxbuild**](https://github.com/jimmykallhagen/nordix-custom-builds/blob/main/linux-tachyon-nxbuild.md)
-
-  * [ ] Note - not working yet
-
- **CachyOS** - _Has been a great inspiration_
-- [**CachyOS**](https://github.com/CachyOS) - One of the fastest distros in the world
-
-**Nordix has borrowed from CachyOS:**
-- [**Udev-Rules**](/udev-rules/borrowed-from-cachyos/rules-borrowed-from-cachyos.md) - _Performance and hardware rules_
-- [**Kernel Config**](https://github.com/jimmykallhagen/nordix-custom-builds/blob/main/linux-tachyon-nxbuild.md) - _Base kernel configuration (modified for Nordix)_
----
 ## **The foundation of everything**
 
 - [kernel.org](https://www.kernel.org/) - **Linux Kernel Developers**
