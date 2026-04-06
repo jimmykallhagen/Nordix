@@ -34,7 +34,7 @@ This is not a Hyprland rice or a config collection. It is a complete desktop env
 
 Future Nordix editions will expand to additional desktop environments including KDE Plasma, GNOME, Cinnamon, and COSMIC. Yggdrasil is the flagship.
 
-### ZFS — Made Accessible
+### ZFS - Made Accessible
 
 Nordix is ZFS-only. Every installation runs on a carefully designed ZFS setup that includes:
 
