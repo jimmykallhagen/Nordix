@@ -26,7 +26,9 @@ My interest is in building systems where enterprise-grade functionality becomes 
 
 Nordix is a brand name for a family of systems. The first and primary release is **Nordix Yggdrasil**.
 
-### Yggdrasil Desktop Environment
+---
+
+## Yggdrasil Desktop Environment
 
 Yggdrasil is a full desktop environment built on Hyprland. It is designed so that you can manage your entire Arch Linux system - every setting, every service, every tool - from a graphical interface without touching a single dotfile.
 
@@ -34,7 +36,9 @@ This is not a Hyprland rice or a config collection. It is a complete desktop env
 
 Future Nordix editions will expand to additional desktop environments including KDE Plasma, GNOME, Cinnamon, and COSMIC. Yggdrasil is the flagship.
 
-### ZFS - Made Accessible
+---
+
+## ZFS - Made Accessible
 
 Nordix is ZFS-only. Every installation runs on a carefully designed ZFS setup that includes:
 
@@ -47,11 +51,15 @@ Nordix is ZFS-only. Every installation runs on a carefully designed ZFS setup th
 
 The goal is that anyone can run ZFS - with all of its data integrity, snapshot, and performance capabilities - without needing to understand it first.
 
-### Performance
+---
+
+## Performance
 
 Nordix is performance-focused. The system ships with hardware-specific optimized configurations for CPU scheduling, memory management, I/O behavior, and GPU tuning. Multiple kernel tuning profiles are available for different workloads. These are not generic tweaks - each parameter is documented with its default value, the Nordix value, and the reasoning behind the change.
 
-### Virtual Machines
+---
+
+## Virtual Machines
 
 Nordix includes guided VM setup with ZFS zvol-backed storage, benchmarked volblocksize recommendations, and optimized virsh templates for different hardware configurations (AMD/Intel, DDR4/DDR5). The documentation covers not just how to set up a VM, but why each configuration choice matters - building understanding, not just following steps.
 
@@ -59,7 +67,9 @@ Nordix includes guided VM setup with ZFS zvol-backed storage, benchmarked volblo
 
 ## Who Nordix Is For
 
-Nordix is for anyone who wants a powerful, well-engineered Linux system without having to build it themselves. It is designed with enthusiasts in mind, but built so that newcomers can use it from day one.
+Nordix is for anyone who wants a powerful, well-engineered Linux system without having to build it themselves. It is designed with enthusiasts in mind, but built so that newcomers can use it from day one. 
+
+> _A Linux power user experience for everyone_
 
 ---
 
