@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="bild.png" alt="nordix-icon">
+  <img src="/icons/hicolor/128x128/apps/nordix.png" alt="nordix-icon">
 </p>
 # Nordix
 
