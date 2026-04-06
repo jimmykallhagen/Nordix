@@ -4,7 +4,7 @@
 
 ---
 
-# Nordix
+# ![nordix-icon](/icons/hicolor/128x128/apps/nordix.png) **Nordix**
 
 **Enterprise-grade Linux, accessible to everyone.**
 
