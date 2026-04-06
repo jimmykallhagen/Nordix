@@ -14,7 +14,7 @@ I started Nordix because I believe the most powerful features in Linux should no
 
 That is the problem Nordix solves. Not by simplifying the technology, but by doing the engineering work up front so the user gets the full benefit without the complexity.
 
-Every configuration in Nordix is built with intent. ZFS ARC parameters are tuned per RAM tier with documented rationale for each value. Dataset hierarchies are designed around real desktop usage patterns — separating game files from configs from caches so that snapshots and rollbacks are surgical, not destructive. VM templates are benchmarked across different block sizes and caching strategies to find the actual optimal setup, not just the commonly repeated advice.
+Every configuration in Nordix is built with intent. ZFS ARC parameters are tuned per RAM tier with documented rationale for each value. Dataset hierarchies are designed around real desktop usage patterns - separating game files from configs from caches so that snapshots and rollbacks are surgical, not destructive. VM templates are benchmarked across different block sizes and caching strategies to find the actual optimal setup, not just the commonly repeated advice.
 
 My interest is in building systems where enterprise-grade functionality becomes invisible infrastructure - it is just there, working, for everyone. That is what drives this project, and it is the kind of work I want to do professionally.
 
