@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="bild.png" alt="nordix-icon">
+</p>
 # Nordix
 
 **Enterprise-grade Linux, accessible to everyone.**
