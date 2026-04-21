@@ -4,10 +4,30 @@
 
 **Enterprise-grade Linux | Linux Power User Experience For Everyone.**
 
-Nordix is a complete Arch Linux distribution built on ZFS. It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including people who have never used Linux before.
+# Vision
 
-Nordix is the first "Non pourpuse oprating system"
-- [**Waht is a "Non porpuse operating system?**](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)
+**_Nordix represents over 3000 hours of focused engineering work - more than a year of full-time effort._**
+
+I started Nordix because I believe the most powerful features in Linux should not be locked behind years of experience. Technologies like ZFS, boot environments, automatic snapshots, hardware-optimized kernel tuning, and zvol-backed virtual machines exist today, but setting them up correctly requires deep technical knowledge and dozens of hours of research.
+
+That is the problem Nordix solves. Not by simplifying the technology, but by doing the engineering work up front so the user gets the full benefit without the complexity.
+
+Every configuration in Nordix is built with intent. ZFS ARC parameters are tuned per RAM tier with documented rationale for each value. Dataset hierarchies are designed around real desktop usage patterns, separating game files from configs from caches so that snapshots and rollbacks are surgical, not destructive. VM templates are benchmarked across different block sizes and caching strategies to find the actual optimal setup, not just the commonly repeated advice.
+
+My interest is in building systems where enterprise-grade functionality becomes invisible infrastructure, it is just there, working, for everyone. That is what drives this project, and it is the kind of work I want to do professionally.
+
+> _One of my goals is to create a community where you can gather all enthusiasts and get a home for everyone's projects, where Nordix acts as a platform like a host instead of a project leader._
+>
+> _My idea is that you should be able to continue to have your own repos and retain ownership - if you only want Nordix to link these projects at the top of this repo, that works too._
+
+- **Jimmy Källhagen**
+
+---
+
+**Nordix** is a complete Arch Linux distribution built on ZFS. It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including people who have never used Linux before.
+
+Nordix is the first - _"Non pourpuse oprating system"_
+- [**"Non porpuse operating system?**](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)
 
 ---
 
@@ -37,25 +57,7 @@ Nordix is the first "Non pourpuse oprating system"
 - [**Nordix: A theoretical framework for ZFS-backed memory extension in local AI inference**](https://github.com/jimmykallhagen/nordix-ai-memory)
 
 ---
-## Vision
 
-**_Nordix represents over 3000 hours of focused engineering work - more than a year of full-time effort._**
-
-I started Nordix because I believe the most powerful features in Linux should not be locked behind years of experience. Technologies like ZFS, boot environments, automatic snapshots, hardware-optimized kernel tuning, and zvol-backed virtual machines exist today, but setting them up correctly requires deep technical knowledge and dozens of hours of research.
-
-That is the problem Nordix solves. Not by simplifying the technology, but by doing the engineering work up front so the user gets the full benefit without the complexity.
-
-Every configuration in Nordix is built with intent. ZFS ARC parameters are tuned per RAM tier with documented rationale for each value. Dataset hierarchies are designed around real desktop usage patterns, separating game files from configs from caches so that snapshots and rollbacks are surgical, not destructive. VM templates are benchmarked across different block sizes and caching strategies to find the actual optimal setup, not just the commonly repeated advice.
-
-My interest is in building systems where enterprise-grade functionality becomes invisible infrastructure, it is just there, working, for everyone. That is what drives this project, and it is the kind of work I want to do professionally.
-
-> _One of my goals is to create a community where you can gather all enthusiasts and get a home for everyone's projects, where Nordix acts as a platform like a host instead of a project leader._
->
-> _My idea is that you should be able to continue to have your own repos and retain ownership - if you only want Nordix to link these projects at the top of this repo, that works too._
-
-- **Jimmy Källhagen**
-
----
 
 ## What Nordix Is
 
