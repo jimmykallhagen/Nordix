@@ -11,7 +11,7 @@ Nordix is the first "Non pourpuse oprating system"
 
 ---
 
-## Nordix Repo's
+## **Nordix Repo's**
 
 ![nordix-icon](/icons/hicolor/128x128/apps/nordix.png)
 - [**Nordix ZFS Setup/configuration**](https://github.com/jimmykallhagen/nordix-zfs)
