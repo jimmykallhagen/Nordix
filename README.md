@@ -39,7 +39,7 @@ Nordix is the first "Non pourpuse oprating system"
 ---
 ## Vision
 
-_Nordix represents over 3000 hours of focused engineering work - more than a year of full-time effort._
+**_Nordix represents over 3000 hours of focused engineering work - more than a year of full-time effort._**
 
 I started Nordix because I believe the most powerful features in Linux should not be locked behind years of experience. Technologies like ZFS, boot environments, automatic snapshots, hardware-optimized kernel tuning, and zvol-backed virtual machines exist today, but setting them up correctly requires deep technical knowledge and dozens of hours of research.
 
@@ -53,7 +53,7 @@ My interest is in building systems where enterprise-grade functionality becomes 
 >
 > _My idea is that you should be able to continue to have your own repos and retain ownership - if you only want Nordix to link these projects at the top of this repo, that works too._
 
-— **Jimmy Källhagen**
+- **Jimmy Källhagen**
 
 ---
 
