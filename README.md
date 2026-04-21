@@ -2,13 +2,20 @@
 
 # ![nordix-icon](/icons/hicolor/128x128/apps/nordix.png) **Nordix**
 
-**Enterprise-grade Linux, accessible to everyone.**
+**Enterprise-grade Linux | Linux Power User Experience For Everyone.**
 
 Nordix is a complete Arch Linux distribution built on ZFS. It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including people who have never used Linux before.
 
 Nordix is the first "Non pourpuse oprating system"
 - [**Waht is a "Non porpuse operating system?**](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)
+
 ---
+
+## Nordix Repo's
+
+- [**Nordix Package Search**](https://github.com/jimmykallhagen/nordix-package-search)
+- [**Nordix Fanart/"Wallpapers**](https://github.com/jimmykallhagen/nordix-fanart/blob/main/README.md)
+
 
 ## Vision
 
