@@ -32,6 +32,7 @@ Nordix is the first "Non pourpuse oprating system"
 - [**Nordix: ZFS, ARC, zvol and Virtual Machines**](https://github.com/jimmykallhagen/nordix-vm)
 - [**Neordix: A theoretical framework for ZFS-backed memory extension in local AI inference**](https://github.com/jimmykallhagen/nordix-ai-memory)
 
+---
 ## Vision
 
 I started Nordix because I believe the most powerful features in Linux should not be locked behind years of experience. Technologies like ZFS, boot environments, automatic snapshots, hardware-optimized kernel tuning, and zvol-backed virtual machines exist today, but setting them up correctly requires deep technical knowledge and dozens of hours of research.
