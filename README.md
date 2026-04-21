@@ -6,8 +6,8 @@
 
 Nordix is a complete Arch Linux distribution built on ZFS. It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including people who have never used Linux before.
 
-No terminal required. No config files to edit. Everything is managed through graphical tools.
-
+Nordix is the first "Non pourpuse oprating system"
+- [**Waht is a "Non porpuse operating system?**](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)
 ---
 
 ## Vision
@@ -19,6 +19,10 @@ That is the problem Nordix solves. Not by simplifying the technology, but by doi
 Every configuration in Nordix is built with intent. ZFS ARC parameters are tuned per RAM tier with documented rationale for each value. Dataset hierarchies are designed around real desktop usage patterns, separating game files from configs from caches so that snapshots and rollbacks are surgical, not destructive. VM templates are benchmarked across different block sizes and caching strategies to find the actual optimal setup, not just the commonly repeated advice.
 
 My interest is in building systems where enterprise-grade functionality becomes invisible infrastructure, it is just there, working, for everyone. That is what drives this project, and it is the kind of work I want to do professionally.
+
+
+>_One of my goals is to create a community where you can gather all enthusiasts and get a home for everyone's projects, where Nordix acts as a platform like a host instead of a project leader
+>My idea is that you should be able to continue to have your own>> repos and maintain your honor and if you then only want Nordix to link these projects at the top of this repo_
 
 - **Jimmy Källhagen**
 
