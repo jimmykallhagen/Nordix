@@ -19,12 +19,12 @@ Nordix is the first "Non pourpuse oprating system"
 ---
 ![yggdrasil-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/yggdrasil.png)
 - [**yggdrasil-icon Yggdrasil Desktop Environment**](https://github.com/jimmykallhagen/yggdrasil-DE)
-- [**Nordix Graful Shordown**](https://github.com/jimmykallhagen/nordix-graceful-shutdown)
+- [**Nordix Graceful Shotdown**](https://github.com/jimmykallhagen/nordix-graceful-shutdown)
 - [**Nordix Fanart/"Wallpapers**](https://github.com/jimmykallhagen/nordix-fanart/blob/main/README.md)
 ---
  ![nordix-tools-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/nordix-term.png)
 - [**Nordix Package Search**](https://github.com/jimmykallhagen/nordix-package-search)
-- [**Noridx Tools**](https://github.com/jimmykallhagen/nordix-tools)
+- [**Nordix Tools**](https://github.com/jimmykallhagen/nordix-tools)
 - [**Nordix CLI-Tools**](https://github.com/jimmykallhagen/nordix-cli)
 
 ---
@@ -34,10 +34,12 @@ Nordix is the first "Non pourpuse oprating system"
 ---
 
 - [**Nordix: ZFS, ARC, zvol and Virtual Machines**](https://github.com/jimmykallhagen/nordix-vm)
-- [**Neordix: A theoretical framework for ZFS-backed memory extension in local AI inference**](https://github.com/jimmykallhagen/nordix-ai-memory)
+- [**Nordix: A theoretical framework for ZFS-backed memory extension in local AI inference**](https://github.com/jimmykallhagen/nordix-ai-memory)
 
 ---
 ## Vision
+
+_Nordix represents over 3000 hours of focused engineering work - more than a year of full-time effort._
 
 I started Nordix because I believe the most powerful features in Linux should not be locked behind years of experience. Technologies like ZFS, boot environments, automatic snapshots, hardware-optimized kernel tuning, and zvol-backed virtual machines exist today, but setting them up correctly requires deep technical knowledge and dozens of hours of research.
 
@@ -47,11 +49,11 @@ Every configuration in Nordix is built with intent. ZFS ARC parameters are tuned
 
 My interest is in building systems where enterprise-grade functionality becomes invisible infrastructure, it is just there, working, for everyone. That is what drives this project, and it is the kind of work I want to do professionally.
 
+> _One of my goals is to create a community where you can gather all enthusiasts and get a home for everyone's projects, where Nordix acts as a platform like a host instead of a project leader._
+>
+> _My idea is that you should be able to continue to have your own repos and retain ownership - if you only want Nordix to link these projects at the top of this repo, that works too._
 
->_One of my goals is to create a community where you can gather all enthusiasts and get a home for everyone's projects, where Nordix acts as a platform like a host instead of a project leader._
->_My idea is that you should be able to continue to have your own repos and maintain your honor and if you then only want Nordix to link these projects at the top of this repo_
-
-- **Jimmy Källhagen**
+— **Jimmy Källhagen**
 
 ---
 
