@@ -83,9 +83,7 @@ Nordix is in active development. Yggdrasil is the current focus.
 
 ## Licensing
 
-Nordix is licensed under [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/). The source code is fully available. You are free to use, study, modify, and share Nordix for any personal or non-commercial purpose. Commercial use requires a separate license agreement.
-
-For the reasoning behind this choice, see [WHY-POLYFORM-NONCOMMERCIAL.md](WHY-POLYFORM-NONCOMMERCIAL.md).
+Nordix is licensed under [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/). But i have started to change it to GPL v3.
 
 ---
 
