@@ -21,8 +21,8 @@ Every configuration in Nordix is built with intent. ZFS ARC parameters are tuned
 My interest is in building systems where enterprise-grade functionality becomes invisible infrastructure, it is just there, working, for everyone. That is what drives this project, and it is the kind of work I want to do professionally.
 
 
->_One of my goals is to create a community where you can gather all enthusiasts and get a home for everyone's projects, where Nordix acts as a platform like a host instead of a project leader
->My idea is that you should be able to continue to have your own>> repos and maintain your honor and if you then only want Nordix to link these projects at the top of this repo_
+>_One of my goals is to create a community where you can gather all enthusiasts and get a home for everyone's projects, where Nordix acts as a platform like a host instead of a project leader._
+>_My idea is that you should be able to continue to have your own repos and maintain your honor and if you then only want Nordix to link these projects at the top of this repo_
 
 - **Jimmy Källhagen**
 
