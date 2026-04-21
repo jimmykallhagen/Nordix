@@ -27,7 +27,7 @@ My interest is in building systems where enterprise-grade functionality becomes 
 **Nordix** is a complete Arch Linux distribution built on ZFS. It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including people who have never used Linux before.
 
 Nordix is the first - _"Non pourpuse oprating system"_
-- [**"Non porpuse operating system"?**](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)
+- [**"Non porpuse operating system?"**](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)
 
 ---
 
