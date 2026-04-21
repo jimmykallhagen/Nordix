@@ -12,9 +12,25 @@ Nordix is the first "Non pourpuse oprating system"
 ---
 
 ## Nordix Repo's
+
+![nordix-icon](/icons/hicolor/128x128/apps/nordix.png)
 - [**Nordix ZFS Setup/configuration**](https://github.com/jimmykallhagen/nordix-zfs)
-- [**Nordix Package Search**](https://github.com/jimmykallhagen/nordix-package-search)
+- [**Nordix Performance: GPU, CPU, Memory, Kernel**](https://github.com/jimmykallhagen/nordix-performance)
+
+![yggdrasil-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/yggdrasil.png)
+- [**yggdrasil-icon Yggdrasil Desktop Environment**](https://github.com/jimmykallhagen/yggdrasil-DE)
+- [**Nordix Graful Shordown**](https://github.com/jimmykallhagen/nordix-graceful-shutdown)
 - [**Nordix Fanart/"Wallpapers**](https://github.com/jimmykallhagen/nordix-fanart/blob/main/README.md)
+
+ ![nordix-tools-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/nordix-term.png)
+- [**Nordix Package Search**](https://github.com/jimmykallhagen/nordix-package-search)
+- [**Noridx Tools**](https://github.com/jimmykallhagen/nordix-tools)
+- [**Nordix CLI-Tools**](https://github.com/jimmykallhagen/nordix-cli)
+
+
+
+- [**Nordix: ZFS, ARC, zvol and Virtual Machines**](https://github.com/jimmykallhagen/nordix-vm)
+- [**Neordix: A theoretical framework for ZFS-backed memory extension in local AI inference**](https://github.com/jimmykallhagen/nordix-ai-memory)
 
 ## Vision
 
