@@ -88,8 +88,8 @@ Nordix is in active development. Yggdrasil is the current focus.
 ## Licensing
 Nordix is licensed under the **GNU General Public License, version 3 or later**
 
-`SPDX-License-Identifier: GPL-3.0-or-later
- Copyright (c) 2025- The Nordix Authors`
+`SPDX-License-Identifier: GPL-3.0-or-later`
+`Copyright (c) 2025- The Nordix Authors`
  
 Nordix was licensed under [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/). But i have started to change it to GPL v3.
 
