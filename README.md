@@ -28,6 +28,8 @@ Nordix is the first "Non pourpuse oprating system"
 - [**Nordix CLI-Tools**](https://github.com/jimmykallhagen/nordix-cli)
 
 ---
+[**Nordix Cheatsheet**](https://github.com/jimmykallhagen/nordix-cheatsheet)
+---
 
 - [**Nordix: ZFS, ARC, zvol and Virtual Machines**](https://github.com/jimmykallhagen/nordix-vm)
 - [**Neordix: A theoretical framework for ZFS-backed memory extension in local AI inference**](https://github.com/jimmykallhagen/nordix-ai-memory)
