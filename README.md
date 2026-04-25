@@ -30,16 +30,6 @@ Nordix is the first - _"Non pourpuse oprating system"_
 - [**"Non porpuse operating system?"**](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)
 
 ---
-## **Screenhots** - _Whith Nordix Dynamic Theme_
-1. 
-![1](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2004%3A11%3A59%20PM%20UTC%202026.png)
-2. 
-![2](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2003%3A45%3A08%20PM%20UTC%202026.png)
-3.
-![3](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2003%3A47%3A36%20PM%20UTC%202026.png)
-4.
-![4](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Tue%20Apr%2021%2009%3A14%3A01%20PM%20UTC%202026.png)
----
 
 ## **Nordix Repo's**
 
@@ -83,6 +73,16 @@ This is not a Hyprland rice or a config collection. It is a complete desktop env
 
 Future Nordix editions will expand to additional desktop environments including KDE Plasma, GNOME, Cinnamon, and COSMIC. Yggdrasil is the flagship.
 
+---
+## **Screenhots** - _Whith Nordix Dynamic Theme_
+1. 
+![1](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2004%3A11%3A59%20PM%20UTC%202026.png)
+2. 
+![2](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2003%3A45%3A08%20PM%20UTC%202026.png)
+3.
+![3](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2003%3A47%3A36%20PM%20UTC%202026.png)
+4.
+![4](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Tue%20Apr%2021%2009%3A14%3A01%20PM%20UTC%202026.png)
 ---
 
 ## ZFS - Made Accessible
