@@ -30,6 +30,16 @@ Nordix is the first - _"Non pourpuse oprating system"_
 - [**"Non porpuse operating system?"**](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)
 
 ---
+## **Screenhots** - _Whith Nordix Dynamic Theme_
+1. 
+![1]("/screenshots/Screenshot-Sat Apr 25 04:11:59 PM UTC 2026.png")
+2. 
+![2]("/screenshots/Screenshot-Sat Apr 25 03:45:08 PM UTC 2026.png")
+3.
+![3]("/screenshots/Screenshot-Sat Apr 25 03:47:36 PM UTC 2026.png")
+4.
+![4]("/screenshots/Screenshot-Tue Apr 21 09:14:01 PM UTC 2026.png")
+---
 
 ## **Nordix Repo's**
 
