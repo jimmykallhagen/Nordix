@@ -70,7 +70,7 @@ Nordix is a brand name for a family of systems. The first and primary release is
 
 ## Yggdrasil Desktop Environment
 
-Yggdrasil is a full desktop environment built on Hyprland. It is designed so that you can manage your entire Arch Linux system, every setting, every service, every tool, from a graphical interface without touching a single dotfile.
+Yggdrasil is a full desktop environment built on Hyprland. It is designed so that you can manage your entire desktop environment from a graphical interface without touching a single dotfile.
 
 This is not a Hyprland rice or a config collection. It is a complete desktop environment.
 
