@@ -90,6 +90,8 @@ Future Nordix editions will expand to additional desktop environments including 
 ![5](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2007%3A40%3A13%20PM%20UTC%202026.png)
 6.
 ![6](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2007%3A40%3A29%20PM%20UTC%202026.png)
+7.
+![7](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2007%3A47%3A07%20PM%20UTC%202026.png)
 ---
 
 ## ZFS - Made Accessible
