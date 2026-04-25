@@ -56,8 +56,8 @@ Nordix is the first - _"Non pourpuse oprating system"_
 - [**Nordix: ZFS, ARC, zvol and Virtual Machines**](https://github.com/jimmykallhagen/nordix-vm)
 - [**Nordix: A theoretical framework for ZFS-backed memory extension in local AI inference**](https://github.com/jimmykallhagen/nordix-ai-memory)
 
+---
 _This is an ongoing project and I'm working on getting everything up on git, I have a version of the iso but it is also being rebuilt to include everything._
-
 ---
 
 
