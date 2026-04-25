@@ -32,13 +32,13 @@ Nordix is the first - _"Non pourpuse oprating system"_
 ---
 ## **Screenhots** - _Whith Nordix Dynamic Theme_
 1. 
-![1](/screenshots/Screenshot-Sat Apr 25 04:11:59 PM UTC 2026.png)
+![1]([/screenshots/Screenshot-Sat Apr 25 04:11:59 PM UTC 2026.png](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2004%3A11%3A59%20PM%20UTC%202026.png))
 2. 
-![2](/screenshots/Screenshot-Sat Apr 25 03:45:08 PM UTC 2026.png)
+![2]([/screenshots/Screenshot-Sat Apr 25 03:45:08 PM UTC 2026.png](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2003%3A45%3A08%20PM%20UTC%202026.png))
 3.
-![3](/screenshots/Screenshot-Sat Apr 25 03:47:36 PM UTC 2026.png)
+![3]([/screenshots/Screenshot-Sat Apr 25 03:47:36 PM UTC 2026.png](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2003%3A47%3A36%20PM%20UTC%202026.png))
 4.
-![4](/screenshots/Screenshot-Tue Apr 21 09:14:01 PM UTC 2026.png)
+![4]([/screenshots/Screenshot-Tue Apr 21 09:14:01 PM UTC 2026.png](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Tue%20Apr%2021%2009%3A14%3A01%20PM%20UTC%202026.png))
 ---
 
 ## **Nordix Repo's**
