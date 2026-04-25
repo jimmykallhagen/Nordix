@@ -58,6 +58,7 @@ Nordix is the first - _"Non pourpuse oprating system"_
 
 ---
 _This is an ongoing project and I'm working on getting everything up on git, I have a version of the iso but it is also being rebuilt to include everything._
+
 ---
 
 
