@@ -77,7 +77,7 @@ This is not a Hyprland rice or a config collection. It is a complete desktop env
 Future Nordix editions will expand to additional desktop environments including KDE Plasma, GNOME, Cinnamon, and COSMIC. Yggdrasil is the flagship.
 
 ---
-## **Screenhots **_**:**_ Nordix Yggdrasil - _Whith Nordix Dynamic Theme_
+## **Screenhots** _**:**_ Nordix Yggdrasil - _Whith Nordix Dynamic Theme_
 1. 
 ![1](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2004%3A11%3A59%20PM%20UTC%202026.png)
 2. 
