@@ -135,6 +135,20 @@ Nordix is in active development. Yggdrasil is the current focus.
 
 ---
 
+## Contribute
+
+Nordix is a meeting place for system enthusiasts, a home for those who find joy in understanding how systems work.
+
+**Join Nordix**
+  - contribute to the core system through development, testing, ideas, documentation or content creation. No prior project needed, just passion and curiosity.
+
+**Bring your project**
+  - if you have a project you believe in, you can give it a home within Nordix. You keep your name, your repo, and your leadership. Nordix is the host, not the owner. You decide if your project becomes part of Nordix or stays independent but linked. The only requirement is that contributions are wholehearted. Nordix holds a high standard, not of experience, but of passion.
+
+We don’t have a community chat yet. When the first contributors arrive, we’ll decide together where to meet.
+
+---
+
 ## Licensing
 Nordix is licensed under the **GNU General Public License, version 3 or later**
 
