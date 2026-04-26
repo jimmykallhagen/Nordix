@@ -122,8 +122,8 @@ Nordix includes guided VM setup with ZFS zvol backed storage, benchmarked volblo
 ---
 
 ## Who Nordix Is For
-
-Nordix is for anyone who wants a powerful, well engineered Linux system without having to build it themselves. It is designed with enthusiasts in mind, but built so that newcomers can use it from day one. 
+ 
+Whether you are an experienced Linux user or a Windows power user ready to make the switch - Nordix gives you the full experience from day one.
 
 > _A Linux power user experience for everyone_
 
