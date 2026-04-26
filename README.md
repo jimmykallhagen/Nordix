@@ -26,8 +26,8 @@ My interest is in building systems where enterprise-grade functionality becomes 
 
 **Nordix** is a complete Arch Linux distribution built on ZFS. It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including people who have never used Linux before.
 
-Nordix is the first - _"Non pourpuse oprating system"_
-- [**"Non porpuse operating system?"**](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)
+Nordix is the first - _“Non purpose operating system”_
+- [**"Non purpose operating system?"**](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)
 
 ---
 
@@ -77,7 +77,7 @@ This is not a Hyprland rice or a config collection. It is a complete desktop env
 Future Nordix editions will expand to additional desktop environments including KDE Plasma, GNOME, Cinnamon, and COSMIC. Yggdrasil is the flagship.
 
 ---
-## **Screenhots** _**:**_ Nordix Yggdrasil - _Whith Nordix Dynamic Theme_
+## **Screenshots** _**:**_ Nordix Yggdrasil - _With Nordix Dynamic Theme_
 1. 
 ![1](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2004%3A11%3A59%20PM%20UTC%202026.png)
 2. 
@@ -131,7 +131,8 @@ Nordix is for anyone who wants a powerful, well engineered Linux system without 
 
 ## Project Status
 
-Nordix is in active development. Yggdrasil is the current focus.
+Nordix is in active development. 
+Focus right now is to get everything up on Github and be able to get Yggdrasil as a working DE to install from AUR. ISO is built and I myself have been running Nordix with this iso since August 2025, however it is now no longer relevant and this will be prioritized soon, to update it with the latest Nordix - Yggdrasil
 
 ---
 
