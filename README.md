@@ -40,7 +40,7 @@ Nordix is the first - _“Non purpose operating system”_
 ![yggdrasil-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/yggdrasil.png)
 - [**yggdrasil-icon Yggdrasil Desktop Environment**](https://github.com/jimmykallhagen/yggdrasil-DE)
 - [**Nordix Graceful Shotdown**](https://github.com/jimmykallhagen/nordix-graceful-shutdown)
-- [**Nordix Fanart/"Wallpapers**](https://github.com/jimmykallhagen/nordix-fanart/blob/main/README.md)
+- [**Nordix Fanart/Wallpapers**](https://github.com/jimmykallhagen/nordix-fanart/blob/main/README.md)
 ---
  ![nordix-tools-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/nordix-term.png)
 - [**Nordix Package Search**](https://github.com/jimmykallhagen/nordix-package-search)
