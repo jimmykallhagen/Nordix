@@ -38,7 +38,7 @@ Nordix is the first - _“Non purpose operating system”_
 - [**Nordix Performance: GPU, CPU, Memory, Kernel**](https://github.com/jimmykallhagen/nordix-performance)
 ---
 ![yggdrasil-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/yggdrasil.png)
-- [**yggdrasil-icon Yggdrasil Desktop Environment**](https://github.com/jimmykallhagen/yggdrasil-DE)
+- [**Yggdrasil Desktop Environment**](https://github.com/jimmykallhagen/yggdrasil-DE)
 - [**Nordix Graceful Shotdown**](https://github.com/jimmykallhagen/nordix-graceful-shutdown)
 - [**Nordix Fanart/Wallpapers**](https://github.com/jimmykallhagen/nordix-fanart/blob/main/README.md)
 ---
@@ -75,9 +75,10 @@ Yggdrasil is a full desktop environment built on Hyprland. It is designed so tha
 
 This is not a Hyprland rice or a config collection. It is a complete desktop environment.
 
-Future Nordix editions will expand to additional desktop environments including KDE Plasma, GNOME, Cinnamon, and COSMIC. Yggdrasil is the flagship.
+- [**Yggdrasil Desktop Environment**](https://github.com/jimmykallhagen/yggdrasil-DE)
 
 ---
+
 ## **Screenshots** _**:**_ Nordix Yggdrasil - _With Nordix Dynamic Theme_
 1. 
 ![1](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2004%3A11%3A59%20PM%20UTC%202026.png)
