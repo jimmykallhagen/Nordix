@@ -52,7 +52,8 @@ Nordix is the first - _“Non purpose operating system”_
 - [**Nordix Cheatsheet**](https://github.com/jimmykallhagen/nordix-cheatsheet)
 
 ---
-
+![HHD-oooH-HHD](https://github.com/jimmykallhagen/nordix-zfs/blob/main/nordix-hhd.png)
+- [**ZPOOL Stipe - HHD - SSD Special Vdev**](https://github.com/jimmykallhagen/nordix-zfs-storage)
 - [**Nordix: ZFS, ARC, zvol and Virtual Machines**](https://github.com/jimmykallhagen/nordix-vm)
 - [**Nordix: A theoretical framework for ZFS-backed memory extension in local AI inference**](https://github.com/jimmykallhagen/nordix-ai-memory)
 
