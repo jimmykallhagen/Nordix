@@ -26,7 +26,7 @@ My interest is in building systems where enterprise-grade functionality becomes 
 
 - Nordix is not safe because it is careful
 > Most systems manage risk by being conservative. Nordix manages risk by making the consequences of failure irrelevant.
->Run bleeding edge kernels. Test breaking changes. Experiment freely with your system. If something goes wrong – reboot and roll back to an automatically taken snapshot via ZFSBootMenu. The entire process takes seconds.
+> Run bleeding edge kernels. Test breaking changes. Experiment freely with your system. If something goes wrong --> reboot and roll back to an automatically taken snapshot via ZFSBootMenu. The entire process takes seconds or create a clone of a previous snapshot --> boot clone mount your system and fix the errors in chroot, you can also fix the errors directly from zfbootmenu automatic chroot function
 
 - Want to isolate an experiment completely?
 > Create a clone of your root dataset directly from ZFSBootMenu and boot into it.
