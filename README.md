@@ -20,7 +20,9 @@ My interest is in building systems where enterprise-grade functionality becomes 
 >
 > _My idea is that you should be able to continue to have your own repos and retain ownership - if you only want Nordix to link these projects at the top of this repo, that works too._
 
-- **Jimmy Källhagen**
+- _**Jimmy Källhagen**_
+
+---
 
 - Nordix is not safe because it is careful
 > Most systems manage risk by being conservative. Nordix manages risk by making the consequences of failure irrelevant.
