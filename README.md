@@ -22,6 +22,17 @@ My interest is in building systems where enterprise-grade functionality becomes 
 
 - **Jimmy Källhagen**
 
+- Nordix is not safe because it is careful
+> Most systems manage risk by being conservative. Nordix manages risk by making the consequences of failure irrelevant.
+>Run bleeding edge kernels. Test breaking changes. Experiment freely with your system. If something goes wrong – reboot and roll back to an automatically taken snapshot via ZFSBootMenu. The entire process takes seconds.
+
+- Want to isolate an experiment completely?
+> Create a clone of your root dataset directly from ZFSBootMenu and boot into it.
+> Your actual installation remains untouched while you test whatever you want inside the clone.
+> This is not a recovery feature. It is the intended workflow.
+
+Nordix inverts the traditional distribution logic. Instead of protecting you from risk, Nordix gives you the tools to make risk irrelevant.
+
 ---
 
 **Nordix** is a complete Arch Linux distribution built on ZFS. It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including people who have never used Linux before.
