@@ -1,4 +1,4 @@
- <p style="align:center"><img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nordix-magic/nordix-is-magic.png" /></p>
+<div style="text-align:center"><img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nordix-magic/nordix-is-magic.png" /></div>
 # **Nordix**
 
 **Enterprise-grade Linux | Linux Power User Experience For Everyone.**
