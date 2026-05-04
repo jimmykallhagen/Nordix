@@ -6,6 +6,12 @@
 
 **Enterprise-grade Linux | Linux Power User Experience For Everyone.**
 
+A complete Arch Linux distribution built on ZFS. It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including entusiasts that are new to Linux.
+
+Nordix is the first - _“Non purpose operating system”_    </br>
+
+  [<kbd> <br> **NON PURPOSE OPERATING SYSTEM?** <br> </kbd>](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)</br>
+
 # Vision
 
 **_Nordix represents over 3000 hours of focused engineering work - more than a year of full-time effort._**
@@ -33,17 +39,10 @@ My interest is in building systems where enterprise-grade functionality becomes 
 - Want to isolate an experiment completely?
 > Create a clone of your root dataset directly from ZFSBootMenu and boot into it.
 > Your actual installation remains untouched while you test whatever you want inside the clone.
-> This is not a recovery feature. It is the intended workflow and it is faster, simpler and your exact system environment unlike dockers.
+> This is not a recovery feature. It is the intended workflow and it is faster, simpler and your exact system environment unlike dockers. This is the base function of Solaris Zones.
 
 Nordix inverts the traditional distribution logic. Instead of protecting you from risk, Nordix gives you the tools to make risk irrelevant.
 
----
-
-**Nordix** is a complete Arch Linux distribution built on ZFS. It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including people who have never used Linux before.
-
-Nordix is the first - _“Non purpose operating system”_    </br>
-
-  [<kbd> <br> **NON PURPOSE OPERATING SYSTEM?** <br> </kbd>](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)</br>
 ---
 
 ## **Nordix Repo's**
