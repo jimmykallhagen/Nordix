@@ -1,6 +1,6 @@
+![norix-is-magic](https://github.com/jimmykallhagen/nordix-fanart/blob/main/Nordix-is-magic/nordix-magic.png)
 
-
-# ![nordix-icon](/icons/hicolor/128x128/apps/nordix.png) **Nordix**
+# **Nordix**
 
 **Enterprise-grade Linux | Linux Power User Experience For Everyone.**
 
