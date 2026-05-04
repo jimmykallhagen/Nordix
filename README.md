@@ -1,5 +1,4 @@
-![]()
- <div style="text-align: center"><img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nordix-magic/nordix-is-magic.png" alt="nordix-is-magic"></div> 
+ <p style="align:center"><img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nordix-magic/nordix-is-magic.png" /></p>
 # **Nordix**
 
 **Enterprise-grade Linux | Linux Power User Experience For Everyone.**
