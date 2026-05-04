@@ -42,36 +42,69 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
 Nordix is the first - _“Non purpose operating system”_    </br>
 
   [<kbd> <br> **NON PURPOSE OPERATING SYSTEM?** <br> </kbd>](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)</br>
-- [**"Non purpose operating system?"**](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)
-
 ---
 
 ## **Nordix Repo's**
 
 ![nordix-icon](/icons/hicolor/128x128/apps/nordix.png)
-- [**Nordix ZFS Setup/configuration**](https://github.com/jimmykallhagen/nordix-zfs)
-- [**Nordix Performance: GPU, CPU, Memory, Kernel**](https://github.com/jimmykallhagen/nordix-performance)
+- [**Nordix ZFS Setup/configuration**]
+  [<kbd> <br> **NORDIX ZFS SETUP/CONFIGURATION** <br> </kbd>](https://github.com/jimmykallhagen/nordix-zfs)</br> 
+
+- 
+- [**Nordix Performance: GPU, CPU, Memory, Kernel**]
+  [<kbd> <br> **NORDIX PERFORMANCE: GPU, CPU, MEMORY, KERNEL** <br> </kbd>](https://github.com/jimmykallhagen/nordix-performance)</br> 
+
+
 ---
 ![yggdrasil-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/yggdrasil.png)
-- [**Yggdrasil Desktop Environment**](https://github.com/jimmykallhagen/yggdrasil-DE)
-- [**Nordix Hypralnd Mirorrs**](https://github.com/jimmykallhagen/noridx-hyprland-mirrors/tree/main)
-- [**Nordix Graceful Shotdown**](https://github.com/jimmykallhagen/nordix-graceful-shutdown)
-- [**Nordix Fanart/Wallpapers**](https://github.com/jimmykallhagen/nordix-fanart/blob/main/README.md)
+- [**Yggdrasil Desktop Environment**]
+  [<kbd> <br> **YGGDRASIL DESKTOP ENVIRONMENT** <br> </kbd>](https://github.com/jimmykallhagen/yggdrasil-DE)</br> 
+
+
+- [**Nordix Hypralnd Mirorrs**]
+  [<kbd> <br> **NORDIX HYPRLAND MIRRORS** <br> </kbd>](https://github.com/jimmykallhagen/noridx-hyprland-mirrors/tree/main)</br> 
+
+
+- [**Nordix Graceful Shotdown**]
+  [<kbd> <br> **NORDIX GRACEFUL SHOTDOWN** <br> </kbd>](https://github.com/jimmykallhagen/nordix-graceful-shutdown)</br> 
+
+
+
+- [**Nordix Fanart/Wallpapers**]
+  [<kbd> <br> **NORDIX FANART/WALLPAPER** <br> </kbd>](https://github.com/jimmykallhagen/nordix-fanart/blob/main/README.md)</br> 
+
+
 ---
  ![nordix-tools-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/nordix-term.png)
-- [**Nordix Package Search**](https://github.com/jimmykallhagen/nordix-package-search)
-- [**Nordix Tools**](https://github.com/jimmykallhagen/nordix-tools)
-- [**Nordix CLI-Tools**](https://github.com/jimmykallhagen/nordix-cli)
+- [**Nordix Package Search**]
+  [<kbd> <br> **NORDIX PACKAGE SEARCH** <br> </kbd>](https://github.com/jimmykallhagen/nordix-package-search)</br> 
+
+
+- [**Nordix Tools**]
+  [<kbd> <br> **NORDIX TOOLS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-tools)</br> 
+
+
+
+- [**Nordix CLI-Tools**]
+  [<kbd> <br> **NORDIX CLI-TOOLS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cli)</br> 
 
 ---
 
-- [**Nordix Cheatsheet**](https://github.com/jimmykallhagen/nordix-cheatsheet)
+- [**Nordix Cheatsheet**]
+  [<kbd> <br> **NORDIX CHEATSHEET** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cheatsheet)</br> 
 
 ---
 ![HHD-oooH-HHD](https://github.com/jimmykallhagen/nordix-zfs/blob/main/nordix-hhd.png)
-- [**Nordix's guide to ZFS**](https://github.com/jimmykallhagen/nordix-guide-to-zfs)
-- [**Nordix: ZFS, ARC, zvol and Virtual Machines**](https://github.com/jimmykallhagen/nordix-vm)
-- [**Nordix: A theoretical framework for ZFS-backed memory extension in local AI inference**](https://github.com/jimmykallhagen/nordix-ai-memory)
+- [**Nordix's guide to ZFS**]()
+  [<kbd> <br> **NORDIX ZGUIDE TO ZFS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-ZGuide_guide-to-zfs)</br> 
+
+
+- [**Nordix: ZFS, ARC, zvol and Virtual Machines**]
+  [<kbd> <br> **NORDIX-VIRTUAL MACHINES AND ZFS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-vm)</br> 
+
+
+- [**Nordix: A theoretical framework for ZFS-backed memory extension in local AI inference**]
+  [<kbd> <br> **NORDIX: A THEORETICAL FRAMEWORK FOR ZFS_BACKEND MEMORY EXTENSION IN LOCAL AI INTERFERENCE** <br> </kbd>](https://github.com/jimmykallhagen/nordix-ai-memory)</br> 
 
 ---
 _This is an ongoing project and I'm working on getting everything up on git, I have a version of the iso but it is also being rebuilt to include everything._
@@ -91,7 +124,7 @@ Yggdrasil is a full desktop environment built on Hyprland. It is designed so tha
 
 This is not a Hyprland rice or a config collection. It is a complete desktop environment.
 
-- [**Yggdrasil Desktop Environment**](https://github.com/jimmykallhagen/yggdrasil-DE)
+  [<kbd> <br> **YGGDRASIL DESKTOP ENVIRONMENT** <br> </kbd>](https://github.com/jimmykallhagen/yggdrasil-DE)</br> 
 
 ---
 
