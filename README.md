@@ -47,63 +47,40 @@ Nordix is the first - _“Non purpose operating system”_    </br>
 ## **Nordix Repo's**
 
 ![nordix-icon](/icons/hicolor/128x128/apps/nordix.png)
-- [**Nordix ZFS Setup/configuration**]
   [<kbd> <br> **NORDIX ZFS SETUP/CONFIGURATION** <br> </kbd>](https://github.com/jimmykallhagen/nordix-zfs)</br> 
 
-- 
-- [**Nordix Performance: GPU, CPU, Memory, Kernel**]
   [<kbd> <br> **NORDIX PERFORMANCE: GPU, CPU, MEMORY, KERNEL** <br> </kbd>](https://github.com/jimmykallhagen/nordix-performance)</br> 
 
 
 ---
 ![yggdrasil-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/yggdrasil.png)
-- [**Yggdrasil Desktop Environment**]
   [<kbd> <br> **YGGDRASIL DESKTOP ENVIRONMENT** <br> </kbd>](https://github.com/jimmykallhagen/yggdrasil-DE)</br> 
 
-
-- [**Nordix Hypralnd Mirorrs**]
   [<kbd> <br> **NORDIX HYPRLAND MIRRORS** <br> </kbd>](https://github.com/jimmykallhagen/noridx-hyprland-mirrors/tree/main)</br> 
 
-
-- [**Nordix Graceful Shotdown**]
   [<kbd> <br> **NORDIX GRACEFUL SHOTDOWN** <br> </kbd>](https://github.com/jimmykallhagen/nordix-graceful-shutdown)</br> 
 
-
-
-- [**Nordix Fanart/Wallpapers**]
   [<kbd> <br> **NORDIX FANART/WALLPAPER** <br> </kbd>](https://github.com/jimmykallhagen/nordix-fanart/blob/main/README.md)</br> 
 
 
 ---
  ![nordix-tools-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/nordix-term.png)
-- [**Nordix Package Search**]
   [<kbd> <br> **NORDIX PACKAGE SEARCH** <br> </kbd>](https://github.com/jimmykallhagen/nordix-package-search)</br> 
 
-
-- [**Nordix Tools**]
   [<kbd> <br> **NORDIX TOOLS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-tools)</br> 
 
-
-
-- [**Nordix CLI-Tools**]
   [<kbd> <br> **NORDIX CLI-TOOLS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cli)</br> 
 
 ---
 
-- [**Nordix Cheatsheet**]
   [<kbd> <br> **NORDIX CHEATSHEET** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cheatsheet)</br> 
 
 ---
 ![HHD-oooH-HHD](https://github.com/jimmykallhagen/nordix-zfs/blob/main/nordix-hhd.png)
-- [**Nordix's guide to ZFS**]()
   [<kbd> <br> **NORDIX ZGUIDE TO ZFS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-ZGuide_guide-to-zfs)</br> 
 
-
-- [**Nordix: ZFS, ARC, zvol and Virtual Machines**]
   [<kbd> <br> **NORDIX-VIRTUAL MACHINES AND ZFS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-vm)</br> 
 
-
-- [**Nordix: A theoretical framework for ZFS-backed memory extension in local AI inference**]
   [<kbd> <br> **NORDIX: A THEORETICAL FRAMEWORK FOR ZFS_BACKEND MEMORY EXTENSION IN LOCAL AI INTERFERENCE** <br> </kbd>](https://github.com/jimmykallhagen/nordix-ai-memory)</br> 
 
 ---
