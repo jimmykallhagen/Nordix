@@ -40,6 +40,8 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
 **Nordix** is a complete Arch Linux distribution built on ZFS. It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including people who have never used Linux before.
 
 Nordix is the first - _“Non purpose operating system”_
+  [<kbd> <br> **Non purpose operating system?** <br> </kbd>](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)</br>
+   </br>
 - [**"Non purpose operating system?"**](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)
 
 ---
