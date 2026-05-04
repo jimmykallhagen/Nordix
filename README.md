@@ -6,7 +6,7 @@
 
 **Enterprise-grade Linux | Linux Power User Experience For Everyone.**
 
-A complete Arch Linux distribution built on ZFS. It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including entusiasts that are new to Linux.
+A complete Arch Linux distribution built on ZFS and a full tilling desktop environment "Yggdrasil". It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including entusiasts that are new to Linux.
 
 Nordix is the first - _“Non purpose operating system”_    </br>
 
@@ -92,14 +92,7 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
   [<kbd> <br> **NORDIX: A THEORETICAL FRAMEWORK FOR ZFS_BACKEND MEMORY EXTENSION IN LOCAL AI INTERFERENCE** <br> </kbd>](https://github.com/jimmykallhagen/nordix-ai-memory)</br> 
 
 ---
-_This is an ongoing project and I'm working on getting everything up on git, I have a version of the iso but it is also being rebuilt to include everything._
-
----
-
-
-## What Nordix Is
-
-Nordix is a brand name for a family of systems. The first and primary release is **Nordix Yggdrasil**.
+_This is an ongoing project and I'm working on getting everything up on git, I have a version of the iso but it is also being rebuilt to 
 
 ---
 
