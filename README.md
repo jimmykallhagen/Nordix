@@ -41,7 +41,7 @@ My interest is in building systems where enterprise-grade functionality becomes 
 > Your actual installation remains untouched while you test whatever you want inside the clone.
 > This is not a recovery feature. It is the intended workflow and it is faster, simpler and your exact system environment unlike dockers.
 
-> Clone your system, it will not take any extra disk space, mount it, use arch-chroot and you have something that have potential beoynd dockers.
+> Clone your system, it will not take any extra disk space, mount it, use arch-chroot and you have a powerfull container.
 This is the base function of Solaris Zones.
 
 Nordix inverts the traditional distribution logic. Instead of protecting you from risk, Nordix gives you the tools to make risk irrelevant.
