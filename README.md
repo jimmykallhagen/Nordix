@@ -128,6 +128,7 @@ This is not a Hyprland rice or a config collection. It is a complete desktop env
 ![7](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2007%3A47%3A07%20PM%20UTC%202026.png)
 ---
 
+![nordix-hhd](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/nordix-hhd.png)
 ## ZFS - Made Accessible
 
 Nordix is ZFS only. Every installation runs on a carefully designed ZFS setup that includes:
