@@ -47,6 +47,7 @@ Nordix is the first - _“Non purpose operating system”_    </br>
 ## **Nordix Repo's**
 
 ![nordix-icon](/icons/hicolor/128x128/apps/nordix.png)
+
   [<kbd> <br> **NORDIX ZFS SETUP/CONFIGURATION** <br> </kbd>](https://github.com/jimmykallhagen/nordix-zfs)</br> 
 
   [<kbd> <br> **NORDIX PERFORMANCE: GPU, CPU, MEMORY, KERNEL** <br> </kbd>](https://github.com/jimmykallhagen/nordix-performance)</br> 
@@ -54,6 +55,7 @@ Nordix is the first - _“Non purpose operating system”_    </br>
 
 ---
 ![yggdrasil-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/yggdrasil.png)
+
   [<kbd> <br> **YGGDRASIL DESKTOP ENVIRONMENT** <br> </kbd>](https://github.com/jimmykallhagen/yggdrasil-DE)</br> 
 
   [<kbd> <br> **NORDIX HYPRLAND MIRRORS** <br> </kbd>](https://github.com/jimmykallhagen/noridx-hyprland-mirrors/tree/main)</br> 
@@ -65,6 +67,7 @@ Nordix is the first - _“Non purpose operating system”_    </br>
 
 ---
  ![nordix-tools-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/nordix-term.png)
+ 
   [<kbd> <br> **NORDIX PACKAGE SEARCH** <br> </kbd>](https://github.com/jimmykallhagen/nordix-package-search)</br> 
 
   [<kbd> <br> **NORDIX TOOLS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-tools)</br> 
@@ -77,6 +80,7 @@ Nordix is the first - _“Non purpose operating system”_    </br>
 
 ---
 ![HHD-oooH-HHD](https://github.com/jimmykallhagen/nordix-zfs/blob/main/nordix-hhd.png)
+
   [<kbd> <br> **NORDIX ZGUIDE TO ZFS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-ZGuide_guide-to-zfs)</br> 
 
   [<kbd> <br> **NORDIX-VIRTUAL MACHINES AND ZFS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-vm)</br> 
