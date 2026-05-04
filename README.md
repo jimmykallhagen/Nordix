@@ -1,4 +1,7 @@
-<div style="text-align:center"><img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nordix-magic/nordix-is-magic.png" /></div>
+<p align="center">
+  <img width="460" height="300" src="[https://picsum.photos/460/300](https://github.com/jimmykallhagen/nordix-fanart/blob/main/nordix-magic/nordix-is-magic.png)">
+</p>
+
 # **Nordix**
 
 **Enterprise-grade Linux | Linux Power User Experience For Everyone.**
