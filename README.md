@@ -1,4 +1,4 @@
-![norix-is-magic](https://github.com/jimmykallhagen/nordix-fanart/blob/main/Nordix-is-magic/nordix-magic.png)
+![norix-is-magic](https://github.com/jimmykallhagen/nordix-fanart/blob/main/nordix-magic/nordix-is-magic.png)
 
 # **Nordix**
 
