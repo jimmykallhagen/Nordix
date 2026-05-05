@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="(https://github.com/jimmykallhagen/nordix-fanart/blob/main/nx-tux/nordix-NX-tux1.png)">
+  <img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nx-tux/nordix-NX-tux1.png">
 </p>
-![n](https://github.com/jimmykallhagen/nordix-fanart/blob/main/nx-tux/nordix-NX-tux1.png)
 # **Nordix**
 
 **Enterprise-grade Linux | Linux Power User Experience For Everyone.**
