@@ -168,8 +168,6 @@ Focus right now is to get everything up on Github and be able to get Yggdrasil a
 
 ## Contribute
 
-Nordix is a meeting place for system enthusiasts, a home for those who find joy in understanding how systems work.
-
 **Join Nordix**
   - contribute to the core system through development, testing, ideas, documentation, create packages or content creation. No prior project needed, just passion and curiosity.
 
