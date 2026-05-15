@@ -11,14 +11,15 @@ Stallman is right. But his solution asks developers to give up their identity an
 ## I'm listening
 
 **I chose to follow my role model, the way I see him.**
-> "_The man who realized early on that freedom was not in any of the existing licenses, and instead defied the standard and created the free license GPL despite people telling him it was meaningless._
+> _"The man who realized early on..." that freedom was not in any of the existing licenses, and instead defied the standard and created the free license GPL despite people telling him it was meaningless._
 
 ---
 
 ## My vision is different:
 Keep your project, keep your name, keep your leadership. Nordix is the host, not the owner. The result is exactly what Stallman asked for - a unified community, but built on the reality that people are not machines. They need to be seen.
 
-**This is not a contradiction of his idea. It is my own interpretation of the GPL is that it is not as an ideology but as a tool to honor and protect the work that has been done**
+
+**"This is not a contradiction of his idea. I see the GPL not as an ideology but as a tool to honor and protect the work that has been done."**
 
 > That's why I chose to create the first "Non Purpose Operating System"
 
