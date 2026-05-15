@@ -2,9 +2,9 @@
   <img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nx-tux/nordix-NX-tux.png">
 </p>
 
-# **Nordix**
+# **Nordix GNU/Linuc**
 
-**Enterprise-grade Linux | Linux Power User Experience For Everyone.**
+**Enterprise-grade GNU/Linux | Linux Power User Experience For Everyone.**
 
 A complete Arch Linux distribution built on ZFS and a full tilling desktop environment "Yggdrasil". It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including entusiasts that are new to Linux.
 
