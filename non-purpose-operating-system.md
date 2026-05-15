@@ -24,6 +24,8 @@ Keep your project, keep your name, keep your leadership. Nordix is the host, not
 
 ---
 
+## I think further and realize
+
 > **"Everyone who starts a free Unix based system continues Richard Stallman's GNU project, 
 > regardless of whether they use his tools or not. It is about the idea, not specific licenses 
 > or tools. Since all of us who start a new distro borrow his idea, we should also show respect 
@@ -40,8 +42,8 @@ Keep your project, keep your name, keep your leadership. Nordix is the host, not
 > _Thank you Stallman for what you have given us all_
 > 
 ```Bash
-**"People said I should accept the world. Bullshit! I don't accept the world."**<br>
-> _Richard Stallman_
+"People said I should accept the world. Bullshit! I don't accept the world."
+  - Richard Stallman
 ```
 ---
 
