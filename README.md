@@ -2,7 +2,7 @@
   <img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nx-tux/nordix-NX-tux.png">
 </p>
 
-# **Nordix GNU/Linuc**
+# **Nordix GNU/Linux**
 
 **Enterprise-grade GNU/Linux | Linux Power User Experience For Everyone.**
 
