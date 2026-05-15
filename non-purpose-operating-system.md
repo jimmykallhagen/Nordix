@@ -30,6 +30,12 @@ Keep your project, keep your name, keep your leadership. Nordix is the host, not
 
 > _Thank you Stallman for what you have given us all_
 
+---
+> _Everyone who starts a free unix based system, continues on Richard Stallman's GNU project regardless of whether you use his tools or not, it's about the idea and not specific terms about licenses. Since all of us who start a new distro borrow the idea from Rickard Stallman, you should also show Respect and send him an invitation.
+> _Jimmy Källhage_
+
+> Luckily Nordix is ​​a "Non purpose operating system" you are not a hypocrite if you want to participate in such a project.
+
 ## **Nordix - Illustration of when GNU shared its power and Linux was born**
 ![Nordix-GNU-shared-its-power-and-Linux-was-born](https://github.com/jimmykallhagen/nordix-fanart/blob/main/GNU-Linux/Nordix-GNU-shared-its-power-and-Linux-was-born-4k.png)
 
