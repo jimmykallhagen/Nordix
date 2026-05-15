@@ -35,7 +35,7 @@ Keep your project, keep your name, keep your leadership. Nordix is the host, not
 
 ---
 
-> _Luckily Nordix is a "Non Purpose Operating System" — so you are not a hypocrite if you want 
+> _Luckily Nordix is a "Non Purpose Operating System", so you are not a hypocrite if you want 
 > to participate. It has no meaning. It is just for fun._
 
 ---
