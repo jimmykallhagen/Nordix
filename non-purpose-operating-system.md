@@ -2,7 +2,7 @@
 
 
 
-**Richard Stallman once told me that a system that is not 100% free is "meaningless."<br>
+**Richard Stallman once told me that to build a new system that is not 100% free is "meaningless."<br>
 He encouraged me to contribute to other already existing "All Purpose Operating Systems" instead of Nordix.**
 
 ### This created some doubts in my mind
@@ -14,7 +14,7 @@ He also said that we should unite projects, not create new ones and compete.
 
 Stallman is right. But his solution asks developers to give up their identity and contribute anonymously to someone else’s project. That is why it doesn’t work. People need recognition for what they build.
 
-Nordix solves this differently. Keep your project, keep your name, keep your leadership. Nordix is the host, not the owner. The result is exactly what Stallman asked for - a unified community, but built on the reality that people are not machines. They need to be seen.
+My vision is different, Keep your project, keep your name, keep your leadership. Nordix is the host, not the owner. The result is exactly what Stallman asked for - a unified community, but built on the reality that people are not machines. They need to be seen.
 
 ---
 
