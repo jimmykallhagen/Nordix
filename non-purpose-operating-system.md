@@ -24,14 +24,6 @@ Keep your project, keep your name, keep your leadership. Nordix is the host, not
 
 ---
 
-> **"People said I should accept the world. Bullshit! I don't accept the world."**<br>
-> _Richard Stallman_
-
-
-> _Thank you Stallman for what you have given us all_
-
----
-
 > **"Everyone who starts a free Unix based system continues Richard Stallman's GNU project, 
 > regardless of whether they use his tools or not. It is about the idea, not specific licenses 
 > or tools. Since all of us who start a new distro borrow his idea, we should also show respect 
@@ -42,6 +34,16 @@ Keep your project, keep your name, keep your leadership. Nordix is the host, not
 
 > _Luckily Nordix is a "Non Purpose Operating System" — so you are not a hypocrite if you want 
 > to participate. It has no meaning. It is just for fun._
+
+---
+
+> _Thank you Stallman for what you have given us all_
+> 
+```Bash
+**"People said I should accept the world. Bullshit! I don't accept the world."**<br>
+> _Richard Stallman_
+```
+---
 
 ## **Nordix - Illustration of when GNU shared its power and Linux was born**
 ![Nordix-GNU-shared-its-power-and-Linux-was-born](https://github.com/jimmykallhagen/nordix-fanart/blob/main/GNU-Linux/Nordix-GNU-shared-its-power-and-Linux-was-born-4k.png)
