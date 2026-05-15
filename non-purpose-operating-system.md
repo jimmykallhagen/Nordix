@@ -1,22 +1,22 @@
-# Non Purpose Operating System
+# Non Purpose Operating System / Tribiute to Stallman 
 
 
 
-**Richard Stallman once told me that to build a new system that is not 100% free is "meaningless."<br>
-He encouraged me to contribute to other already existing "All Purpose Operating Systems" instead of Nordix.**
+**Richard Stallman once told me that it is meaningless to build a new distro unless it's 100% free. <br>
+He encouraged me to contribute to other already existing "All Purpose Operating Systems" instead of Nordix - to create community instead of competition**
 
-### This created some doubts in my mind
-* I chose to follow my role model, the way I see him. "_The man who saw the limitations of licenses and went his own way"_
-* That's why I chose to create the first "Non Purpose Operating System"
-
-### I'm listening
-He also said that we should unite projects, not create new ones and compete.
-
+## This created some doubts in my mind
 Stallman is right. But his solution asks developers to give up their identity and contribute anonymously to someone else’s project. That is why it doesn’t work. People need recognition for what they build.
 
+---
+
+## I'm listening
 My vision is different, Keep your project, keep your name, keep your leadership. Nordix is the host, not the owner. The result is exactly what Stallman asked for - a unified community, but built on the reality that people are not machines. They need to be seen.
 
----
+ * I chose to follow my role model, the way I see him.
+   >  "_The man who saw the limitations of licenses and went his own way"_
+ 
+ * That's why I chose to create the first "Non Purpose Operating System"
 
 **This is not a contradiction of his idea. It is my own interpretation of the GPL is that it is not as an ideology but as a tool to honor and protect the work that has been done - Thank you Stallman for what you have given us all**
 
