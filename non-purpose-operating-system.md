@@ -35,7 +35,7 @@ Keep your project, keep your name, keep your leadership. Nordix is the host, not
 > **"Everyone who starts a free Unix based system continues Richard Stallman's GNU project, 
 > regardless of whether they use his tools or not. It is about the idea, not specific licenses 
 > or tools. Since all of us who start a new distro borrow his idea, we should also show respect 
-> and send him an invitation."**
+> and send him an invitation."** <br>
 > _Jimmy Källhagen_
 
 ---
