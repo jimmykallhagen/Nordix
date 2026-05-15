@@ -41,10 +41,11 @@ Keep your project, keep your name, keep your leadership. Nordix is the host, not
 
 
 ```Bash
-echo $"Thank you Stallman for what you have given us all"
+echo $THANK_YOU_STALLMAN_FOR_WHAT_YOU_HAVE_GIVEN_US
 "People said I should accept the world. Bullshit! I don't accept the world."
   - Richard Stallman
 ```
+
 ---
 
 ## **Nordix - Illustration of when GNU shared its power and Linux was born**
