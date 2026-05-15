@@ -16,7 +16,11 @@ Stallman is right. But his solution asks developers to give up their identity an
 
 Nordix solves this differently. Keep your project, keep your name, keep your leadership. Nordix is the host, not the owner. The result is exactly what Stallman asked for - a unified community, but built on the reality that people are not machines. They need to be seen.
 
+---
+
 **This is not a contradiction of his idea. It is my own interpretation of the GPL is that it is not as an ideology but as a tool to honor and protect the work that has been done - Thank you Stallman for what you have given us all**
+
+---
 
 > **"People said I should accept the world. Bullshit! I don't accept the world."**<br>
 > _Richard Stallman_
