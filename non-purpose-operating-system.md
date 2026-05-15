@@ -11,7 +11,7 @@ Stallman is right. But his solution asks developers to give up their identity an
 ## I'm listening
 
 **I chose to follow my role model, the way I see him.**
-> "_The man who realized early on that freedom was not in any licenses, and instead defied the standard and created the free licince GPL even though people told him it was meaningless_
+> "_The man who realized early on that freedom was not in any of the existing licenses, and instead defied the standard and created the free license GPL despite people telling him it was meaningless._
 
 ---
 
