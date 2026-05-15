@@ -18,6 +18,9 @@ This is not a contradiction of his idea. It is the missing piece.
 > **"People said I should accept the world. Bullshit! I don't accept the world."**<br>
 > _Richard Stallman_
 
+> _My own interpretation of the GPL is that it is not as an ideology but as a tool to honor and protect the work that has been done - Thank you Stallman for what you have given us all
+> Jimmy Källhagen_
+
 ## Nordix - Illustration of when GNU shared its power and Linux was born
 ![Nordix-GNU-shared-its-power-and-Linux-was-born](https://github.com/jimmykallhagen/nordix-fanart/blob/main/GNU-Linux/Nordix-GNU-shared-its-power-and-Linux-was-born-4k.png)
 
@@ -25,3 +28,4 @@ This is not a contradiction of his idea. It is the missing piece.
 **You find the enhanced version of: Nordix - Illustration of when GNU shared its power and Linux was born**
 
 - [**Enhanced by Nordix Shaders**](https://github.com/jimmykallhagen/nordix-fanart/blob/main/GNU-Linux/Nordi-shader-enhanced-GNU-shared-its-power-and-Linux-was-born-4k.png)
+
