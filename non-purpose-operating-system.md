@@ -39,9 +39,9 @@ Keep your project, keep your name, keep your leadership. Nordix is the host, not
 
 ---
 
-> _Thank you Stallman for what you have given us all_
-> 
+
 ```Bash
+echo $"Thank you Stallman for what you have given us all"
 "People said I should accept the world. Bullshit! I don't accept the world."
   - Richard Stallman
 ```
