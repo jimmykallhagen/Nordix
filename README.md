@@ -64,7 +64,7 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
 
   [<kbd> <br> **NORDIX HYPRLAND MIRRORS** <br> </kbd>](https://github.com/jimmykallhagen/noridx-hyprland-mirrors/tree/main)</br> 
 
-  [<kbd> <br> **NORDIX GRACEFUL SHOTDOWN** <br> </kbd>](https://github.com/jimmykallhagen/nordix-graceful-shutdown)</br> 
+  [<kbd> <br> **NORDIX GRACEFUL SHUTDOWN** <br> </kbd>](https://github.com/jimmykallhagen/nordix-graceful-shutdown)</br> 
 
   [<kbd> <br> **NORDIX FANART/WALLPAPER** <br> </kbd>](https://github.com/jimmykallhagen/nordix-fanart/blob/main/README.md)</br> 
 
