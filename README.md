@@ -108,7 +108,7 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
   [<kbd> <br> **NORDIX: A THEORETICAL FRAMEWORK FOR ZFS_BACKEND MEMORY EXTENSION IN LOCAL AI INTERFERENCE** <br> </kbd>](https://github.com/jimmykallhagen/nordix-ai-memory)</br> 
 
 ---
-_This is an ongoing project and I'm working on getting everything up on git, I have a version of the iso but it is also being rebuilt to 
+**_This is an ongoing project and I'm working on getting everything up on git and I am writing the ISO installer in Bash with Gum TUI, a aplpha version comming soon_** 
 
 ---
 
