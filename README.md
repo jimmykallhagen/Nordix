@@ -56,15 +56,26 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
 
   [<kbd> <br> **NORDIX PERFORMANCE: GPU, CPU, MEMORY, KERNEL** <br> </kbd>](https://github.com/jimmykallhagen/nordix-performance)</br> 
 
+  [<kbd> <br> **NORDIX GRACEFUL SHUTDOWN** <br> </kbd>](https://github.com/jimmykallhagen/nordix-graceful-shutdown)</br> 
+    
+  [<kbd> <br> **NORDIX CUSTOM COMPILE "SYSTEMX"** <br> </kbd>](https://github.com/jimmykallhagen/nordix-systemx)</br> 
+  
+  [<kbd> <br> **NORDIX OPTIMIZED ANANICY-CCP** <br> </kbd>](https://github.com/jimmykallhagen/nordix-optimized-ananicy-cpp)</br> 
+
+  [<kbd> <br> **NORDIX ZFS DESTROY SNAPSHOTS** <br> </kbd>](https://github.com/jimmykallhagen/zfs-destroy-snapshots)</br> 
+
+  [<kbd> <br> **NORDIX PACMAN WRAPPER BULK REMOVE** <br> </kbd>](https://github.com/jimmykallhagen/pacman-bulk-Rns)</br>
+
 
 ---
+
 ![yggdrasil-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/yggdrasil.png)
 
   [<kbd> <br> **YGGDRASIL DESKTOP ENVIRONMENT** <br> </kbd>](https://github.com/jimmykallhagen/yggdrasil-DE)</br> 
 
   [<kbd> <br> **NORDIX HYPRLAND MIRRORS** <br> </kbd>](https://github.com/jimmykallhagen/noridx-hyprland-mirrors/tree/main)</br> 
 
-  [<kbd> <br> **NORDIX GRACEFUL SHUTDOWN** <br> </kbd>](https://github.com/jimmykallhagen/nordix-graceful-shutdown)</br> 
+  [<kbd> <br> **NORDIX HYPRLAND INSTALLER** <br> </kbd>](https://github.com/jimmykallhagen/nx-hyprinstall)</br> 
 
   [<kbd> <br> **NORDIX FANART/WALLPAPER** <br> </kbd>](https://github.com/jimmykallhagen/nordix-fanart/blob/main/README.md)</br> 
 
@@ -77,6 +88,11 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
   [<kbd> <br> **NORDIX TOOLS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-tools)</br> 
 
   [<kbd> <br> **NORDIX CLI-TOOLS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cli)</br> 
+
+  [<kbd> <br> **NORDIX CLI-ZFS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cli-zfs)</br>
+
+  [<kbd> <br> **NORDIX CLI-ARCH** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cli-arch)</br> 
+
 
 ---
 
