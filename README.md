@@ -113,7 +113,7 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
 
 **This is an ongoing project and I'm working on getting everything up on git and I am writing the ISO installer in Bash with Gum TUI, a aplpha version comming soon** 
 
- - [x] The Hyprland stack for the version with support for both the old config language and LUA is published on the AUR.
+ **- [x]** The Hyprland stack for the version with support for both the old config language and LUA is published on the AUR.
  - [x] Nordisx Hyprland installer is published on AUR 
  - [x] Nordix CLI arch - Helper is puplished on AUR
  - [x] Nordix CLI ZFS - Helper is published on AUR
