@@ -108,8 +108,13 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
   [<kbd> <br> **NORDIX: A THEORETICAL FRAMEWORK FOR ZFS_BACKEND MEMORY EXTENSION IN LOCAL AI INTERFERENCE** <br> </kbd>](https://github.com/jimmykallhagen/nordix-ai-memory)</br> 
 
 ---
-**_This is an ongoing project and I'm working on getting everything up on git and I am writing the ISO installer in Bash with Gum TUI, a aplpha version comming soon_** 
 
+## Project Status
+
+**This is an ongoing project and I'm working on getting everything up on git and I am writing the ISO installer in Bash with Gum TUI, a aplpha version comming soon** 
+
+ -[ x ] The Hyprland stack for the version with support for both the old config language and LUA is published on the AUR.
+ 
 ---
 
 ## Yggdrasil Desktop Environment
@@ -172,13 +177,6 @@ Nordix includes guided VM setup with ZFS zvol backed storage, benchmarked volblo
 Whether you are an experienced Linux user or a Windows power user ready to make the switch - Nordix gives you the full experience from day one.
 
 > _A Linux power user experience for everyone_
-
----
-
-## Project Status
-
-Nordix is in active development. 
-Focus right now is to get everything up on Github and be able to get Yggdrasil as a working DE to install from AUR. ISO is built and I myself have been running Nordix with this iso since August 2025, however it is now no longer relevant and this will be prioritized soon, to update it with the latest Nordix - Yggdrasil
 
 ---
 
