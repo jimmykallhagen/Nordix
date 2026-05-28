@@ -8,10 +8,6 @@
 
 A complete Arch Linux distribution built on ZFS and a full tilling desktop environment "Yggdrasil". It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including entusiasts that are new to Linux.
 
-Nordix is the first - _“Non purpose operating system”_    </br>
-
-  [<kbd> <br> **NON PURPOSE OPERATING SYSTEM?** <br> </kbd>](https://github.com/jimmykallhagen/Nordix/blob/main/non-purpose-operating-system.md)</br>
-
 # Vision
 
 **_Nordix represents over 3000 hours of focused engineering work - more than a year of full-time effort._**
