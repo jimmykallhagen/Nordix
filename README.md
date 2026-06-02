@@ -69,7 +69,7 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
 
   [<kbd> <br> **YGGDRASIL DESKTOP ENVIRONMENT** <br> </kbd>](https://github.com/jimmykallhagen/yggdrasil-DE)</br> 
 
-  [<kbd> <br> **NORDIX HYPRLAND MIRRORS** <br> </kbd>](https://github.com/jimmykallhagen/noridx-hyprland-mirrors/tree/main)</br> 
+  [<kbd> <br> **NORDIX HYPRLAND MIRRORS** <br> </kbd>](https://github.com/jimmykallhagen/frozen-hyprland-v0.54-mirrrors)</br> 
 
   [<kbd> <br> **NORDIX HYPRLAND INSTALLER** <br> </kbd>](https://github.com/jimmykallhagen/nx-hyprinstall)</br> 
 
