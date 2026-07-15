@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nx-tux/nordix-NX-tux.png">
+  <img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nx-tux/nordix-NX-tux.png">j
 </p>
 
 # **Nordix GNU/Linux**
