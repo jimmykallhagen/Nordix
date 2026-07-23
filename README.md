@@ -115,7 +115,7 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
   - [x] Nordix CLI ZFS - Helper is published on AUR
   - [x] Nordix optimized custom build of ananicy-cpp is tested and published on AUR
   
-  - [ ] Nordix zfs-snapshot-destroy is published on AUR
+  - [x] Nordix zfs-snapshot-destroy is published on AUR
   - [ ] ISO installer - under construction, comming soon
   - [ ] The eleven Yggdrasil System settings GUI's is tested and working, needs to be published
   - [ ] Nordix shader manager needs to be published - exist now only in my own system
