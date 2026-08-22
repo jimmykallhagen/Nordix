@@ -10,7 +10,7 @@ A complete Arch Linux distribution built on ZFS and a full tilling desktop envir
 
 # Vision
 
-**_Nordix represents over 3000 hours of focused engineering work - more than a year of full-time effort._**
+**_Nordix represents over 4000 hours of focused engineering work, testing, and learning - more than a 1 1/2 year of full-time effort._**
 
 I started Nordix because I believe the most powerful features in Linux should not be locked behind years of experience. Technologies like ZFS, boot environments, automatic snapshots, hardware-optimized kernel tuning, and zvol-backed virtual machines exist today, but setting them up correctly requires deep technical knowledge and dozens of hours of research.
 
