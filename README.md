@@ -48,6 +48,8 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
 
 ![nordix-icon](/icons/hicolor/128x128/apps/nordix.png)
 
+  [<kbd> <br> **NORDIX INSTALLER** <br> </kbd>](https://github.com/jimmykallhagen/nordix-installer)</br>
+
   [<kbd> <br> **NORDIX ZFS SETUP/CONFIGURATION** <br> </kbd>](https://github.com/jimmykallhagen/nordix-zfs)</br> 
 
   [<kbd> <br> **NORDIX PERFORMANCE: GPU, CPU, MEMORY, KERNEL** <br> </kbd>](https://github.com/jimmykallhagen/nordix-performance)</br> 
