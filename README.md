@@ -2,11 +2,82 @@
   <img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nx-tux/nordix-NX-tux1.png">
 </p>
 
-# **Nordix Linux**
+---
+# Nordix Linux
+**Enterprise-grade Linux a "Linux Power-User" Experience For Everyone.**
+---
 
-**Enterprise-grade Linux | Linux Power User Experience For Everyone.**
+## What is Nordix Linux?
+ - Opinionated, Arch Linux-based operating system
+ - ZFS-only
+ - ZFSBootMenu as default
+ - Strong focus on performance
+ - Minimalistic, yet without sacrificing either function or the visual aspect
+ - Custom-configured root system for optimal performance and functionality
+ - Dual desktop system
 
-A complete Arch Linux distribution built on ZFS and a full tilling desktop environment "Yggdrasil". It takes the kind of system architecture, data integrity, and performance tuning normally found in enterprise environments, and makes it available to anyone, including entusiasts that are new to Linux.
+ > **Nordix desing filosofi:** _Dot put trash in the CPU's memory pipeline_
+ > _Nordix follows the law of performance_
+
+ **What is Nordix target audience?**
+ Nordix is not designed to suite evryone, nor for the enterprise, nor for weak computers, nor for old computers, nor for work.
+ Although it is entirely possible to use Nordix with good results in these categories, that is not its intended purpose.
+
+ Nordix is designed to be an operating system for enthusiasts—for those who treat computers as a hobby, and who enjoy spending their money on powerful hardware.
+ This is the system designed to provide them with justice. 
+
+ That said, the Nordix installation offers pre-optimized setups even for systems with as little as 8GB of RAM; it is perfectly functional, though you get the full "Nordix" experience on more powerful systems.
+
+**Nordix ZFS setup**
+- Beyond the root dataset, there are 21 additional datasets mounted for the system.
+- Auto snapshots
+- Smart snapshot layout for all datasets—to save space, but also, importantly, to provide a secure rollback option.
+- ARC tuned for desktop systems with high throughput, drop cache faster --> caching new data, hot and cold data is not that noticeable in Nordix
+- All datasets have been tested and measured using custom-developed tools, in order to offer the most optimal record sizes and compression methods possible.
+
+Also worth mentioning is the ZFS parameter "copies," which is set to `copies=2` on the root dataset. This provides a high level of protection against various forms of data corruption, while also delivering a significant performance boost on HDDs.
+
+Yes! It works perfectly fine to run Nordix on a zpool consisting of HDDs.
+Setting `copies=2` provides roughly a 100% increase in read performance on HDDs, it also improves read performance on NVMe/SATA SSDs, though less noticeably.
+Video demonstration will be available later.
+
+**Desktop environments**
+Nordix comes with two pre-installed desktop environments, a tiling compositor and a stacking compositor, both based on Wayland.
+ - umbriel
+ - Lawbc
+
+ ![umbirel.png](icons/umbriel.png)
+**--Umbriel--**
+`Complete tilling window manger that kan handle both scrolling, master and dwiling lauot. 
+This is next-level quality code! You can’t help but be impressed!`
+
+  [<kbd> <br>**READ MORE ABOUT UMBRIEL HERE **<br> </kbd>](https://github.com/noctalia-dev/umbriel)</br>
+
+ ![lawbc.png](icons/lawbc.png)
+**--Labwc--**
+*The friend that never lets you down – it is highly efficient, high-performing, and exceptionally stable
+When nothing else works, labwc does`
+ 
+  [<kbd> <br>**READ MORE ABOUT LABWC HERE**<br> </kbd>](https://github.com/labwc/labwc)</br>
+
+ ![noctalia.png](icons/noctalia.png)
+**--Noctalia--**
+`Noctalia is the shell that takes both lawbc and umbrial to full desktop sessions.
+Offers a high degree of customization, comes with built-in support for hundreds of plugins, dynamic themes that span your entire desktop, and much more;
+it delivers a sophisticated, modern look that truly stands out—a next-level Linux desktop experience.`
+
+  [<kbd> <br>**READ MORE ABOUT NOCTALIA HERE**<br> </kbd>](https://github.com/noctalia-dev/noctalia)</br>
+
+**Both Noctalia and Umbriel is developed by the Noctalia-Dev**
+FOr more info about Noctalia and Umbriel:
+[**--https://noctalia.dev--**](https://noctalia.dev)
+
+---
+
+Im develop by my self for the moment and the journy have changes alot, i gonna be needed to rewrite lots of the readme across the projekt, this down onder here is part legacy, ,the ygggdrasil desktopenvironment has completlye changes to Noctalia --> lawbc --> Umbriel and will not be any furder developed
+
+I write here where i have time, and when i have write the installer and the iso is made, i will take som time and give it all a update across the nordix repos
+ - The vison will not change.
 
 # Vision
 
