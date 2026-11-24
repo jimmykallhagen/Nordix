@@ -16,7 +16,7 @@
  - Custom-configured root system for optimal performance and functionality
  - Dual desktop system
 
- > **Nordix desing filosofi:** _Dot put trash in the CPU's memory pipeline <b\>
+ > **Nordix desing filosofi:** _Dot put trash in the CPU's memory pipeline </b>
  > _Nordix follows the law of performance_
 
  **What is Nordix target audience?**
