@@ -52,38 +52,31 @@ Nordix comes with two pre-installed desktop environments, a tiling compositor an
  - umbriel
  - Lawbc
 
-<p align="center">
-  <img src="https://github.com/jimmykallhagen/Nordix/blob/main/icons/noctalia.svg">
-</p>
- ![umbirel.png](icons/umbriel.png)
-####**--Umbriel--**
+ ![umbirel.png]("https://github.com/jimmykallhagen/Nordix/blob/main/icons/noctalia.svg")
+#### **--Umbriel--**
 `Complete tilling window manger that kan handle both scrolling, master and dwiling lauot. 
 This is next-level quality code! You can’t help but be impressed!`
 
   [<kbd> <br>**READ MORE ABOUT UMBRIEL HERE **<br> </kbd>](https://github.com/noctalia-dev/umbriel)</br>
 
-<p align="center">
-  <img src="https://github.com/jimmykallhagen/nordix/blob/main/icons/labwc.png">
-</p>
- ![lawbc.png](icons/lawbc.png)
-####**--Labwc--**
+
+ ![lawbc.png](https://github.com/jimmykallhagen/nordix/blob/main/icons/labwc.png)
+#### **--Labwc--**
 *The friend that never lets you down – it is highly efficient, high-performing, and exceptionally stable
 When nothing else works, labwc does`
  
   [<kbd> <br>**READ MORE ABOUT LABWC HERE**<br> </kbd>](https://github.com/labwc/labwc)</br>
 
-<p align="center">
-  <img src="https://github.com/jimmykallhagen/Nordix/blob/main/icons/noctalia.svg">
-</p>
-####**--Noctalia--**
-`Noctalia is the shell that takes both lawbc and umbrial to full desktop sessions.
+![noctalia](https://github.com/jimmykallhagen/Nordix/blob/main/icons/noctalia.png)"
+#### **--Noctalia--**
+Noctalia is the shell that takes both lawbc and umbrial to full desktop sessions.
 Offers a high degree of customization, comes with built-in support for hundreds of plugins, dynamic themes that span your entire desktop, and much more;
-it delivers a sophisticated, modern look that truly stands out—a next-level Linux desktop experience.`
+it delivers a sophisticated, modern look that truly stands out—a next-level Linux desktop experience.
 
   [<kbd> <br>**READ MORE ABOUT NOCTALIA HERE**<br> </kbd>](https://github.com/noctalia-dev/noctalia)</br>
 
-####**Both Noctalia and Umbriel is developed by the Noctalia-Dev**
-FOr more info about Noctalia and Umbriel:
+#### **Both Noctalia and Umbriel is developed by the Noctalia-Dev**
+For more info about Noctalia and Umbriel:
 [**--https://noctalia.dev--**](https://noctalia.dev)
 
 ---
