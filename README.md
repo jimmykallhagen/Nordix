@@ -28,6 +28,7 @@
  This is the system designed to provide them with justice. 
 
  That said, the Nordix installation offers pre-optimized setups even for systems with as little as 8GB of RAM; it is perfectly functional, though you get the full "Nordix" experience on more powerful systems.
+ 
  ---
 
 ### Nordix ZFS setup
@@ -42,6 +43,7 @@ Also worth mentioning is the ZFS parameter "copies," which is set to `copies=2` 
 ´Yes! It works perfectly fine to run Nordix on a zpool consisting of HDDs.
 Setting `copies=2` provides roughly a 100% increase in read performance on HDDs, it also improves read performance on NVMe/SATA SSDs, though less noticeably.
 Video demonstration will be available later.´
+
 ---
 
 ### Desktop environments
@@ -74,6 +76,7 @@ it delivers a sophisticated, modern look that truly stands out—a next-level Li
 ####**Both Noctalia and Umbriel is developed by the Noctalia-Dev**
 FOr more info about Noctalia and Umbriel:
 [**--https://noctalia.dev--**](https://noctalia.dev)
+
 ---
 
 Im develop by my self for the moment and the journy have changes alot, i gonna be needed to rewrite lots of the readme across the projekt, this down onder here is part legacy, ,the ygggdrasil desktopenvironment has completlye changes to Noctalia --> lawbc --> Umbriel and will not be any furder developed
