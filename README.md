@@ -53,7 +53,7 @@ Nordix comes with two pre-installed desktop environments, a tiling compositor an
  - Lawbc
 
 <p align="center">
-  <img src="https://github.com/jimmykallhagen/nordix/icons/umbriel.png">
+  <img src="https://github.com/jimmykallhagen/Nordix/blob/main/icons/noctalia.svg">
 </p>
  ![umbirel.png](icons/umbriel.png)
 ####**--Umbriel--**
@@ -63,7 +63,7 @@ This is next-level quality code! You can’t help but be impressed!`
   [<kbd> <br>**READ MORE ABOUT UMBRIEL HERE **<br> </kbd>](https://github.com/noctalia-dev/umbriel)</br>
 
 <p align="center">
-  <img src="https://github.com/jimmykallhagen/nordix/icons/labwc.png">
+  <img src="https://github.com/jimmykallhagen/nordix/blob/main/icons/labwc.png">
 </p>
  ![lawbc.png](icons/lawbc.png)
 ####**--Labwc--**
@@ -73,9 +73,8 @@ When nothing else works, labwc does`
   [<kbd> <br>**READ MORE ABOUT LABWC HERE**<br> </kbd>](https://github.com/labwc/labwc)</br>
 
 <p align="center">
-  <img src="https://github.com/jimmykallhagen/nordix/icons/noctalia.png">
+  <img src="https://github.com/jimmykallhagen/Nordix/blob/main/icons/noctalia.svg">
 </p>
- ![noctalia.png](icons/noctalia.png)
 ####**--Noctalia--**
 `Noctalia is the shell that takes both lawbc and umbrial to full desktop sessions.
 Offers a high degree of customization, comes with built-in support for hundreds of plugins, dynamic themes that span your entire desktop, and much more;
