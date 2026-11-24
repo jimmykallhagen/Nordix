@@ -4,7 +4,7 @@
 
 ---
 # Nordix Linux
-**Enterprise-grade Linux a "Linux Power-User" Experience For Everyone.**
+**Enterprise-grade Linux - A "Linux Power-User" Experience For Everyone.**
 ---
 
 ## What is Nordix Linux?
