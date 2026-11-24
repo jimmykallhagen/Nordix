@@ -21,7 +21,7 @@
 ---
 
  ### What is Nordix target audience?
- Nordix is not designed to suite evryone, nor for the enterprise, nor for weak computers, nor for old computers, nor for work.
+ Nordix is not designed to suite everyone, nor for the enterprise, nor for weak computers, nor for old computers, nor for work.
  Although it is entirely possible to use Nordix with good results in these categories, that is not its intended purpose.
 
  Nordix is designed to be an operating system for enthusiasts—for those who treat computers as a hobby, and who enjoy spending their money on powerful hardware.
