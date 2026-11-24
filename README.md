@@ -20,7 +20,7 @@
  > **"**_Nordix follows the law of performance_**"**
 ---
 
- **What is Nordix target audience?**
+ ### What is Nordix target audience?
  Nordix is not designed to suite evryone, nor for the enterprise, nor for weak computers, nor for old computers, nor for work.
  Although it is entirely possible to use Nordix with good results in these categories, that is not its intended purpose.
 
@@ -30,7 +30,7 @@
  That said, the Nordix installation offers pre-optimized setups even for systems with as little as 8GB of RAM; it is perfectly functional, though you get the full "Nordix" experience on more powerful systems.
  ---
 
-**Nordix ZFS setup**
+### Nordix ZFS setup
 - Beyond the root dataset, there are 21 additional datasets mounted for the system.
 - Auto snapshots
 - Smart snapshot layout for all datasets—to save space, but also, importantly, to provide a secure rollback option.
@@ -39,39 +39,39 @@
 
 Also worth mentioning is the ZFS parameter "copies," which is set to `copies=2` on the root dataset. This provides a high level of protection against various forms of data corruption, while also delivering a significant performance boost on HDDs.
 
-Yes! It works perfectly fine to run Nordix on a zpool consisting of HDDs.
+´Yes! It works perfectly fine to run Nordix on a zpool consisting of HDDs.
 Setting `copies=2` provides roughly a 100% increase in read performance on HDDs, it also improves read performance on NVMe/SATA SSDs, though less noticeably.
-Video demonstration will be available later.
+Video demonstration will be available later.´
 ---
 
-**Desktop environments**
+### Desktop environments
 Nordix comes with two pre-installed desktop environments, a tiling compositor and a stacking compositor, both based on Wayland.
  - umbriel
  - Lawbc
 
  ![umbirel.png](icons/umbriel.png)
-**--Umbriel--**
+####**--Umbriel--**
 `Complete tilling window manger that kan handle both scrolling, master and dwiling lauot. 
 This is next-level quality code! You can’t help but be impressed!`
 
   [<kbd> <br>**READ MORE ABOUT UMBRIEL HERE **<br> </kbd>](https://github.com/noctalia-dev/umbriel)</br>
 
  ![lawbc.png](icons/lawbc.png)
-**--Labwc--**
+####**--Labwc--**
 *The friend that never lets you down – it is highly efficient, high-performing, and exceptionally stable
 When nothing else works, labwc does`
  
   [<kbd> <br>**READ MORE ABOUT LABWC HERE**<br> </kbd>](https://github.com/labwc/labwc)</br>
 
  ![noctalia.png](icons/noctalia.png)
-**--Noctalia--**
+####**--Noctalia--**
 `Noctalia is the shell that takes both lawbc and umbrial to full desktop sessions.
 Offers a high degree of customization, comes with built-in support for hundreds of plugins, dynamic themes that span your entire desktop, and much more;
 it delivers a sophisticated, modern look that truly stands out—a next-level Linux desktop experience.`
 
   [<kbd> <br>**READ MORE ABOUT NOCTALIA HERE**<br> </kbd>](https://github.com/noctalia-dev/noctalia)</br>
 
-**Both Noctalia and Umbriel is developed by the Noctalia-Dev**
+####**Both Noctalia and Umbriel is developed by the Noctalia-Dev**
 FOr more info about Noctalia and Umbriel:
 [**--https://noctalia.dev--**](https://noctalia.dev)
 ---
