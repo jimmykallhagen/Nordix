@@ -52,6 +52,9 @@ Nordix comes with two pre-installed desktop environments, a tiling compositor an
  - umbriel
  - Lawbc
 
+<p align="center">
+  <img src="https://github.com/jimmykallhagen/nordix/icons/umbriel.png">
+</p>
  ![umbirel.png](icons/umbriel.png)
 ####**--Umbriel--**
 `Complete tilling window manger that kan handle both scrolling, master and dwiling lauot. 
@@ -59,6 +62,9 @@ This is next-level quality code! You can’t help but be impressed!`
 
   [<kbd> <br>**READ MORE ABOUT UMBRIEL HERE **<br> </kbd>](https://github.com/noctalia-dev/umbriel)</br>
 
+<p align="center">
+  <img src="https://github.com/jimmykallhagen/nordix/icons/labwc.png">
+</p>
  ![lawbc.png](icons/lawbc.png)
 ####**--Labwc--**
 *The friend that never lets you down – it is highly efficient, high-performing, and exceptionally stable
@@ -66,6 +72,9 @@ When nothing else works, labwc does`
  
   [<kbd> <br>**READ MORE ABOUT LABWC HERE**<br> </kbd>](https://github.com/labwc/labwc)</br>
 
+<p align="center">
+  <img src="https://github.com/jimmykallhagen/nordix/icons/noctalia.png">
+</p>
  ![noctalia.png](icons/noctalia.png)
 ####**--Noctalia--**
 `Noctalia is the shell that takes both lawbc and umbrial to full desktop sessions.
