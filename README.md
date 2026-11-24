@@ -17,7 +17,7 @@
  - Dual desktop system
 
  > **Nordix desing filosofi:** _Dot put trash in the CPU's memory pipeline </br>
- > _Nordix follows the law of performance_
+ > **"**_Nordix follows the law of performance_**"**
 
  **What is Nordix target audience?**
  Nordix is not designed to suite evryone, nor for the enterprise, nor for weak computers, nor for old computers, nor for work.
