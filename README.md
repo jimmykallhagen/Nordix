@@ -16,8 +16,8 @@
  - Custom-configured root system for optimal performance and functionality
  - Dual desktop system
 
- > **Nordix desing filosofi:** </br>
- > **"**_Nordix follows the law of performance_**"** and  _Dot put trash in the CPU's memory pipeline_
+ > **Nordix desing filosofi:** _Dot put trash in the CPU's memory pipeline_
+
 ---
 
  ### What is Nordix target audience?
@@ -28,6 +28,7 @@
  This is the system designed to provide them with justice. 
 
  That said, the Nordix installation offers pre-optimized setups even for systems with as little as 8GB of RAM; it is perfectly functional, though you get the full "Nordix" experience on more powerful systems.
+ > **"**_Nordix follows the law of performance_**"** 
  
  ---
 
