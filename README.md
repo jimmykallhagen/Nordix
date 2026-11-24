@@ -8,7 +8,7 @@
 ---
 
 ## What is Nordix Linux?
- - Opinionated, handcrafted Arch Linux-based operating system
+ - Opinionated, Arch Linux-based operating system
  - ZFS-only
  - ZFSBootMenu as default
  - Strong focus on performance
