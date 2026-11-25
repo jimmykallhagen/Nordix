@@ -6,7 +6,7 @@
 ---
 ![nordix-icon](/icons/hicolor/128x128/apps/nordix.png)
 # **Nordix Linux**
-**Nordix brings Enterprise-grade Linux to Enthusiasts - Who Deserve More Than "Good Enough"**
+**`Nordix brings Enterprise-grade Linux to Enthusiasts - Who Deserve More Than "Good Enough`"**
 > **A "Linux Power-User" Experience For Everyone.**
 ---
 
