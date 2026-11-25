@@ -37,11 +37,11 @@ That said, the Nordix installer offers pre-optimized setups even for systems wit
 ---
 
 ### Nordix ZFS setup
-  - `Beyond the root dataset, there are 21 additional datasets mounted for the system`
-  - `Auto snapshots`
-  - `Smart snapshot layout for all datasets-to save space, but also, importantly, to provide a secure rollback option`
-  - `All datasets have been tested and measured using custom-developed tools in order to offer the most optimal record sizes and compression methods possible`
-  - `ARC carefully tuned to shift ZFS from its default server-like behavior to better suit a modern desktop, making the distinction between hot and cold data far less noticeable in Nordix`
+  - Beyond the root dataset, there are 21 additional datasets mounted for the system
+  - Auto snapshots
+  - Smart snapshot layout for all datasets-to save space, but also, importantly, to provide a secure rollback option
+  - All datasets have been tested and measured using custom-developed tools in order to offer the most optimal record sizes and compression methods possible
+  - ARC carefully tuned to shift ZFS from its default server-like behavior to better suit a modern desktop, making the distinction between hot and cold data far less noticeable in Nordix
 
 Read more about how Nordix tunes the ZFS system here: </br>
 [`Placeholder - How Nordix Tunes ZFS`](soon/after/the/installer/is/finished)
@@ -59,20 +59,20 @@ Read more about how Nordix set ZFS parameters and why here: </br>
 
 ## Fearless Experimentation - Nordix's Got Your Back!
 Nordix is not safe because it is careful. Most systems manage risk by being conservative. Nordix manages risk by making the consequences of failure irrelevant.
-  - `Run a custom kernel?`
-  - `Test breaking changes?`
-  - `Experiment freely with your system?`
+  - Run a custom kernel?
+  - Test breaking changes?
+  - Experiment freely with your system?
 
 **If something goes wrong:**
-  - `Reboot into ZFSBootMenu`
-  - `Roll back to an automatically taken snapshot`
+  - Reboot into ZFSBootMenu
+  - Roll back to an automatically taken snapshot
 
 **The entire process takes seconds-or create a clone of a previous snapshot.**
 If you don't want to roll back, several other options are available:
-  - `Fix the errors directly using ZFSBootMenu's automatic chroot function`
-  - `Fix the errors directly using ZFSBootMenu's automatic rescue shell`
-  - `Check zpool status`
-  - `Edit the kernel command line`
+  - Fix the errors directly using ZFSBootMenu's automatic chroot function
+  - Fix the errors directly using ZFSBootMenu's automatic rescue shell
+  - Check zpool status
+  - Edit the kernel command line
 
 > Never again will you have to rely on a rescue "live" USB to boot a rescue environment
 
@@ -195,17 +195,17 @@ If you have built a strong project that fits Nordix's philosophy and want to ste
 
 ## General Contributions
 In addition to core maintainers, everyone is welcome to contribute regardless of experience level-including, but not limited to:
-  - `Report bugs`
-  - `Help the core contributors`
-  - `Propose ideas`
-  - `Test and benchmark different setups`
-  - `Publish YouTube videos`
-  - `Create apps`
-  - `Create scripts and wrappers to improve usability`
-  - `Fine-tune and polish the UIV
-  - `Build and maintain packages`
-  - `Write guides and documentation`
-  - `Spread the word to grow the community`
+  - Report bugs
+  - Help the core contributors
+  - Propose ideas
+  - Test and benchmark different setups
+  - Publish YouTube videos
+  - Create apps
+  - Create scripts and wrappers to improve usability
+  - Fine-tune and polish the UI
+  - Build and maintain packages
+  - Write guides and documentation
+  - Spread the word to grow the community
 
 **Looking Ahead (GUI Development):**
 A native GUI is needed to bring all ZFS features together in a practical, user-friendly interface so that ZFS truly feels like an integrated part of the desktop.
