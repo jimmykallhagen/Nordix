@@ -50,10 +50,10 @@ Read more about how Nordix tunes the ZFS system here: </br>
 ZFS offers various parameters that show HDDs in a whole new light!
 
   > Yes! It works perfectly fine to run Nordix on a zpool consisting of HDDs.
-  > A video demonstration of running Nordix on an HDD with low latency will be available later.
+  > A video demonstration of running Nordix on an HDD and Special vdevs with low latency will be available later.
 
 Read more about how Nordix set ZFS parameters and why here: </br>
-[Placeholder -Nordix ZFS parameters and What They Mean for HDDs](soon/after/the/installer/is/finished)
+[Placeholder - Nordix ZFS parameters and What They Mean for HDDs](soon/after/the/installer/is/finished)
 
 ---
 
