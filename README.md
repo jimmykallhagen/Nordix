@@ -86,7 +86,7 @@ Nordix inverts traditional distribution logic. Instead of protecting you from ri
 ---
 ---
 
-## You can read more about the ZFS and the ZFSbootmenu here:
+## You can read more about the ZFS and the ZFSBootMenu here:
 [OpenZFS Github](https://github.com/openzfs) </br>
 [OpenZFS Documentation](https://openzfs.github.io/openzfs-docs/) </br>
 [ZFSBootmenu Documentation](https://docs.zfsbootmenu.org/en/v3.1.x/) </br>
