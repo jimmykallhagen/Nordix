@@ -3,11 +3,6 @@
 </p>
 
 ---
-# Nordix Linux
-**Nordix brings Enterprise-grade Linux to Enthusiasts Who Deserve More Than "Good Enough"**
-> **"Linux Power-User" Experience For Everyone.**
-
----
 
 # Nordix Linux
 **Nordix brings Enterprise-grade Linux to Enthusiasts Who Deserve More Than "Good Enough"**
