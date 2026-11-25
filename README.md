@@ -4,7 +4,15 @@
 
 ---
 # Nordix Linux
-**Enterprise-grade Linux - A "Linux Power-User" Experience For Everyone.**
+**Nordix brings Enterprise-grade Linux to Enthusiasts Who Deserve More Than "Good Enough"**
+> **"Linux Power-User" Experience For Everyone.**
+
+---
+
+# Nordix Linux
+**Nordix brings Enterprise-grade Linux to Enthusiasts Who Deserve More Than "Good Enough"**
+> **"Linux Power-User" Experience For Everyone.**
+
 ---
 
 ## What is Nordix Linux?
@@ -16,60 +24,97 @@
  - Custom-configured root system for optimal performance and functionality
  - Dual desktop system
 
- > **Nordix desing filosofi:** _Dot put trash in the CPU's memory pipeline_
+ > **Nordix design philosophy:** _Don't put trash in the CPU's memory pipeline._
 
 ---
 
- ### What is Nordix target audience?
- Nordix is not designed to suite everyone, nor for the enterprise, nor for weak computers, nor for old computers, nor for work.
- Although it is entirely possible to use Nordix with good results in these categories, that is not its intended purpose.
+### What is Nordix designed to be?
+Nordix is not designed to suit everyone, nor for the enterprise, nor for weak computers, nor for old computers, nor for work.
+Although it is entirely possible to use Nordix with good results in these categories, that is not its intended purpose.
 
- Nordix is designed to be an operating system for enthusiasts—for those who treat computers as a hobby, and who enjoy spending their money on powerful hardware.
- This is the system designed to provide them with justice. 
+Nordix is designed to be an operating system for enthusiasts—for those who treat computers as a hobby, and who enjoy spending their money on powerful hardware.
+This is the system designed to give their hardware the justice it deserves.
 
- That said, the Nordix installation offers pre-optimized setups even for systems with as little as 8GB of RAM; it is perfectly functional, though you get the full "Nordix" experience on more powerful systems.
- > **"**_Nordix follows the law of performance_**"** 
- 
- ---
+That said, the Nordix installer offers pre-optimized setups even for systems with as little as 8GB of RAM; it is perfectly functional, though you get the full "Nordix" experience on more powerful systems.
+
+> _**"Nordix follows the law of performance."**_
+
+---
 
 ### Nordix ZFS setup
-- Beyond the root dataset, there are 21 additional datasets mounted for the system.
-- Auto snapshots
-- Smart snapshot layout for all datasets—to save space, but also, importantly, to provide a secure rollback option.
-- ARC tuned for desktop systems with high throughput, drop cache faster --> caching new data, hot and cold data is not that noticeable in Nordix
-- All datasets have been tested and measured using custom-developed tools, in order to offer the most optimal record sizes and compression methods possible.
+  - Beyond the root dataset, there are 21 additional datasets mounted for the system.
+  - Auto snapshots
+  - Smart snapshot layout for all datasets—to save space, but also, importantly, to provide a secure rollback option.
+  - All datasets have been tested and measured using custom-developed tools in order to offer the most optimal record sizes and compression methods possible.
+  - ARC carefully tuned to shift ZFS from its default server-like behavior to better suit a modern desktop, making the distinction between hot and cold data far less noticeable in Nordix.
 
-Also worth mentioning is the ZFS parameter "copies," which is set to `copies=2` on the root dataset. This provides a high level of protection against various forms of data corruption, while also delivering a significant performance boost on HDDs.
+Read more about how Nordix tunes the ZFS system here:
+*Placeholder — Coming soon: "How Nordix Tunes ZFS"*
 
-´Yes! It works perfectly fine to run Nordix on a zpool consisting of HDDs.
-Setting `copies=2` provides roughly a 100% increase in read performance on HDDs, it also improves read performance on NVMe/SATA SSDs, though less noticeably.
-Video demonstration will be available later.´
+**Also worth mentioning**
+ZFS offers various parameters that show HDDs in a whole new light!
+
+  > Yes! It works perfectly fine to run Nordix on a zpool consisting of HDDs.
+  > A video demonstration of running Nordix on an HDD with low latency will be available later.
+
+*Placeholder — Coming soon: "Nordix ZFS Setups and What They Mean for HDDs"*
 
 ---
 
-### Desktop environments
-Nordix comes with two pre-installed desktop environments, a tiling compositor and a stacking compositor, both based on Wayland.
- - umbriel
- - Lawbc
+## Fearless Experimentation — Nordix's Got Your Back!
+Nordix is not safe because it is careful. Most systems manage risk by being conservative. Nordix manages risk by making the consequences of failure irrelevant.
+  - Run a custom kernel?
+  - Test breaking changes?
+  - Experiment freely with your system?
 
- ![umbirel.png]("https://github.com/jimmykallhagen/Nordix/blob/main/icons/noctalia.svg")
-#### **-Umbriel-**
-`Complete tilling window manger that kan handle both scrolling, master and dwiling lauot. 
-This is next-level quality code! You can’t help but be impressed!`
+**If something goes wrong:**
+  - Reboot into ZFSBootMenu.
+  - Roll back to an automatically taken snapshot.
+
+**The entire process takes seconds—or create a clone of a previous snapshot.**
+If you don't want to roll back, several other options are available:
+  - Fix the errors directly using ZFSBootMenu's automatic chroot function.
+  - Fix the errors directly using ZFSBootMenu's automatic rescue shell.
+  - Check zpool status.
+  - Edit the kernel command line.
+
+**Want to isolate an experiment completely?**
+> Create a clone of your root dataset directly from ZFSBootMenu and boot into it.
+> Your actual installation remains untouched while you test whatever you want inside the clone.
+> This is not a recovery feature. It is the intended workflow—and it is faster, simpler, and gives you your exact system environment, unlike Docker containers.
+
+> Clone your system (using zero extra disk space), mount it, and use `arch-chroot`—instantly giving you a powerful container. This is the exact same core mechanism behind Solaris Zones.
+
+Nordix inverts traditional distribution logic. Instead of protecting you from risk, Nordix gives you the tools to make risk irrelevant.
+
+---
+
+## Modular Desktop Architecture – Zero Bloat, Total Control
+
+Nordix rejects monolithic desktop environments like GNOME and KDE Plasma—not because your hardware can't handle them, but because tangled dependency chains and rigid configurations get in the way of performance and freedom.
+
+Instead, Nordix is built on a **strictly modular Unix philosophy**:
+* **Pure Compositors:** Choose between **Umbriel** (high-speed tiling/scrolling) or **Labwc** (bulletproof stacking).
+* **Decoupled Shell:** The entire desktop experience runs on top via **Noctalia Shell**—launched as a single, independent process (`noctalia &`).
+* **Radical Simplicity:** Want to swap out the shell, run a custom bar, or strip it down to bare metal? Just comment out one line. No broken systemd targets, no hidden daemons, no friction.
+
+ ![Umbriel.png](icons/umbriel.svg)
+#### **Umbriel**
+Complete tiling window manager  that can handle both scrolling, master and dwiling lauot. 
+This is next-level quality code! You can’t help but be impressed!
 
   [<kbd> <br>**READ MORE ABOUT UMBRIEL HERE **<br> </kbd>](https://github.com/noctalia-dev/umbriel)</br>
 
-
- ![lawbc.png](https://github.com/jimmykallhagen/nordix/blob/main/icons/labwc.png)
-#### **-Labwc-**
+ ![labwc.png](icons/labwc.png)
+#### **Labwc**
 *The friend that never lets you down – it is highly efficient, high-performing, and exceptionally stable
 When nothing else works, labwc does`
  
   [<kbd> <br>**READ MORE ABOUT LABWC HERE**<br> </kbd>](https://github.com/labwc/labwc)</br>
 
-![noctalia](https://github.com/jimmykallhagen/Nordix/blob/main/icons/noctalia.png)"
-#### **-Noctalia-**
-Noctalia is the shell that takes both lawbc and umbrial to full desktop sessions.
+![noctalia](icons/noctalia.svg)
+#### **Noctalia**
+Noctalia is the shell that takes both labwc and umbrial to full desktop sessions.
 Offers a high degree of customization, comes with built-in support for hundreds of plugins, dynamic themes that span your entire desktop, and much more;
 it delivers a sophisticated, modern look that truly stands out—a next-level Linux desktop experience.
 
@@ -79,48 +124,173 @@ it delivers a sophisticated, modern look that truly stands out—a next-level Li
 For more info about Noctalia and Umbriel:
 [**--https://noctalia.dev--**](https://noctalia.dev)
 
----
 
-Im develop by my self for the moment and the journy have changes alot, i gonna be needed to rewrite lots of the readme across the projekt, this down onder here is part legacy, ,the ygggdrasil desktopenvironment has completlye changes to Noctalia --> lawbc --> Umbriel and will not be any furder developed
-
-I write here where i have time, and when i have write the installer and the iso is made, i will take som time and give it all a update across the nordix repos
- - The vison will not change.
-
-# Vision
-
-**_Nordix represents over 4000 hours of focused engineering work, testing, and learning - more than a 1 1/2 year of full-time effort._**
-
-I started Nordix because I believe the most powerful features in Linux should not be locked behind years of experience. Technologies like ZFS, boot environments, automatic snapshots, hardware-optimized kernel tuning, and zvol-backed virtual machines exist today, but setting them up correctly requires deep technical knowledge and dozens of hours of research.
-
-That is the problem Nordix solves. Not by simplifying the technology, but by doing the engineering work up front so the user gets the full benefit without the complexity.
-
-Every configuration in Nordix is built with intent. ZFS ARC parameters are tuned per RAM tier with documented rationale for each value. Dataset hierarchies are designed around real desktop usage patterns, separating game files from configs from caches so that snapshots and rollbacks are surgical, not destructive. VM templates are benchmarked across different block sizes and caching strategies to find the actual optimal setup, not just the commonly repeated advice.
-
-My interest is in building systems where enterprise-grade functionality becomes invisible infrastructure, it is just there, working, for everyone. That is what drives this project, and it is the kind of work I want to do professionally.
-
-> _One of my goals is to create a community where you can gather all enthusiasts and get a home for everyone's projects, where Nordix acts as a platform like a host instead of a project leader._
->
-> _My idea is that you should be able to continue to have your own repos and retain ownership - if you only want Nordix to link these projects at the top of this repo, that works too._
-
-- _**Jimmy Källhagen**_
+> Two Equal Workflows: Start with Labwc for a familiar, bulletproof stacking desktop, or jump straight into Umbriel for high-speed tiling and scrolling.
+> Switch environments in seconds right from the login screen without losing your setup.
 
 ---
 
-- Nordix is not safe because it is careful
-> Most systems manage risk by being conservative. Nordix manages risk by making the consequences of failure irrelevant.
-> Run bleeding edge kernels. Test breaking changes. Experiment freely with your system. If something goes wrong --> reboot and roll back to an automatically taken snapshot via ZFSBootMenu. The entire process takes seconds or create a clone of a previous snapshot --> boot clone mount your system and fix the errors in chroot, you can also fix the errors directly from zfbootmenu automatic chroot function
 
-- Want to isolate an experiment completely?
-> Create a clone of your root dataset directly from ZFSBootMenu and boot into it.
-> Your actual installation remains untouched while you test whatever you want inside the clone.
-> This is not a recovery feature. It is the intended workflow and it is faster, simpler and your exact system environment unlike dockers.
+### Labwc – Bulletproof Stacking in a Modern Suit
 
-> Clone your system, it will not take any extra disk space, mount it, use arch-chroot and you have a powerfull container.
-This is the base function of Solaris Zones.
+> *"Loved for its lightweight speed and rock-solid foundation, Labwc has become the go-to choice for projects migrating from X11. Nordix takes a fresh approach—presenting Labwc in a modern suit few would ever associate with it."*
 
-Nordix inverts the traditional distribution logic. Instead of protecting you from risk, Nordix gives you the tools to make risk irrelevant.
+Powered by **Noctalia Shell**, it gives you a traditional stacking workflow with the exact same tools, themes, and zero-bloat modularity as Umbriel.
+
+![Nordix Labwc Desktop](screenshots/din-labwc-skarmdump.png)
+
 
 ---
+
+### Umbriel – Built to Be Worthy of the Foundation Beneath It
+
+> *"Beneath the surface lies raw Nordic ZFS engineering. On top sits Umbriel—a newcomer that already demonstrates the quality and craftsmanship needed to earn its place above ZFS."*
+
+![Nordix Umbriel  Desktop](screenshots/din-umbriel-skarmdump.png)
+
+
+
+---
+
+
+
+
+
+
+#######################################################################################
+---
+```text
+##=====#=============##
+ #      VISION       #
+##=====#=============##
+```
+---
+
+**_Nordix represents over 4,000 hours of focused engineering work, testing, and learning—more than 1.5 years of full-time effort._**
+
+I started Nordix because I believe the most powerful features in Linux should not be locked behind years of experience.
+Technologies like ZFS, boot environments, automatic snapshots, hardware-optimized kernel tuning, zvol-backed virtual machines, and advanced container systems exist today, but setting them up correctly requires deep technical knowledge and dozens of hours of research.
+That is the problem Nordix solves—not by simplifying the technology, but by doing the engineering work up front so the user gets the full benefit without the complexity.
+
+> Every configuration in Nordix is built with intent. ZFS ARC parameters are tuned per RAM tier with documented rationale for each value. Dataset hierarchies are designed around real desktop usage patterns, separating game files from configs and caches so that snapshots and rollbacks are surgical, not destructive. VM templates are benchmarked across different block sizes and caching strategies to find the actual optimal setup, not just commonly repeated advice.
+
+My interest is in building systems where enterprise-grade functionality becomes invisible infrastructure—it is just there, working, for everyone. That is what drives this project, and it is the kind of work I want to do professionally.
+
+---
+
+## Core Contributors: A Vision of a Truly Enthusiast-Driven System
+
+My own passion and primary focus is the core system—specifically **ZFS architecture, root optimization, and low-level performance**.
+Rather than trying to build every single user-space component alone, I want to partner with a small group of skilled, independent enthusiasts who can take true ownership of the areas where they excel.
+By this, I do not mean having 20 different projects competing for the same part of the system, nor am I looking to build a massive crowd of casual contributors.
+
+**What I am looking for:**
+- A few highly capable people who can take independent responsibility for specific parts of Nordix (such as desktop components, tooling, or packaging).
+
+If you have deep technical knowledge in a specific domain and can work independently, you can own that responsibility in Nordix.
+
+> Many great projects sit hidden in a corner of the AUR or a remote Git repository.
+> There is pride in building something great—and you shouldn't have a distro take the credit while you are forgotten as just another name in a crowd of contributors.
+
+If you have built a strong project that fits Nordix's philosophy and want to step in as the maintainer for that part of the system, bring it with you. You remain the leader of your project, and Nordix will showcase and link directly to your repository at the top of Nordix's main GitHub page. Your pride and ownership will never be taken away from you.
+
+> I personally want to show the world just how great an operating system built by a few passionate, skilled engineers can be.
+
+---
+
+### General Contributions
+In addition to core maintainers, everyone is welcome to contribute regardless of experience level—including, but not limited to:
+- Report bugs
+- Help the core contributors
+- Propose ideas
+- Test and benchmark different setups
+- Publish YouTube videos
+- Create apps
+- Create scripts and wrappers to improve usability
+- Fine-tune and polish the UI
+- Build and maintain packages
+- Write guides and documentation
+- Spread the word to grow the community
+
+**Looking Ahead (GUI Development):**
+A native GUI is needed to bring all ZFS features together in a practical, user-friendly interface so that ZFS truly feels like an integrated part of the desktop.
+- I am currently learning **Rust** and believe **egui** is a strong choice for building these GUIs.
+
+---
+
+
+---
+ # **VISION**
+---
+
+**_Nordix represents over 4,000 hours of focused engineering work, testing, and learning—more than 1.5 years of full-time effort._**
+
+I started Nordix because I believe the most powerful features in Linux should not be locked behind years of experience.
+Technologies like ZFS, boot environments, automatic snapshots, hardware-optimized kernel tuning, zvol-backed virtual machines, and advanced container systems exist today, but setting them up correctly requires deep technical knowledge and dozens of hours of research.
+That is the problem Nordix solves—not by simplifying the technology, but by doing the engineering work up front so the user gets the full benefit without the complexity.
+
+> Every configuration in Nordix is built with intent. ZFS ARC parameters are tuned per RAM tier with documented rationale for each value. Dataset hierarchies are designed around real desktop usage patterns, separating game files from configs and caches so that snapshots and rollbacks are surgical, not destructive. VM templates are benchmarked across different block sizes and caching strategies to find the actual optimal setup, not just commonly repeated advice.
+
+My interest is in building systems where enterprise-grade functionality becomes invisible infrastructure—it is just there, working, for everyone. That is what drives this project, and it is the kind of work I want to do professionally.
+
+---
+
+## Core Contributors: A Vision of a Truly Enthusiast-Driven System
+
+My own passion and primary focus is the core system—specifically **ZFS architecture, root optimization, and low-level performance**.
+Rather than trying to build every single user-space component alone, I want to partner with a small group of skilled, independent enthusiasts who can take true ownership of the areas where they excel.
+By this, I do not mean having 20 different projects competing for the same part of the system, nor am I looking to build a massive crowd of casual contributors.
+
+**What I am looking for:**
+- A few highly capable people who can take independent responsibility for specific parts of Nordix (such as desktop components, tooling, or packaging).
+
+If you have deep technical knowledge in a specific domain and can work independently, you can own that responsibility in Nordix.
+
+> Many great projects sit hidden in a corner of the AUR or a remote Git repository.
+> There is pride in building something great—and you shouldn't have a distro take the credit while you are forgotten as just another name in a crowd of contributors.
+
+If you have built a strong project that fits Nordix's philosophy and want to step in as the maintainer for that part of the system, bring it with you. You remain the leader of your project, and Nordix will showcase and link directly to your repository at the top of Nordix's main GitHub page. Your pride and ownership will never be taken away from you.
+
+> I personally want to show the world just how great an operating system built by a few passionate, skilled engineers can be.
+
+---
+
+### General Contributions
+In addition to core maintainers, everyone is welcome to contribute regardless of experience level—including, but not limited to:
+- Report bugs
+- Help the core contributors
+- Propose ideas
+- Test and benchmark different setups
+- Publish YouTube videos
+- Create apps
+- Create scripts and wrappers to improve usability
+- Fine-tune and polish the UI
+- Build and maintain packages
+- Write guides and documentation
+- Spread the word to grow the community
+
+**Looking Ahead (GUI Development):**
+A native GUI is needed to bring all ZFS features together in a practical, user-friendly interface so that ZFS truly feels like an integrated part of the desktop.
+- I am currently learning `Rust` and believe `egui` is a strong choice for building these GUIs.
+
+---
+## About
+Once the Nordix installer is complete, the Nordix main GIT repository will be moved to:
+`https://gitlab.com/Nordix-Linux`
+
+
+**Nordix is created by:**
+- Jimmy Källhagen
+
+**Core maintainers:**
+- Jimmy Källhagen
+
+**Contributors**
+
+
+
+---
+
 
 ## **Nordix Repo's**
 
@@ -128,154 +298,52 @@ Nordix inverts the traditional distribution logic. Instead of protecting you fro
 
   [<kbd> <br> **NORDIX INSTALLER** <br> </kbd>](https://github.com/jimmykallhagen/nordix-installer)</br>
 
-  [<kbd> <br> **NORDIX ZFS SETUP/CONFIGURATION** <br> </kbd>](https://github.com/jimmykallhagen/nordix-zfs)</br> 
+  [<kbd> <br> **NORDIX ZFS SETUP/CONFIGURATION** <br> </kbd>](https://github.com/jimmykallhagen/nordix-zfs)</br>
 
-  [<kbd> <br> **NORDIX PERFORMANCE: GPU, CPU, MEMORY, KERNEL** <br> </kbd>](https://github.com/jimmykallhagen/nordix-performance)</br> 
+  [<kbd> <br> **NORDIX PERFORMANCE: GPU, CPU, MEMORY, KERNEL** <br> </kbd>](https://github.com/jimmykallhagen/nordix-performance)</br>
 
-  [<kbd> <br> **NORDIX GRACEFUL SHUTDOWN** <br> </kbd>](https://github.com/jimmykallhagen/nordix-graceful-shutdown)</br> 
-    
-  [<kbd> <br> **NORDIX CUSTOM COMPILE "SYSTEMX"** <br> </kbd>](https://github.com/jimmykallhagen/nordix-systemx)</br> 
-  
-  [<kbd> <br> **NORDIX OPTIMIZED ANANICY-CCP** <br> </kbd>](https://github.com/jimmykallhagen/nordix-optimized-ananicy-cpp)</br> 
+  [<kbd> <br> **NORDIX GRACEFUL SHUTDOWN** <br> </kbd>](https://github.com/jimmykallhagen/nordix-graceful-shutdown)</br>
 
-  [<kbd> <br> **NORDIX ZFS DESTROY SNAPSHOTS** <br> </kbd>](https://github.com/jimmykallhagen/zfs-destroy-snapshots)</br> 
+  [<kbd> <br> **NORDIX CUSTOM COMPILE "SYSTEMX"** <br> </kbd>](https://github.com/jimmykallhagen/nordix-systemx)</br>
+
+  [<kbd> <br> **NORDIX OPTIMIZED ANANICY-CCP** <br> </kbd>](https://github.com/jimmykallhagen/nordix-optimized-ananicy-cpp)</br>
+
+  [<kbd> <br> **NORDIX ZFS DESTROY SNAPSHOTS** <br> </kbd>](https://github.com/jimmykallhagen/zfs-destroy-snapshots)</br>
 
   [<kbd> <br> **NORDIX PACMAN WRAPPER BULK REMOVE** <br> </kbd>](https://github.com/jimmykallhagen/pacman-bulk-Rns)</br>
 
 
 ---
-
-![yggdrasil-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/yggdrasil.png)
-
-  [<kbd> <br> **YGGDRASIL DESKTOP ENVIRONMENT** <br> </kbd>](https://github.com/jimmykallhagen/yggdrasil-DE)</br> 
-
-  [<kbd> <br> **NORDIX HYPRLAND MIRRORS** <br> </kbd>](https://github.com/jimmykallhagen/frozen-hyprland-v0.54-mirrrors)</br> 
-
-  [<kbd> <br> **NORDIX HYPRLAND INSTALLER** <br> </kbd>](https://github.com/jimmykallhagen/nx-hyprinstall)</br> 
-
-  [<kbd> <br> **NORDIX FANART/WALLPAPER** <br> </kbd>](https://github.com/jimmykallhagen/nordix-fanart/blob/main/README.md)</br> 
-
-
----
  ![nordix-tools-icon](https://github.com/jimmykallhagen/Nordix/blob/main/icons/hicolor/128x128/apps/nordix-term.png)
- 
-  [<kbd> <br> **NORDIX PACKAGE SEARCH** <br> </kbd>](https://github.com/jimmykallhagen/nordix-package-search)</br> 
 
-  [<kbd> <br> **NORDIX TOOLS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-tools)</br> 
+  [<kbd> <br> **NORDIX PACKAGE SEARCH** <br> </kbd>](https://github.com/jimmykallhagen/nordix-package-search)</br>
 
-  [<kbd> <br> **NORDIX CLI-TOOLS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cli)</br> 
+  [<kbd> <br> **NORDIX TOOLS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-tools)</br>
+
+  [<kbd> <br> **NORDIX CLI-TOOLS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cli)</br>
 
   [<kbd> <br> **NORDIX CLI-ZFS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cli-zfs)</br>
 
-  [<kbd> <br> **NORDIX CLI-ARCH** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cli-arch)</br> 
+  [<kbd> <br> **NORDIX CLI-ARCH** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cli-arch)</br>
 
 
 ---
 
-  [<kbd> <br> **NORDIX CHEATSHEET** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cheatsheet)</br> 
+  [<kbd> <br> **NORDIX CHEATSHEET** <br> </kbd>](https://github.com/jimmykallhagen/nordix-cheatsheet)</br>
 
 ---
 ![HHD-oooH-HHD](https://github.com/jimmykallhagen/nordix-zfs/blob/main/nordix-hhd.png)
 
-  [<kbd> <br> **NORDIX ZGUIDE TO ZFS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-ZGuide_guide-to-zfs)</br> 
+  [<kbd> <br> **NORDIX ZGUIDE TO ZFS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-ZGuide_guide-to-zfs)</br>
 
-  [<kbd> <br> **NORDIX-VIRTUAL MACHINES AND ZFS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-vm)</br> 
+  [<kbd> <br> **NORDIX-VIRTUAL MACHINES AND ZFS** <br> </kbd>](https://github.com/jimmykallhagen/nordix-vm)</br>
 
-  [<kbd> <br> **NORDIX: A THEORETICAL FRAMEWORK FOR ZFS_BACKEND MEMORY EXTENSION IN LOCAL AI INTERFERENCE** <br> </kbd>](https://github.com/jimmykallhagen/nordix-ai-memory)</br> 
-
----
-
-## Project Status
-
-**This is an ongoing project and I'm working on getting everything up on git and I am writing the ISO installer in Bash with Gum TUI, a aplpha version comming soon** 
-
-  - [x] The Hyprland stack for the version with support for both the old config language and LUA is published on the AUR.
-  - [x] Nordisx Hyprland installer is published on AUR 
-  - [x] Nordix CLI arch - Helper is puplished on AUR
-  - [x] Nordix CLI ZFS - Helper is published on AUR
-  - [x] Nordix optimized custom build of ananicy-cpp is tested and published on AUR
-  
-  - [x] Nordix zfs-snapshot-destroy is published on AUR
-  - [ ] ISO installer - under construction, comming soon
-  - [ ] The eleven Yggdrasil System settings GUI's is tested and working, needs to be published
-  - [ ] Nordix shader manager needs to be published - exist now only in my own system
+  [<kbd> <br> **NORDIX: A THEORETICAL FRAMEWORK FOR ZFS_BACKEND MEMORY EXTENSION IN LOCAL AI INFERENCE** <br> </kbd>](https://github.com/jimmykallhagen/nordix-ai-memory)</br>
 
 ---
 
-## Yggdrasil Desktop Environment
 
-Yggdrasil is a full desktop environment built on Hyprland. It is designed so that you can manage your entire desktop environment from a graphical interface without touching a single dotfile.
 
-This is not a Hyprland rice or a config collection. It is a complete desktop environment.
-
-  [<kbd> <br> **YGGDRASIL DESKTOP ENVIRONMENT** <br> </kbd>](https://github.com/jimmykallhagen/yggdrasil-DE)</br> 
-
----
-
-## **Screenshots** _**:**_ Nordix Yggdrasil - _With Nordix Dynamic Theme_
-1. 
-![1](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2004%3A11%3A59%20PM%20UTC%202026.png)
-2. 
-![2](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2003%3A45%3A08%20PM%20UTC%202026.png)
-3.
-![3](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2003%3A47%3A36%20PM%20UTC%202026.png)
-4.
-![4](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Tue%20Apr%2021%2009%3A14%3A01%20PM%20UTC%202026.png)
-5.
-![5](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2007%3A40%3A13%20PM%20UTC%202026.png)
-6.
-![6](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2007%3A40%3A29%20PM%20UTC%202026.png)
-7.
-![7](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/Screenshot-Sat%20Apr%2025%2007%3A47%3A07%20PM%20UTC%202026.png)
----
-
-![nordix-hhd](https://github.com/jimmykallhagen/Nordix/blob/main/screenshots/nordix-hhd.png)
-## ZFS - Made Accessible
-
-Nordix is ZFS only. Every installation runs on a carefully designed ZFS setup that includes:
-
-- **Automatic snapshots** with intelligent policies, ephemeral data like caches and shader files are excluded, while system state, configs, documents, and game saves are protected
-- **GUI tools** for managing snapshots, rollbacks, and pool health without opening a terminal
-- **Purpose-tuned dataset hierarchy**  over 25 datasets with workload specific record sizes, compression algorithms, checksum policies, and security flags
-- **Desktop-optimized ARC configuration** - five RAM-tier profiles (8 GB through 128 GB) that shift ZFS from server defaults to aggressive desktop caching with compressed ARC, tuned I/O parallelism, and NVMe aware allocation
-- **ZFSBootMenu** for boot environment management
-- **Full installer** offering stripe, mirror, RAIDZ, special vdev, and L2ARC configurations
-
-The goal is that anyone can run ZFS with all of its data integrity, snapshot, and performance capabilities, without needing to understand it first.
-
----
-
-## Performance
-
-Nordix is performance focused. The system ships with hardware specific optimized configurations for CPU scheduling, memory management, I/O behavior, and GPU tuning. Multiple kernel tuning profiles are available for different workloads. These are not generic tweaks each parameter is documented with its default value, the Nordix value, and the reasoning behind the change.
-
----
-
-## Virtual Machines
-
-Nordix includes guided VM setup with ZFS zvol backed storage, benchmarked volblocksize recommendations, and optimized virsh templates for different hardware configurations (AMD/Intel, DDR4/DDR5). The documentation covers not just how to set up a VM, but why each configuration choice matters building understanding, not just following steps.
-
----
-
-## Who Nordix Is For
- 
-Whether you are an experienced Linux user or a Windows power user ready to make the switch - Nordix gives you the full experience from day one.
-
-> _A Linux power user experience for everyone_
-
----
-
-## Contribute
-
-**Join Nordix**
-  - contribute to the core system through development, testing, ideas, documentation, create packages or content creation. No prior project needed, just passion and curiosity.
-
-**Bring your project**
-  - if you have a project you believe in, you can give it a home within Nordix. You keep your name, your repo, and your leadership. Nordix is the host, not the owner. You decide if your project becomes part of Nordix or stays independent but linked. The only requirement is that contributions are wholehearted. Nordix holds a high standard, not of experience, but of passion.
-
-We don’t have a community chat yet. When the first contributors arrive, we’ll decide together where to meet.
-
----
 
 ## Licensing
 Nordix is licensed under the **GNU General Public License, version 3 or later**
