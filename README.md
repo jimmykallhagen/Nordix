@@ -111,7 +111,7 @@ Instead, Nordix is built on a **strictly modular Unix philosophy**:
 Complete tiling window manager  that can handle both scrolling, master and dwiling lauot. 
 This is next-level quality code! You can’t help but be impressed!
 
-  [<kbd> <br>**READ MORE ABOUT UMBRIEL HERE **<br> </kbd>](https://github.com/noctalia-dev/umbriel)</br>
+  [<kbd> <br>**READ MORE ABOUT UMBRIEL HERE**<br> </kbd>](https://github.com/noctalia-dev/umbriel)</br>
 
  ![labwc.png](icons/labwc.png)
 #### **Labwc**
