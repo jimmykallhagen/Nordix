@@ -86,19 +86,19 @@ If you don't want to roll back, several other options are available:
 Nordix inverts traditional distribution logic. Instead of protecting you from risk, Nordix gives you the tools to make risk irrelevant.
 
 ---
----
 
-## You can read more about the ZFS and the ZFSBootMenu here:
+You can read more about the ZFS and the ZFSBootMenu here:
 [`OpenZFS Github`](https://github.com/openzfs) </br>
 [`OpenZFS Documentation`](https://openzfs.github.io/openzfs-docs/) </br>
 [`ZFSBootmenu Documentation`](https://docs.zfsbootmenu.org/en/v3.1.x/) </br>
 [`ZFSBootmenu Github`](https://github.com/zbm-dev) </br>
 
 ---
+
 ## Modular Desktop Architecture – Zero Bloat, Total Control
 
 Nordix rejects monolithic desktop environments like GNOME and KDE Plasma-not because your hardware can't handles 
-them, but because tangled dependency chains and rigid configurations get in the way of performance and freedom.
+them, but because tangled dependency chains and rigid configurations get in the way of performance, function and freedom.
 
 Instead, Nordix is built on a **strictly modular Unix philosophy**:
 * **`Pure Compositor`:** **Umbriel** high-speed tiling/scrolling and with the function to switch to stacking(floating).
@@ -128,16 +128,27 @@ For more info about Noctalia and Umbriel:
  
 ## Screenshots
 ![](screenshots/plain.png)
+---
 ![](screenshots/launcher.png)
+---
 ![](screenshots/menu1.png)
+---
 ![](screenshots/menu2.png)
+---
 ![](screenshots/menu3.png)
+---
 ![](screenshots/layout.png)
+---
 ![](screenshots/term.png)
+---
 ![](screenshots/files.png)
+---
 ![](screenshots/plugin-store.png)
+---
 ![](screenshots/settings.png)
+---
 ![](screenshots/term.png)
+---
 ![](screenshots/app-store.png)
 
 ---
