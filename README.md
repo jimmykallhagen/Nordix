@@ -3,8 +3,6 @@
   <img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nx-tux/nordix-NX-tux1.png">
 </p>
 ---
-
----
 ![nordix-icon](/icons/hicolor/128x128/apps/nordix.png)
 # **Nordix Linux**
 **Nordix brings Enterprise-grade Linux to Enthusiasts - Who Deserve More Than "Good Enough"**
