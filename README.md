@@ -278,6 +278,13 @@ Once the Nordix installer is complete, the Nordix main GIT repository will be mo
 
 ---
 
+---
+
+## Sometimes you just need to get things done...
+*This README was written in [GNU nano](https://git.savannah.gnu.org/cgit/nano.git) with [syntax highlighting](https://github.com/galenguyer/nano-syntax-highlighting).*
+
+---
+
 ## Licensing
 Nordix is licensed under the **GNU General Public License, version 3 or later**
 
