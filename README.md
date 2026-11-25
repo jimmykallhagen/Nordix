@@ -106,7 +106,7 @@ Instead, Nordix is built on a **strictly modular Unix philosophy**:
 * **`Decoupled Shell`:** The entire desktop experience runs on top via **Noctalia Shell**-launched as a single, independent process (`noctalia &`).
 * **`Radical Simplicity`:** Want to swap out the shell, run a custom bar, or strip it down to bare metal? Just comment out one line. No broken systemd targets, no hidden daemons, no friction.
 
- ![Umbriel.png](icons/umbriel.svg)
+ ![Umbriel.png](icons/umbriel.png)
 #### **Umbriel**
 Complete tiling window manager  that can handle both scrolling, master and dwiling lauot. 
 This is next-level quality code! You can’t help but be impressed!
@@ -115,12 +115,12 @@ This is next-level quality code! You can’t help but be impressed!
 
  ![labwc.png](icons/labwc.png)
 #### **Labwc**
-*The friend that never lets you down – it is highly efficient, high-performing, and exceptionally stable
-When nothing else works, labwc does`
- 
+The friend that never lets you down – it is highly efficient, high-performing, and exceptionally stable
+When nothing else works, labwc does
+
   [<kbd> <br>**READ MORE ABOUT LABWC HERE**<br> </kbd>](https://github.com/labwc/labwc)</br>
 
-![noctalia](icons/noctalia.svg)
+![noctalia](icons/noctalia.png)
 #### **Noctalia**
 Noctalia is the shell that takes both labwc and umbrial to full desktop sessions.
 Offers a high degree of customization, comes with built-in support for hundreds of plugins, dynamic themes that span your entire desktop, and much more;
@@ -151,7 +151,7 @@ Powered by **Noctalia Shell**, it gives you a traditional stacking workflow with
 
 ### Umbriel – Built to Be Worthy of the Foundation Beneath It
 
-> *"Beneath the surface lies raw Nordic ZFS engineering. On top sits Umbriel-a newcomer that already demonstrates the quality and craftsmanship needed to earn its place above ZFS."*
+> *"Beneath the surface lies raw Nordic ZFS engineering. On top sits Umbriel, a newcomer that already demonstrates the quality and craftsmanship needed to earn its place above ZFS."*
 
 ![Nordix Umbriel  Desktop](screenshots/din-umbriel-skarmdump.png)
 
