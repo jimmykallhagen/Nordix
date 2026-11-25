@@ -6,18 +6,18 @@
 ---
 ![nordix-icon](/icons/hicolor/128x128/apps/nordix.png)
 # **Nordix Linux**
-**`Nordix brings Enterprise-grade Linux to Enthusiasts - Who Deserve More Than "Good Enough`"**
+**`Nordix brings Enterprise-grade Linux to Enthusiasts - Who Deserve More Than "Good Enough"`**
 > **A "Linux Power-User" Experience For Everyone.**
 ---
 
 ## What is Nordix Linux?
- - Opinionated, Arch Linux-based operating system
- - ZFS-only
- - ZFSBootMenu as default
- - Strong focus on performance
- - Minimalistic, yet without sacrificing either function or the visual aspect
- - Custom-configured root system for optimal performance and functionality
- - Dual desktop system
+ - `Opinionated, Arch Linux-based operating system`
+ - `ZFS-only`
+ - `ZFSBootMenu as default`
+ - `Strong focus on performance`
+ - `Minimalistic, yet without sacrificing either function or the visual aspect`
+ - `Custom-configured root system for optimal performance and functionality`
+ - `Dual desktop system`
 
  > **Nordix design philosophy:** _Don't put trash in the CPU's memory pipeline._
 
@@ -37,14 +37,14 @@ That said, the Nordix installer offers pre-optimized setups even for systems wit
 ---
 
 ### Nordix ZFS setup
-  - Beyond the root dataset, there are 21 additional datasets mounted for the system.
-  - Auto snapshots
-  - Smart snapshot layout for all datasets-to save space, but also, importantly, to provide a secure rollback option.
-  - All datasets have been tested and measured using custom-developed tools in order to offer the most optimal record sizes and compression methods possible.
-  - ARC carefully tuned to shift ZFS from its default server-like behavior to better suit a modern desktop, making the distinction between hot and cold data far less noticeable in Nordix.
+  - `Beyond the root dataset, there are 21 additional datasets mounted for the system`
+  - `Auto snapshots`
+  - `Smart snapshot layout for all datasets-to save space, but also, importantly, to provide a secure rollback option`
+  - `All datasets have been tested and measured using custom-developed tools in order to offer the most optimal record sizes and compression methods possible`
+  - `ARC carefully tuned to shift ZFS from its default server-like behavior to better suit a modern desktop, making the distinction between hot and cold data far less noticeable in Nordix`
 
 Read more about how Nordix tunes the ZFS system here: </br>
-[Placeholder - How Nordix Tunes ZFS](soon/after/the/installer/is/finished)
+[`Placeholder - How Nordix Tunes ZFS`](soon/after/the/installer/is/finished)
 
 **Also worth mentioning**
 ZFS offers various parameters that show HDDs in a whole new light!
@@ -53,26 +53,28 @@ ZFS offers various parameters that show HDDs in a whole new light!
   > A video demonstration of running Nordix on an HDD and Special vdevs with low latency will be available later.
 
 Read more about how Nordix set ZFS parameters and why here: </br>
-[Placeholder - Nordix ZFS parameters and What They Mean for HDDs](soon/after/the/installer/is/finished)
+[`Placeholder - Nordix ZFS parameters and What They Mean for HDDs`](soon/after/the/installer/is/finished)
 
 ---
 
 ## Fearless Experimentation - Nordix's Got Your Back!
 Nordix is not safe because it is careful. Most systems manage risk by being conservative. Nordix manages risk by making the consequences of failure irrelevant.
-  - Run a custom kernel?
-  - Test breaking changes?
-  - Experiment freely with your system?
+  - `Run a custom kernel?`
+  - `Test breaking changes?`
+  - `Experiment freely with your system?`
 
 **If something goes wrong:**
-  - Reboot into ZFSBootMenu.
-  - Roll back to an automatically taken snapshot.
+  - `Reboot into ZFSBootMenu`
+  - `Roll back to an automatically taken snapshot`
 
 **The entire process takes seconds-or create a clone of a previous snapshot.**
 If you don't want to roll back, several other options are available:
-  - Fix the errors directly using ZFSBootMenu's automatic chroot function.
-  - Fix the errors directly using ZFSBootMenu's automatic rescue shell.
-  - Check zpool status.
-  - Edit the kernel command line.
+  - `Fix the errors directly using ZFSBootMenu's automatic chroot function`
+  - `Fix the errors directly using ZFSBootMenu's automatic rescue shell`
+  - `Check zpool status`
+  - `Edit the kernel command line`
+
+> Never again will you have to rely on a rescue "live" USB to boot a rescue environment
 
 **Want to isolate an experiment completely?**
 > Create a clone of your root dataset directly from ZFSBootMenu and boot into it.
@@ -87,10 +89,10 @@ Nordix inverts traditional distribution logic. Instead of protecting you from ri
 ---
 
 ## You can read more about the ZFS and the ZFSBootMenu here:
-[OpenZFS Github](https://github.com/openzfs) </br>
-[OpenZFS Documentation](https://openzfs.github.io/openzfs-docs/) </br>
-[ZFSBootmenu Documentation](https://docs.zfsbootmenu.org/en/v3.1.x/) </br>
-[ZFSBootmenu Github](https://github.com/zbm-dev) </br>
+[`OpenZFS Github`](https://github.com/openzfs) </br>
+[`OpenZFS Documentation`](https://openzfs.github.io/openzfs-docs/) </br>
+[`ZFSBootmenu Documentation`](https://docs.zfsbootmenu.org/en/v3.1.x/) </br>
+[`ZFSBootmenu Github`](https://github.com/zbm-dev) </br>
 
 ---
 ---
@@ -100,9 +102,9 @@ Nordix inverts traditional distribution logic. Instead of protecting you from ri
 Nordix rejects monolithic desktop environments like GNOME and KDE Plasma-not because your hardware can't handle them, but because tangled dependency chains and rigid configurations get in the way of performance and freedom.
 
 Instead, Nordix is built on a **strictly modular Unix philosophy**:
-* **Pure Compositors:** Choose between **Umbriel** (high-speed tiling/scrolling) or **Labwc** (bulletproof stacking).
-* **Decoupled Shell:** The entire desktop experience runs on top via **Noctalia Shell**-launched as a single, independent process (`noctalia &`).
-* **Radical Simplicity:** Want to swap out the shell, run a custom bar, or strip it down to bare metal? Just comment out one line. No broken systemd targets, no hidden daemons, no friction.
+* **`Pure Compositors`:** Choose between **Umbriel** (high-speed tiling/scrolling) or **Labwc** (bulletproof stacking).
+* **`Decoupled Shell`:** The entire desktop experience runs on top via **Noctalia Shell**-launched as a single, independent process (`noctalia &`).
+* **`Radical Simplicity`:** Want to swap out the shell, run a custom bar, or strip it down to bare metal? Just comment out one line. No broken systemd targets, no hidden daemons, no friction.
 
  ![Umbriel.png](icons/umbriel.svg)
 #### **Umbriel**
@@ -128,8 +130,7 @@ it delivers a sophisticated, modern look that truly stands out-a next-level Linu
 
 #### **Both Noctalia and Umbriel is developed by the Noctalia-Dev**
 For more info about Noctalia and Umbriel:
-[**--https://noctalia.dev--**](https://noctalia.dev)
-
+[**`https://noctalia.dev`**](https://noctalia.dev)
 
 > Two Equal Workflows: Start with Labwc for a familiar, bulletproof stacking desktop, or jump straight into Umbriel for high-speed tiling and scrolling.
 > Switch environments in seconds right from the login screen without losing your setup.
@@ -154,8 +155,6 @@ Powered by **Noctalia Shell**, it gives you a traditional stacking workflow with
 
 ![Nordix Umbriel  Desktop](screenshots/din-umbriel-skarmdump.png)
 
-
-
 ---
 
 ---
@@ -176,12 +175,12 @@ My interest is in building systems where enterprise-grade functionality becomes 
 
 ## Core Contributors: A Vision of a Truly Enthusiast-Driven System
 
-My own passion and primary focus is the core system-specifically **ZFS architecture, root optimization, and low-level performance**.
+My own passion and primary focus is the core system-specifically **`ZFS architecture`**, **`root optimization`**, and **`low-level configurations`**.
 Rather than trying to build every single user-space component alone, I want to partner with a small group of skilled, independent enthusiasts who can take true ownership of the areas where they excel.
 By this, I do not mean having 20 different projects competing for the same part of the system, nor am I looking to build a massive crowd of casual contributors.
 
 **What I am looking for:**
-- A few highly capable people who can take independent responsibility for specific parts of Nordix (such as desktop components, tooling, or packaging).
+- `A few highly capable people who can take independent responsibility for specific parts of Nordix (such as system components, desktop components, tooling, or packaging)`
 
 If you have deep technical knowledge in a specific domain and can work independently, you can own that responsibility in Nordix.
 
@@ -194,19 +193,19 @@ If you have built a strong project that fits Nordix's philosophy and want to ste
 
 ---
 
-### General Contributions
+## General Contributions
 In addition to core maintainers, everyone is welcome to contribute regardless of experience level-including, but not limited to:
-  - Report bugs
-  - Help the core contributors
-  - Propose ideas
-  - Test and benchmark different setups
-  - Publish YouTube videos
-  - Create apps
-  - Create scripts and wrappers to improve usability
-  - Fine-tune and polish the UI
-  - Build and maintain packages
-  - Write guides and documentation
-  - Spread the word to grow the community
+  - `Report bugs`
+  - `Help the core contributors`
+  - `Propose ideas`
+  - `Test and benchmark different setups`
+  - `Publish YouTube videos`
+  - `Create apps`
+  - `Create scripts and wrappers to improve usability`
+  - `Fine-tune and polish the UIV
+  - `Build and maintain packages`
+  - `Write guides and documentation`
+  - `Spread the word to grow the community`
 
 **Looking Ahead (GUI Development):**
 A native GUI is needed to bring all ZFS features together in a practical, user-friendly interface so that ZFS truly feels like an integrated part of the desktop.
@@ -220,10 +219,10 @@ Once the Nordix installer is complete, the Nordix main GIT repository will be mo
 
 
 **Nordix is created by:**
-- Jimmy Källhagen
+- `Jimmy Källhagen`
 
 **Core maintainers:**
-- Jimmy Källhagen
+- `Jimmy Källhagen`
 
 **Contributors**
 
