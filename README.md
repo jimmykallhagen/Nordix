@@ -44,7 +44,7 @@ That said, the Nordix installer offers pre-optimized setups even for systems wit
   - ARC carefully tuned to shift ZFS from its default server-like behavior to better suit a modern desktop, making the distinction between hot and cold data far less noticeable in Nordix.
 
 Read more about how Nordix tunes the ZFS system here: </br>
-[Placeholder - How Nordix Tunes ZFS](soon/after/the/isntalelr/is/finished)
+[Placeholder - How Nordix Tunes ZFS](soon/after/the/installer/is/finished)
 
 **Also worth mentioning**
 ZFS offers various parameters that show HDDs in a whole new light!
@@ -53,7 +53,7 @@ ZFS offers various parameters that show HDDs in a whole new light!
   > A video demonstration of running Nordix on an HDD with low latency will be available later.
 
 Read more about how Nordix set ZFS parameters and why here: </br>
-[Placeholder -Nordix ZFS parameters and What They Mean for HDDs](soon/after/the/isntalelr/is/finished)
+[Placeholder -Nordix ZFS parameters and What They Mean for HDDs](soon/after/the/installer/is/finished)
 
 ---
 
