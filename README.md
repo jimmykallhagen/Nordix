@@ -155,73 +155,6 @@ Powered by **Noctalia Shell**, it gives you a traditional stacking workflow with
 
 ---
 
-
-
-
-
-
-#######################################################################################
----
-```text
-##=====#=============##
- #      VISION       #
-##=====#=============##
-```
----
-
-**_Nordix represents over 4,000 hours of focused engineering work, testing, and learning-more than 1.5 years of full-time effort._**
-
-I started Nordix because I believe the most powerful features in Linux should not be locked behind years of experience.
-Technologies like ZFS, boot environments, automatic snapshots, hardware-optimized kernel tuning, zvol-backed virtual machines, and advanced container systems exist today, but setting them up correctly requires deep technical knowledge and dozens of hours of research.
-That is the problem Nordix solves-not by simplifying the technology, but by doing the engineering work up front so the user gets the full benefit without the complexity.
-
-> Every configuration in Nordix is built with intent. ZFS ARC parameters are tuned per RAM tier with documented rationale for each value. Dataset hierarchies are designed around real desktop usage patterns, separating game files from configs and caches so that snapshots and rollbacks are surgical, not destructive. VM templates are benchmarked across different block sizes and caching strategies to find the actual optimal setup, not just commonly repeated advice.
-
-My interest is in building systems where enterprise-grade functionality becomes invisible infrastructure-it is just there, working, for everyone. That is what drives this project, and it is the kind of work I want to do professionally.
-
----
-
-## Core Contributors: A Vision of a Truly Enthusiast-Driven System
-
-My own passion and primary focus is the core system-specifically **ZFS architecture, root optimization, and low-level performance**.
-Rather than trying to build every single user-space component alone, I want to partner with a small group of skilled, independent enthusiasts who can take true ownership of the areas where they excel.
-By this, I do not mean having 20 different projects competing for the same part of the system, nor am I looking to build a massive crowd of casual contributors.
-
-**What I am looking for:**
-- A few highly capable people who can take independent responsibility for specific parts of Nordix (such as desktop components, tooling, or packaging).
-
-If you have deep technical knowledge in a specific domain and can work independently, you can own that responsibility in Nordix.
-
-> Many great projects sit hidden in a corner of the AUR or a remote Git repository.
-> There is pride in building something great-and you shouldn't have a distro take the credit while you are forgotten as just another name in a crowd of contributors.
-
-If you have built a strong project that fits Nordix's philosophy and want to step in as the maintainer for that part of the system, bring it with you. You remain the leader of your project, and Nordix will showcase and link directly to your repository at the top of Nordix's main GitHub page. Your pride and ownership will never be taken away from you.
-
-> I personally want to show the world just how great an operating system built by a few passionate, skilled engineers can be.
-
----
-
-### General Contributions
-In addition to core maintainers, everyone is welcome to contribute regardless of experience level-including, but not limited to:
-- Report bugs
-- Help the core contributors
-- Propose ideas
-- Test and benchmark different setups
-- Publish YouTube videos
-- Create apps
-- Create scripts and wrappers to improve usability
-- Fine-tune and polish the UI
-- Build and maintain packages
-- Write guides and documentation
-- Spread the word to grow the community
-
-**Looking Ahead (GUI Development):**
-A native GUI is needed to bring all ZFS features together in a practical, user-friendly interface so that ZFS truly feels like an integrated part of the desktop.
-- I am currently learning **Rust** and believe **egui** is a strong choice for building these GUIs.
-
----
-
-
 ---
  # **VISION**
 ---
@@ -260,23 +193,24 @@ If you have built a strong project that fits Nordix's philosophy and want to ste
 
 ### General Contributions
 In addition to core maintainers, everyone is welcome to contribute regardless of experience level-including, but not limited to:
-- Report bugs
-- Help the core contributors
-- Propose ideas
-- Test and benchmark different setups
-- Publish YouTube videos
-- Create apps
-- Create scripts and wrappers to improve usability
-- Fine-tune and polish the UI
-- Build and maintain packages
-- Write guides and documentation
-- Spread the word to grow the community
+  - Report bugs
+  - Help the core contributors
+  - Propose ideas
+  - Test and benchmark different setups
+  - Publish YouTube videos
+  - Create apps
+  - Create scripts and wrappers to improve usability
+  - Fine-tune and polish the UI
+  - Build and maintain packages
+  - Write guides and documentation
+  - Spread the word to grow the community
 
 **Looking Ahead (GUI Development):**
 A native GUI is needed to bring all ZFS features together in a practical, user-friendly interface so that ZFS truly feels like an integrated part of the desktop.
 - I am currently learning `Rust` and believe `egui` is a strong choice for building these GUIs.
 
 ---
+
 ## About
 Once the Nordix installer is complete, the Nordix main GIT repository will be moved to:
 `https://gitlab.com/Nordix-Linux`
@@ -290,10 +224,7 @@ Once the Nordix installer is complete, the Nordix main GIT repository will be mo
 
 **Contributors**
 
-
-
 ---
-
 
 ## **Nordix Repo's**
 
@@ -345,9 +276,6 @@ Once the Nordix installer is complete, the Nordix main GIT repository will be mo
 
 ---
 
-
-
-
 ## Licensing
 Nordix is licensed under the **GNU General Public License, version 3 or later**
 
@@ -356,8 +284,3 @@ Nordix is licensed under the **GNU General Public License, version 3 or later**
  
 ---
 
-## About
-
-Nordix is created and maintained by **Jimmy Källhagen**.
-
-- GitHub: [github.com/jimmykallhagen](https://github.com/jimmykallhagen)
