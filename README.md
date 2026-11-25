@@ -2,13 +2,12 @@
 <p align="center">
   <img src="https://github.com/jimmykallhagen/nordix-fanart/blob/main/nx-tux/nordix-NX-tux1.png">
 </p>
-
 ---
 
-# Nordix Linux
+---
+# **Nordix Linux**
 **Nordix brings Enterprise-grade Linux to Enthusiasts - Who Deserve More Than "Good Enough"**
 > **A "Linux Power-User" Experience For Everyone.**
-
 ---
 
 ## What is Nordix Linux?
