@@ -45,7 +45,7 @@ That said, the Nordix installer offers pre-optimized setups even for systems wit
   - ARC carefully tuned to shift ZFS from its default server-like behavior to better suit a modern desktop, making the distinction between hot and cold data far less noticeable in Nordix.
 
 Read more about how Nordix tunes the ZFS system here.
-*Placeholder — Coming soon: "How Nordix Tunes ZFS"*
+[Placeholder - How Nordix Tunes ZFS](soon/after/the/isntalelr/is/finished)
 
 **Also worth mentioning**
 ZFS offers various parameters that show HDDs in a whole new light!
@@ -53,7 +53,8 @@ ZFS offers various parameters that show HDDs in a whole new light!
   > Yes! It works perfectly fine to run Nordix on a zpool consisting of HDDs.
   > A video demonstration of running Nordix on an HDD with low latency will be available later.
 
-*Placeholder — Coming soon: "Nordix ZFS Setups and What They Mean for HDDs"*
+Read more about how Nordix set ZFS parameters and why here:
+[Placeholder -Nordix ZFS parameters and What They Mean for HDDs](soon/after/the/isntalelr/is/finished)
 
 ---
 
