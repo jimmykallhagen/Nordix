@@ -44,7 +44,7 @@ That said, the Nordix installer offers pre-optimized setups even for systems wit
   - All datasets have been tested and measured using custom-developed tools in order to offer the most optimal record sizes and compression methods possible.
   - ARC carefully tuned to shift ZFS from its default server-like behavior to better suit a modern desktop, making the distinction between hot and cold data far less noticeable in Nordix.
 
-Read more about how Nordix tunes the ZFS system here:
+Read more about how Nordix tunes the ZFS system here.
 *Placeholder — Coming soon: "How Nordix Tunes ZFS"*
 
 **Also worth mentioning**
