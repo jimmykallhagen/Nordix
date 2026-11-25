@@ -95,34 +95,26 @@ Nordix inverts traditional distribution logic. Instead of protecting you from ri
 [`ZFSBootmenu Github`](https://github.com/zbm-dev) </br>
 
 ---
----
-
 ## Modular Desktop Architecture – Zero Bloat, Total Control
 
-Nordix rejects monolithic desktop environments like GNOME and KDE Plasma-not because your hardware can't handle them, but because tangled dependency chains and rigid configurations get in the way of performance and freedom.
+Nordix rejects monolithic desktop environments like GNOME and KDE Plasma-not because your hardware can't handles 
+them, but because tangled dependency chains and rigid configurations get in the way of performance and freedom.
 
 Instead, Nordix is built on a **strictly modular Unix philosophy**:
-* **`Pure Compositors`:** Choose between **Umbriel** (high-speed tiling/scrolling) or **Labwc** (bulletproof stacking).
+* **`Pure Compositor`:** **Umbriel** high-speed tiling/scrolling and with the function to switch to stacking(floating).
 * **`Decoupled Shell`:** The entire desktop experience runs on top via **Noctalia Shell**-launched as a single, independent process (`noctalia &`).
 * **`Radical Simplicity`:** Want to swap out the shell, run a custom bar, or strip it down to bare metal? Just comment out one line. No broken systemd targets, no hidden daemons, no friction.
 
  ![Umbriel.png](icons/umbriel.png)
 #### **Umbriel**
-Complete tiling window manager  that can handle both scrolling, master and dwiling lauot. 
+Complete tiling window manager  that can handle both scrolling, master dwiling lauot and with a keystroke swich to stacking(floating). 
 This is next-level quality code! You can’t help but be impressed!
 
   [<kbd> <br>**READ MORE ABOUT UMBRIEL HERE**<br> </kbd>](https://github.com/noctalia-dev/umbriel)</br>
 
- ![labwc.png](icons/labwc.png)
-#### **Labwc**
-The friend that never lets you down – it is highly efficient, high-performing, and exceptionally stable
-When nothing else works, labwc does
-
-  [<kbd> <br>**READ MORE ABOUT LABWC HERE**<br> </kbd>](https://github.com/labwc/labwc)</br>
-
 ![noctalia](icons/noctalia.png)
 #### **Noctalia**
-Noctalia is the shell that takes both labwc and umbrial to full desktop sessions.
+Noctalia is the shell that takes Umbriel to full desktop sessions.
 Offers a high degree of customization, comes with built-in support for hundreds of plugins, dynamic themes that span your entire desktop, and much more;
 it delivers a sophisticated, modern look that truly stands out-a next-level Linux desktop experience.
 
@@ -132,28 +124,21 @@ it delivers a sophisticated, modern look that truly stands out-a next-level Linu
 For more info about Noctalia and Umbriel:
 [**`https://noctalia.dev`**](https://noctalia.dev)
 
-> Two Equal Workflows: Start with Labwc for a familiar, bulletproof stacking desktop, or jump straight into Umbriel for high-speed tiling and scrolling.
-> Switch environments in seconds right from the login screen without losing your setup.
-
 ---
-
-
-### Labwc – Bulletproof Stacking in a Modern Suit
-
-> *"Loved for its lightweight speed and rock-solid foundation, Labwc has become the go-to choice for projects migrating from X11. Nordix takes a fresh approach-presenting Labwc in a modern suit few would ever associate with it."*
-
-Powered by **Noctalia Shell**, it gives you a traditional stacking workflow with the exact same tools, themes, and zero-bloat modularity as Umbriel.
-
-![Nordix Labwc Desktop](screenshots/din-labwc-skarmdump.png)
-
-
----
-
-### Umbriel – Built to Be Worthy of the Foundation Beneath It
-
-> *"Beneath the surface lies raw Nordic ZFS engineering. On top sits Umbriel, a newcomer that already demonstrates the quality and craftsmanship needed to earn its place above ZFS."*
-
-![Nordix Umbriel  Desktop](screenshots/din-umbriel-skarmdump.png)
+ 
+## Screenshots
+![](screenshots/plain.png)
+![](screenshots/launcher.png)
+![](screenshots/menu1.png)
+![](screenshots/menu2.png)
+![](screenshots/menu3.png)
+![](screenshots/layout.png)
+![](screenshots/term.png)
+![](screenshots/files.png)
+![](screenshots/plugin-store.png)
+![](screenshots/settings.png)
+![](screenshots/term.png)
+![](screenshots/app-store.png)
 
 ---
 
